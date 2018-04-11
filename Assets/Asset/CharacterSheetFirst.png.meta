@@ -1,0 +1,342 @@
+fileFormatVersion: 2
+guid: a19b8183ee30bbf4fa689e2a7393ee71
+timeCreated: 1523359015
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: CharacterSheetFirst_0
+    21300002: CharacterSheetFirst_1
+    21300004: CharacterSheetFirst_2
+    21300006: CharacterSheetFirst_3
+    21300008: CharacterSheetFirst_4
+    21300010: CharacterSheetFirst_6
+    21300012: CharacterSheetFirst_7
+    21300014: CharacterSheetFirst_8
+    21300016: CharacterSheetFirst_9
+    21300018: CharacterSheetFirst_10
+    21300020: CharacterSheetFirst_11
+    21300022: CharacterSheetFirst_12
+    21300024: CharacterSheetFirst_13
+    21300026: CharacterSheetFirst_14
+    21300028: CharacterSheetFirst_15
+    21300030: CharacterSheetFirst_16
+    21300032: CharacterSheetFirst_17
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CharacterSheetFirst_0
+      rect:
+        serializedVersion: 2
+        x: 886.6474
+        y: 893.82385
+        width: 86.74487
+        height: 48.27362
+      alignment: 9
+      pivot: {x: 0.5112994, y: 0.45938438}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterSheetFirst_1
+      rect:
+        serializedVersion: 2
+        x: 781.07465
+        y: 518.07465
+        width: 298.92535
+        height: 237.92535
+      alignment: 9
+      pivot: {x: 0.535001, y: 0.49353862}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterSheetFirst_2
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 760.7179
+        width: 89.4516
+        height: 120.12854
+      alignment: 9
+      pivot: {x: 0.46393806, y: 0.48932672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterSheetFirst_3
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 595.0425
+        width: 109.70642
+        height: 133.28943
+      alignment: 9
+      pivot: {x: 0.5058956, y: 0.49109313}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterSheetFirst_4
+      rect:
+        serializedVersion: 2
+        x: 1147.0425
+        y: 617
+        width: 88.33191
+        height: 116
+      alignment: 9
+      pivot: {x: 0.50896126, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterSheetFirst_6
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 411
+        width: 88
+        height: 91.00003
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49999985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterSheetFirst_7
+      rect:
+        serializedVersion: 2
+        x: 662.2085
+        y: 406.08496
+        width: 113.45154
+        height: 158.91504
+      alignment: 9
+      pivot: {x: 0.4565077, y: 0.521757}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterSheetFirst_8
+      rect:
+        serializedVersion: 2
+        x: 889.8197
+        y: 391.15356
+        width: 115.02673
+        height: 108.48746
+      alignment: 9
+      pivot: {x: 0.48406395, y: 0.5285997}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterSheetFirst_9
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 479
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterSheetFirst_10
+      rect:
+        serializedVersion: 2
+        x: 1159.0543
+        y: 465.66797
+        width: 125.94568
+        height: 108.081055
+      alignment: 9
+      pivot: {x: 0.52360415, y: 0.50732327}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterSheetFirst_11
+      rect:
+        serializedVersion: 2
+        x: 1338.7915
+        y: 401
+        width: 88.58301
+        height: 94.540436
+      alignment: 9
+      pivot: {x: 0.48212966, y: 0.4706981}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterSheetFirst_12
+      rect:
+        serializedVersion: 2
+        x: 603.12744
+        y: 129.41698
+        width: 118.87256
+        height: 187.58302
+      alignment: 9
+      pivot: {x: 0.5499382, y: 0.50421953}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterSheetFirst_13
+      rect:
+        serializedVersion: 2
+        x: 810.0849
+        y: 271.50198
+        width: 99.706604
+        height: 125.49802
+      alignment: 9
+      pivot: {x: 0.5357228, y: 0.5258889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterSheetFirst_14
+      rect:
+        serializedVersion: 2
+        x: 1004.33466
+        y: 265
+        width: 77.55939
+        height: 124.39447
+      alignment: 9
+      pivot: {x: 0.45984563, y: 0.48233655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterSheetFirst_15
+      rect:
+        serializedVersion: 2
+        x: 1143.6293
+        y: 132.38203
+        width: 113.79761
+        height: 177.61797
+      alignment: 9
+      pivot: {x: 0.47778448, y: 0.5158147}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterSheetFirst_16
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 120.752815
+        width: 112.11224
+        height: 86.988686
+      alignment: 9
+      pivot: {x: 0.45490125, y: 0.47416723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: CharacterSheetFirst_17
+      rect:
+        serializedVersion: 2
+        x: 1012.94385
+        y: 121.31465
+        width: 118.67407
+        height: 83.55052
+      alignment: 9
+      pivot: {x: 0.4976332, y: 0.46301743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 99835897140292
+  assetBundleName: 
+  assetBundleVariant: 
