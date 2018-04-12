@@ -110,7 +110,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 492}
   m_MaxSize: {x: 18008, y: 14042}
   vertical: 0
-  controlID: 10965
+  controlID: 241
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,7 +134,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 421}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 11082
+  controlID: 331
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,7 +210,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 10966
+  controlID: 299
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -557,9 +557,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d249fdff
+    m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: fe16fdff4c3efdff324ffeff544ffeffc84ffeff3c59fefff859feff906afeffacbefeff567effff627effff849effffb0b3ffffd0edffffdeedffffecedfffff0edffff26eeffffcef9ffff00000000e44500005a460000fc470000524b0000
+    m_ExpandedIDs: 9efbffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -620,19 +620,18 @@ MonoBehaviour:
     m_ScenePaths: []
     m_ShowAllHits: 0
     m_SearchArea: 0
-    m_Folders:
-    - Assets/Prefabs
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\Unity games\BKB
+  m_LastProjectPath: D:\GameDesign2\BareKnuckle_master\BareKnuckleBrawl
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: ee240000
     m_LastClickedID: 9454
-    m_ExpandedIDs: 00000000d4280000444500004645000050450000744500007a4500005e480000c0530000
+    m_ExpandedIDs: 00000000dc28000048290000aa290000b8290000e0290000922a0000b02a0000062d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -660,7 +659,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 228}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d4280000444500004645000050450000744500007a4500005e480000c0530000
+    m_ExpandedIDs: 00000000dc28000048290000aa290000b8290000e0290000922a0000b02a0000062d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
