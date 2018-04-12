@@ -122,8 +122,8 @@ MonoBehaviour:
     y: 0
     width: 853
     height: 731
-  m_MinSize: {x: 202, y: 421}
-  m_MaxSize: {x: 4002, y: 8021}
+  m_MinSize: {x: 202, y: 442}
+  m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
   controlID: 120
 --- !u!114 &4
