@@ -11,7 +11,7 @@ public class TimerScript : MonoBehaviour
     public float Timer = 60;
     public Text timerText;
 
-    // Use this for initialization
+
     void Start()
     {
         Player_1_HP = GameObject.Find("Player1").GetComponent<TakeDamage>();
@@ -19,12 +19,10 @@ public class TimerScript : MonoBehaviour
         timerText = GetComponent<Text>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         Timer -= Time.deltaTime;
         timerText.text = Timer.ToString("f0");
-        print(Timer);
         if (Timer <= 0.0f)
         {
             Timer = +60;
