@@ -18,7 +18,7 @@ public class HeadCollision : MonoBehaviour {
     {
         if (other.gameObject.tag == "fist")
         {
-            damage.InflictDamage(1);
+            damage.InflictDamage(10);
         }
     }
 }
