@@ -6,6 +6,7 @@ public class AnimationScript : MonoBehaviour {
 
     public string attack;
     public string dodge;
+    public string leanBack;
 
     private float timeLeft = 0.0f;
     private Animator animator;
@@ -27,6 +28,11 @@ public class AnimationScript : MonoBehaviour {
             timeLeft = +0.95f;
             animator.Play("DodgeBoxer");
         }
+        else if (Input.GetKey(leanBack))
+        {
+
+        }
+
         if (timeLeft < 0)
         {
             animator.Play("Idle boxer");
