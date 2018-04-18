@@ -1362,7 +1362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightAttack: left
-  heavyAttack: control
+  heavyAttack: right ctrl
   dodge: right
 --- !u!1 &1079914384 stripped
 GameObject:
@@ -2172,8 +2172,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 67.8, y: 0}
-  m_SizeDelta: {x: 621.5, y: 165.5}
+  m_AnchoredPosition: {x: 46.458, y: 0}
+  m_SizeDelta: {x: 642.9, y: 165.5}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1852610552
 MonoBehaviour:
