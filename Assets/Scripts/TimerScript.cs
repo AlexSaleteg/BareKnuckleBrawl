@@ -9,7 +9,7 @@ public class TimerScript : MonoBehaviour
     int playerWins =0;
     static int Player_1_Win = 0;
     static int Player_2_Win = 0;
-    private float Timer = 60;
+   public float Timer = 60;
     public float PauseTimer = 0;
     private Text timerText;
     private TakeDamage Player_1_HP;
@@ -29,9 +29,26 @@ public class TimerScript : MonoBehaviour
 
         Timer -= Time.deltaTime;
         timerText.text = Timer.ToString("f0");
-        if (Timer == 0)
+        if (Timer <= 0.001)
         {
-            SceneManager.LoadScene("Round");
+            if (Player_2_HP.health > Player_1_HP.health)
+            {
+                SceneManager.LoadScene("Round");
+                Player_2_Win = Player_2_Win + 1;
+                print("Player 2 wins a ROUND");
+                
+               
+            }
+        }
+        if (Timer <= 0.001)
+        {
+            if (Player_1_HP.health > Player_2_HP.health)
+            {
+                SceneManager.LoadScene("Round");
+                Player_1_Win = Player_1_Win + 1;
+                print("Player 1 wins a ROOUND");
+              
+            }
         }
         else if (Player_1_HP.health == 0 || Input.GetKeyDown(KeyCode.K))
         {
@@ -67,6 +84,14 @@ public class TimerScript : MonoBehaviour
 
         }
         if (Player_1_Win == 2 & PauseTimer >= 5 || Player_2_Win == 2 & PauseTimer >= 5)
+        {
+            print("puff");
+            Player_2_Win = 0;
+            Player_1_Win = 0;
+            SceneManager.LoadScene("Round");
+
+        }
+        else if (Player_1_Win == 2 & Timer <= 0.001 || Player_2_Win == 2 & Timer <= 0.001)
         {
             print("puff");
             Player_2_Win = 0;
