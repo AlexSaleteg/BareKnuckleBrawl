@@ -1362,7 +1362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lightAttack: left
-  heavyAttack: rctrl
+  heavyAttack: control
   dodge: right
 --- !u!1 &1079914384 stripped
 GameObject:
