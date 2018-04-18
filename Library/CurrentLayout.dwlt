@@ -161,7 +161,7 @@ MonoBehaviour:
   - {fileID: 15}
   - {fileID: 16}
   m_Selected: 0
-  m_LastSelected: 2
+  m_LastSelected: 1
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -465,6 +465,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 92
+<<<<<<< Updated upstream
     width: 851
     height: 307
   m_PersistentViewDataDictionary: {fileID: 0}
@@ -488,6 +489,14 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+=======
+    width: 1064
+    height: 404
+  m_PersistentViewDataDictionary: {fileID: 0}
+  m_ViewTransforms:
+    m_KeySerializationHelper: []
+    m_ValueSerializationHelper: []
+>>>>>>> Stashed changes
   m_PreviewAnimator: {fileID: 0}
   m_AnimatorController: {fileID: 0}
   m_BreadCrumbs: []
