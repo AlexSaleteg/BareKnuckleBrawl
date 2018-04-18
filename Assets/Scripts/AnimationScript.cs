@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class AnimationScript : MonoBehaviour {
 
-    public string attack;
+    public string lightAttack;
+    public string heavyAttack;
     public string dodge;
 
     private float timeLeft = 0.0f;
@@ -17,10 +18,15 @@ public class AnimationScript : MonoBehaviour {
 	
 	void Update () {
         timeLeft -= Time.deltaTime;
-        if(Input.GetKeyDown(attack)&timeLeft <= 0.001f)
+        if(Input.GetKeyDown(lightAttack)&timeLeft <= 0.001f)
         {
             timeLeft = +0.95f;
             animator.Play("LPunchBoxer");
+        }
+        if (Input.GetKeyDown(heavyAttack) & timeLeft <= 0.001f)
+        {
+            timeLeft = +0.95f;
+            animator.Play("HPunchBoxer");
         }
         else if (Input.GetKeyDown(dodge) & timeLeft <= 0.001f)
         {

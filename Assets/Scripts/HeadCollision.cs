@@ -16,9 +16,13 @@ public class HeadCollision : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "fist")
+        if (other.gameObject.tag == "LightFist")
         {
             damage.InflictDamage(10);
+        }
+        else if (other.gameObject.tag == "HeavyFist")
+        {
+            damage.InflictDamage(20);
         }
     }
 }

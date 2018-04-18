@@ -500,7 +500,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1932023493262416, guid: cedec0623a7aa2149a1774bd79f4c311, type: 2}
       propertyPath: m_TagString
-      value: fist
+      value: LightFist
       objectReference: {fileID: 0}
     - target: {fileID: 4716173050675748, guid: cedec0623a7aa2149a1774bd79f4c311, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -738,11 +738,35 @@ Prefab:
       propertyPath: damageDiff
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1823016283864044, guid: cedec0623a7aa2149a1774bd79f4c311, type: 2}
+      propertyPath: m_TagString
+      value: HeavyFist
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     - {fileID: 114462636131798004, guid: cedec0623a7aa2149a1774bd79f4c311, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: cedec0623a7aa2149a1774bd79f4c311, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &350494199 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1823016283864044, guid: cedec0623a7aa2149a1774bd79f4c311,
+    type: 2}
+  m_PrefabInternal: {fileID: 350494198}
+--- !u!58 &350494200
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 350494199}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.1451658, y: 0.23315002}
+  serializedVersion: 2
+  m_Radius: 0.36226457
 --- !u!1 &553341119
 GameObject:
   m_ObjectHideFlags: 0
@@ -833,7 +857,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 650807194}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 305.75, y: -82.75, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 553341120}
@@ -1337,7 +1361,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d02b90a93c172e6478b34179ff17e7d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attack: left
+  lightAttack: left
+  heavyAttack: rctrl
   dodge: right
 --- !u!1 &1079914384 stripped
 GameObject:
@@ -1822,7 +1847,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1932023493262416, guid: cedec0623a7aa2149a1774bd79f4c311, type: 2}
       propertyPath: m_TagString
-      value: fist
+      value: LightFist
       objectReference: {fileID: 0}
     - target: {fileID: 114911802880023732, guid: cedec0623a7aa2149a1774bd79f4c311,
         type: 2}
@@ -1844,11 +1869,35 @@ Prefab:
       propertyPath: damageDiff
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1823016283864044, guid: cedec0623a7aa2149a1774bd79f4c311, type: 2}
+      propertyPath: m_TagString
+      value: HeavyFist
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     - {fileID: 114462636131798004, guid: cedec0623a7aa2149a1774bd79f4c311, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: cedec0623a7aa2149a1774bd79f4c311, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1217190824 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1823016283864044, guid: cedec0623a7aa2149a1774bd79f4c311,
+    type: 2}
+  m_PrefabInternal: {fileID: 1217190823}
+--- !u!58 &1217190825
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1217190824}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 1.1451658, y: 0.23315002}
+  serializedVersion: 2
+  m_Radius: 0.36226457
 --- !u!1 &1270545764
 GameObject:
   m_ObjectHideFlags: 0
@@ -2088,7 +2137,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d02b90a93c172e6478b34179ff17e7d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attack: d
+  lightAttack: d
+  heavyAttack: space
   dodge: a
 --- !u!1 &1852610550
 GameObject:
@@ -2113,7 +2163,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1852610550}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -892.2, y: 540, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 650807195}
