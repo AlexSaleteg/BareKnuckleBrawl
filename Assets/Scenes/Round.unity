@@ -1843,7 +1843,7 @@ GameObject:
   - component: {fileID: 838675112}
   - component: {fileID: 838675115}
   - component: {fileID: 838675114}
-  - component: {fileID: 838675113}
+  - component: {fileID: 838675116}
   m_Layer: 5
   m_Name: RoundTimer
   m_TagString: Untagged
@@ -1869,21 +1869,6 @@ RectTransform:
   m_AnchoredPosition: {x: 100.2, y: 427}
   m_SizeDelta: {x: 306.18, y: 186.79}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &838675113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 838675111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fad973a55cb1764a94dc01a4c21cfd7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Player_1_HP: {fileID: 0}
-  Player_2_HP: {fileID: 0}
-  Timer: 60
-  timerText: {fileID: 838675114}
 --- !u!114 &838675114
 MonoBehaviour:
   m_ObjectHideFlags: 0
