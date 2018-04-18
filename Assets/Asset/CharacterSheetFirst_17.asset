@@ -45,14 +45,14 @@ Mesh:
     channels: []
     fullWeights: []
   m_BindPose:
-  - e00: 0.1832263
-    e01: -0.80733824
+  - e00: -0.015686164
+    e01: -0.8277202
     e02: 0
-    e03: 1.3076528
-    e10: 0.8073387
-    e11: 0.18322644
+    e03: 1.3155955
+    e10: 0.8277205
+    e11: -0.015686104
     e12: 0
-    e13: 0.23262344
+    e13: 0.38686886
     e20: 0
     e21: 0
     e22: 0.8278693
@@ -61,14 +61,14 @@ Mesh:
     e31: 0
     e32: 0
     e33: 1
-  - e00: 1.7526736
-    e01: -1.8764002
+  - e00: 1.5670832
+    e01: -2.03396
     e02: 0
-    e03: 1.187747
-    e10: 1.8764019
-    e11: 1.7526734
+    e03: 1.5141035
+    e10: 2.033961
+    e11: 1.5670829
     e12: 0
-    e13: 0.14232938
+    e13: 0.32446063
     e20: 0
     e21: 0
     e22: 2.567635
@@ -86,75 +86,75 @@ Mesh:
   m_IndexFormat: 0
   m_IndexBuffer: 050007000600080006000700070005000300030000000700080001000400080000000100020001000000070000000800060008000400
   m_Skin:
-  - weight[0]: 1
+  - weight[0]: 0
     weight[1]: 0
     weight[2]: 0
     weight[3]: 0
-    boneIndex[0]: 1
+    boneIndex[0]: 0
     boneIndex[1]: 0
     boneIndex[2]: 0
     boneIndex[3]: 0
-  - weight[0]: 1
+  - weight[0]: 0
     weight[1]: 0
     weight[2]: 0
     weight[3]: 0
-    boneIndex[0]: 1
+    boneIndex[0]: 0
     boneIndex[1]: 0
     boneIndex[2]: 0
     boneIndex[3]: 0
-  - weight[0]: 1
+  - weight[0]: 0
     weight[1]: 0
     weight[2]: 0
     weight[3]: 0
-    boneIndex[0]: 1
+    boneIndex[0]: 0
     boneIndex[1]: 0
     boneIndex[2]: 0
     boneIndex[3]: 0
-  - weight[0]: 0.7
-    weight[1]: 0.3
+  - weight[0]: 0
+    weight[1]: 0
     weight[2]: 0
     weight[3]: 0
-    boneIndex[0]: 1
+    boneIndex[0]: 0
     boneIndex[1]: 0
     boneIndex[2]: 0
     boneIndex[3]: 0
-  - weight[0]: 0.91
-    weight[1]: 0.089999974
+  - weight[0]: 0
+    weight[1]: 0
     weight[2]: 0
     weight[3]: 0
-    boneIndex[0]: 1
+    boneIndex[0]: 0
     boneIndex[1]: 0
     boneIndex[2]: 0
     boneIndex[3]: 0
-  - weight[0]: 0.55
-    weight[1]: 0.45
+  - weight[0]: 0
+    weight[1]: 0
     weight[2]: 0
     weight[3]: 0
-    boneIndex[0]: 1
+    boneIndex[0]: 0
     boneIndex[1]: 0
     boneIndex[2]: 0
     boneIndex[3]: 0
-  - weight[0]: 0.79
-    weight[1]: 0.20999998
+  - weight[0]: 0
+    weight[1]: 0
     weight[2]: 0
     weight[3]: 0
-    boneIndex[0]: 1
+    boneIndex[0]: 0
     boneIndex[1]: 0
     boneIndex[2]: 0
     boneIndex[3]: 0
-  - weight[0]: 0.73
-    weight[1]: 0.26999998
+  - weight[0]: 0
+    weight[1]: 0
     weight[2]: 0
     weight[3]: 0
-    boneIndex[0]: 1
+    boneIndex[0]: 0
     boneIndex[1]: 0
     boneIndex[2]: 0
     boneIndex[3]: 0
-  - weight[0]: 0.79
-    weight[1]: 0.20999998
+  - weight[0]: 0
+    weight[1]: 0
     weight[2]: 0
     weight[3]: 0
-    boneIndex[0]: 1
+    boneIndex[0]: 0
     boneIndex[1]: 0
     boneIndex[2]: 0
     boneIndex[3]: 0
@@ -279,75 +279,75 @@ MonoBehaviour:
   - {x: 1058.236, y: 149.04498}
   m_BoneWeights:
   - weight0: 0
-    weight1: 1
+    weight1: 0
     weight2: 0
     weight3: 0
-    boneIndex0: 0
-    boneIndex1: 1
+    boneIndex0: -1
+    boneIndex1: -1
     boneIndex2: -1
     boneIndex3: -1
   - weight0: 0
-    weight1: 1
+    weight1: 0
     weight2: 0
     weight3: 0
-    boneIndex0: 0
-    boneIndex1: 1
+    boneIndex0: -1
+    boneIndex1: -1
     boneIndex2: -1
     boneIndex3: -1
   - weight0: 0
-    weight1: 1
+    weight1: 0
     weight2: 0
     weight3: 0
-    boneIndex0: 0
-    boneIndex1: 1
+    boneIndex0: -1
+    boneIndex1: -1
     boneIndex2: -1
     boneIndex3: -1
-  - weight0: 0.3
-    weight1: 0.7
+  - weight0: 0
+    weight1: 0
     weight2: 0
     weight3: 0
-    boneIndex0: 0
-    boneIndex1: 1
+    boneIndex0: -1
+    boneIndex1: -1
     boneIndex2: -1
     boneIndex3: -1
-  - weight0: 0.089999974
-    weight1: 0.91
+  - weight0: 0
+    weight1: 0
     weight2: 0
     weight3: 0
-    boneIndex0: 0
-    boneIndex1: 1
+    boneIndex0: -1
+    boneIndex1: -1
     boneIndex2: -1
     boneIndex3: -1
-  - weight0: 0.45
-    weight1: 0.55
+  - weight0: 0
+    weight1: 0
     weight2: 0
     weight3: 0
-    boneIndex0: 0
-    boneIndex1: 1
+    boneIndex0: -1
+    boneIndex1: -1
     boneIndex2: -1
     boneIndex3: -1
-  - weight0: 0.20999998
-    weight1: 0.79
+  - weight0: 0
+    weight1: 0
     weight2: 0
     weight3: 0
-    boneIndex0: 0
-    boneIndex1: 1
+    boneIndex0: -1
+    boneIndex1: -1
     boneIndex2: -1
     boneIndex3: -1
-  - weight0: 0.26999998
-    weight1: 0.73
+  - weight0: 0
+    weight1: 0
     weight2: 0
     weight3: 0
-    boneIndex0: 0
-    boneIndex1: 1
+    boneIndex0: -1
+    boneIndex1: -1
     boneIndex2: -1
     boneIndex3: -1
-  - weight0: 0.20999998
-    weight1: 0.79
+  - weight0: 0
+    weight1: 0
     weight2: 0
     weight3: 0
-    boneIndex0: 0
-    boneIndex1: 1
+    boneIndex0: -1
+    boneIndex1: -1
     boneIndex2: -1
     boneIndex3: -1
   m_Edges:
@@ -369,14 +369,14 @@ MonoBehaviour:
   m_Indices: 050000000700000006000000080000000600000007000000070000000500000003000000030000000000000007000000080000000100000004000000080000000000000001000000020000000100000000000000070000000000000008000000060000000800000004000000
   m_BindPoses:
   - bindPose:
-      e00: 0.1832263
-      e01: -0.80733824
+      e00: -0.015686164
+      e01: -0.8277202
       e02: 0
-      e03: 1.3076528
-      e10: 0.8073387
-      e11: 0.18322644
+      e03: 1.3155955
+      e10: 0.8277205
+      e11: -0.015686104
       e12: 0
-      e13: 0.23262344
+      e13: 0.38686886
       e20: 0
       e21: 0
       e22: 0.8278693
@@ -385,20 +385,20 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    boneLength: 1.0000004
+    boneLength: 1.0000001
     path: LUpperLegBone/LLowerLegBone
     name: LLowerLegBone
     color: {r: 1, g: 0, b: 0, a: 1}
     zOrder: 0
   - bindPose:
-      e00: 1.7526736
-      e01: -1.8764002
+      e00: 1.5670832
+      e01: -2.03396
       e02: 0
-      e03: 1.187747
-      e10: 1.8764019
-      e11: 1.7526734
+      e03: 1.5141035
+      e10: 2.033961
+      e11: 1.5670829
       e12: 0
-      e13: 0.14232938
+      e13: 0.32446063
       e20: 0
       e21: 0
       e22: 2.567635
