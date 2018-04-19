@@ -43,6 +43,5 @@ public class AnimationScript : MonoBehaviour {
         {
             animator.Play("Idle boxer");
         }
-        
     }
 }
