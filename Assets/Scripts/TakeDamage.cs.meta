@@ -6,8 +6,11 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
+  - maxBar: {instanceID: 0}
   - bar: {instanceID: 0}
-  - hitSound: {fileID: 8300000, guid: 0db3cf41c49b1f043a031c46fd830590, type: 3}
+  - hitSound1: {fileID: 8300000, guid: 0b66a4b0d371efa498befb3cc8863161, type: 3}
+  - hitSound2: {fileID: 8300000, guid: 05ce2fa9cbc22a4458151f114636f2d0, type: 3}
+  - hitSound3: {fileID: 8300000, guid: 0db3cf41c49b1f043a031c46fd830590, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

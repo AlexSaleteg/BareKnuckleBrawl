@@ -9,7 +9,10 @@ public class TakeDamage : MonoBehaviour
     public int damageDiff;
     public Slider maxBar;
     public Slider bar;
-    public AudioClip hitSound;
+    public AudioClip hitSound1;
+    public AudioClip hitSound2;
+    public AudioClip hitSound3;
+
 
     private bool cooldown;
     private AudioSource audiosource;
@@ -17,7 +20,7 @@ public class TakeDamage : MonoBehaviour
     public int health;
     void Start()
     {
-        audiosource = GameObject.Find("Sound Manager").GetComponent<AudioSource>();
+        audiosource = GetComponent<AudioSource>();
         health = maxHealth;
         bar.value = health;
     }
@@ -36,7 +39,20 @@ public class TakeDamage : MonoBehaviour
         maxHealth -= damage / damageDiff;
         bar.value = health;
         maxBar.value = maxHealth;
-        audiosource.PlayOneShot(hitSound, 0.7f);
+        int randNum = Random.Range(0, 3);
+        if (randNum == 0)
+        {
+            audiosource.PlayOneShot(hitSound1, 0.7f);
+        }
+        else if (randNum == 1)
+        {
+            audiosource.PlayOneShot(hitSound2, 0.7f);
+        }
+        else
+        {
+            audiosource.PlayOneShot(hitSound3, 0.7f);
+        }
+        audiosource.pitch = Random.Range(0.8f, 1.2f);
     }
 
     IEnumerator Cooldown()
