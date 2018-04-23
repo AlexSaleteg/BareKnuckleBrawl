@@ -26,7 +26,7 @@ public class TakeDamage : MonoBehaviour
     }
     void FixedUpdate()
     {
-        if (health < maxHealth && !cooldown)
+        if (health < maxHealth && !cooldown && health !=0)
         {
             StartCoroutine(Cooldown());
             health++;
