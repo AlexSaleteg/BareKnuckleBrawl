@@ -77,6 +77,7 @@
      <Compile Include="Assets\Anima2D\Scripts\SpriteMeshInstance.cs" />
      <Compile Include="Assets\Scripts\AnimationScript.cs" />
      <Compile Include="Assets\Scripts\HeadCollision.cs" />
+     <Compile Include="Assets\Scripts\MeshCustomization.cs" />
      <Compile Include="Assets\Scripts\TakeDamage.cs" />
      <Compile Include="Assets\Scripts\TimerScript.cs" />
      <None Include="Assets\Anima2D\Examples\Shaders\VisibleInsideMask.shader" />
