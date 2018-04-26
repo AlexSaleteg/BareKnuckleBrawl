@@ -69,17 +69,27 @@ public class TimerScript : MonoBehaviour
         if (Player_2_Win == 2)
         {
             print("Player 2 wins the MATCH");
+<<<<<<< HEAD
             canvas4.SetActive(true);
+=======
+            PlayerPrefs.DeleteAll();
+
+>>>>>>> develop
         }
         else if (Player_1_Win == 2)
         {
             print("Player 1 wins the MATCH");
+<<<<<<< HEAD
             canvas3.SetActive(true);
         }
         if (player2Wins >= 5)
         {
             Player_2_Win = Player_2_Win + 1;
             print("Player 2 wins a ROUND"); 
+=======
+            PlayerPrefs.DeleteAll();
+
+>>>>>>> develop
         }
         if(player1Wins >= 5)
         {
