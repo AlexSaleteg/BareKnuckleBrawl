@@ -48,12 +48,14 @@ public class TimerScript : MonoBehaviour
         if (Player_2_Win == 2)
         {
             print("Player 2 wins the MATCH");
-           
+            PlayerPrefs.DeleteAll();
+
         }
         else if (Player_1_Win == 2)
         {
             print("Player 1 wins the MATCH");
-            
+            PlayerPrefs.DeleteAll();
+
         }
         if (playerWins == 1)
         {
