@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class TakeDamage : MonoBehaviour
 {
-    public int maxHealth;
+    public int maxHealthInit;
     public int damageDiff;
     public Slider maxBar;
     public Slider bar;
@@ -17,10 +17,13 @@ public class TakeDamage : MonoBehaviour
     private bool cooldown;
     private AudioSource audiosource;
     [HideInInspector]
+    public int maxHealth;
+    [HideInInspector]
     public int health;
     void Start()
     {
         audiosource = GetComponent<AudioSource>();
+        maxHealth = PlayerPrefs.GetInt(this.gameObject.name + "Health", maxHealthInit);
         health = maxHealth;
         bar.value = health;
     }
@@ -37,6 +40,7 @@ public class TakeDamage : MonoBehaviour
     {
         health -= damage;
         maxHealth -= damage / damageDiff;
+        PlayerPrefs.SetInt(this.gameObject.name + "Health", maxHealth);
         bar.value = health;
         maxBar.value = maxHealth;
         int randNum = Random.Range(0, 3);
