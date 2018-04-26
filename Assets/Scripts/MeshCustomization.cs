@@ -7,12 +7,7 @@ public class MeshCustomization : MonoBehaviour
 {
 
 
-    void Start()
-    {
-
-    }
-
-    public void ChangeMesh(int index)
+    public void ChangeSkin(int index)
     {
         GameObject child = transform.Find("Meshes").gameObject;
         SpriteMeshAnimation[] meshes = child.GetComponentsInChildren<SpriteMeshAnimation>();
@@ -21,4 +16,9 @@ public class MeshCustomization : MonoBehaviour
             mesh.frame = index;
         }
     }
+    public void ChangeMoustache(int index)
+    {
+        transform.Find("Meshes/Head/Moustache").gameObject.GetComponent<SpriteMeshAnimation>().frame = index;
+    }
+
 }
