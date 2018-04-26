@@ -242,6 +242,7 @@ GameObject:
   - component: {fileID: 49554640}
   - component: {fileID: 49554642}
   - component: {fileID: 49554641}
+  - component: {fileID: 49554643}
   m_Layer: 0
   m_Name: Moustache
   m_TagString: Untagged
@@ -334,6 +335,22 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 61735514}
   - {fileID: 1993712631}
+--- !u!114 &49554643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114133781054839552, guid: 4be47f2c3b0945247a2ef7fa00a89dfe,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 49554639}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a394e4901b78a4e04a0a05a8faf4f0dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Frame: 0
+  m_Frames:
+  - {fileID: 11400000, guid: ac7e7c1cdef11ff4bb37987157cd5247, type: 2}
+  - {fileID: 0}
 --- !u!1 &61735513
 GameObject:
   m_ObjectHideFlags: 0
@@ -1564,13 +1581,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 239dd90f9bb7d6042b1b5589bbf0f21d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealthInit: 100
   damageDiff: 2
   maxBar: {fileID: 0}
   bar: {fileID: 0}
   hitSound1: {fileID: 8300000, guid: 0b66a4b0d371efa498befb3cc8863161, type: 3}
   hitSound2: {fileID: 8300000, guid: 05ce2fa9cbc22a4458151f114636f2d0, type: 3}
   hitSound3: {fileID: 8300000, guid: 0db3cf41c49b1f043a031c46fd830590, type: 3}
+  maxHealth: 100
   health: 0
 --- !u!95 &401895549
 Animator:
@@ -3337,6 +3355,7 @@ GameObject:
   - component: {fileID: 872849525}
   - component: {fileID: 872849527}
   - component: {fileID: 872849526}
+  - component: {fileID: 872849528}
   m_Layer: 0
   m_Name: Moustache
   m_TagString: Untagged
@@ -3429,6 +3448,22 @@ MonoBehaviour:
   m_BoneTransforms:
   - {fileID: 123855446}
   - {fileID: 829298854}
+--- !u!114 &872849528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114901469123166734, guid: 7eb34f4958dbd4f4cb52f0852b04a510,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 872849524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a394e4901b78a4e04a0a05a8faf4f0dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Frame: 0
+  m_Frames:
+  - {fileID: 11400000, guid: ac7e7c1cdef11ff4bb37987157cd5247, type: 2}
+  - {fileID: 0}
 --- !u!1 &877886044
 GameObject:
   m_ObjectHideFlags: 0
@@ -5326,13 +5361,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 239dd90f9bb7d6042b1b5589bbf0f21d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealthInit: 100
   damageDiff: 2
   maxBar: {fileID: 0}
   bar: {fileID: 0}
   hitSound1: {fileID: 8300000, guid: 0b66a4b0d371efa498befb3cc8863161, type: 3}
   hitSound2: {fileID: 8300000, guid: 05ce2fa9cbc22a4458151f114636f2d0, type: 3}
   hitSound3: {fileID: 8300000, guid: 0db3cf41c49b1f043a031c46fd830590, type: 3}
+  maxHealth: 100
   health: 0
 --- !u!95 &1619624608
 Animator:

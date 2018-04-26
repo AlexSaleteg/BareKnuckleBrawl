@@ -15,7 +15,6 @@ public class TimerScript : MonoBehaviour
     private TakeDamage Player_1_HP;
     private TakeDamage Player_2_HP;
 
-    // Use this for initialization
     void Start()
     {
         timerText = GetComponent<Text>();
@@ -23,7 +22,6 @@ public class TimerScript : MonoBehaviour
         Player_2_HP = GameObject.Find("Player2").GetComponent<TakeDamage>();
     }
 
-    // Update is called once per frame
     void Update()
     {
 
