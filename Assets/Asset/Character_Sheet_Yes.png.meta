@@ -130,10 +130,10 @@ TextureImporter:
         serializedVersion: 2
         x: 344.4005
         y: 355.03726
-        width: 278.16913
+        width: 275.91608
         height: 272.33023
       alignment: 9
-      pivot: {x: 0.4748891, y: 0.5635171}
+      pivot: {x: 0.47876692, y: 0.5635171}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -337,6 +337,6 @@ TextureImporter:
     outline: []
     physicsShape: []
   spritePackingTag: 
-  userData: 99920206626017
+  userData: 99925833118399
   assetBundleName: 
   assetBundleVariant: 
