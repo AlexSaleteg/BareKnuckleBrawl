@@ -130,10 +130,10 @@ TextureImporter:
         serializedVersion: 2
         x: 344.4005
         y: 355.03726
-        width: 278.16913
+        width: 275.91608
         height: 272.33023
       alignment: 9
-      pivot: {x: 0.4748891, y: 0.5635171}
+      pivot: {x: 0.47876692, y: 0.5635171}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -170,12 +170,12 @@ TextureImporter:
       name: Character_Sheet_Yes_7
       rect:
         serializedVersion: 2
-        x: 197.26123
-        y: 504.6081
-        width: 105.73877
-        height: 89.39191
+        x: 197.74976
+        y: 503.63095
+        width: 105.82352
+        height: 94.27731
       alignment: 9
-      pivot: {x: 0.5176793, y: 0.46863198}
+      pivot: {x: 0.5126483, y: 0.45471227}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -187,9 +187,9 @@ TextureImporter:
         x: 735
         y: 500.35776
         width: 104
-        height: 93.64224
+        height: 96.573395
       alignment: 9
-      pivot: {x: 0.26442307, y: 0.39663982}
+      pivot: {x: 0.26442307, y: 0.38460118}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -337,6 +337,6 @@ TextureImporter:
     outline: []
     physicsShape: []
   spritePackingTag: 
-  userData: 99920206626017
+  userData: 99926178676478
   assetBundleName: 
   assetBundleVariant: 

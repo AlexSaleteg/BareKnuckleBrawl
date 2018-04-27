@@ -6,10 +6,10 @@ using UnityEngine.SceneManagement;
 
 public class TimerScript : MonoBehaviour
 {
-    public float player1Wins =0;
-    public float player2Wins =0;
-    static int Player_1_Win = 0;
-    static int Player_2_Win = 0;
+    public float player1Wins = 0;
+    public float player2Wins = 0;
+    private static int Player_1_Win = 0;
+    private static int Player_2_Win = 0;
     private float Timer = 60;
     public float PauseTimer = 0;
     private Text timerText;
@@ -36,32 +36,32 @@ public class TimerScript : MonoBehaviour
     {
         Timer -= Time.deltaTime;
         timerText.text = Timer.ToString("f0");
-        
+
         if (Timer <= 0.001)
         {
             if (Player_1_HP.health > Player_2_HP.health)
             {
                 Player_1_Win = Player_1_Win + 1;
                 print("Player 1 wins a ROUND");
-                SceneManager.LoadScene("Round");
+                SceneManager.LoadScene("Workspace (Alex)");
                 canvas.SetActive(true);
             }
-            else if(Player_2_HP.health > Player_1_HP.health)
+            else if (Player_2_HP.health > Player_1_HP.health)
             {
                 Player_2_Win = Player_2_Win + 1;
                 print("Player 2 wins a ROUND");
-                SceneManager.LoadScene("Round");
+                SceneManager.LoadScene("Workspace (Alex)");
                 canvas2.SetActive(true);
             }
         }
-        if (Player_1_HP.health <= 0.001)
-        { 
+        if (Player_1_HP.health <= 0.001f)
+        {
             player2Wins += Time.deltaTime;
             PauseTimer += Time.deltaTime;
             canvas2.SetActive(true);
         }
         else if (Player_2_HP.health <= 0.001)
-        {   
+        {
             player1Wins += Time.deltaTime;
             PauseTimer += Time.deltaTime;
             canvas.SetActive(true);
@@ -69,56 +69,48 @@ public class TimerScript : MonoBehaviour
         if (Player_2_Win == 2)
         {
             print("Player 2 wins the MATCH");
-<<<<<<< HEAD
             canvas4.SetActive(true);
-=======
-            PlayerPrefs.DeleteAll();
-
->>>>>>> develop
         }
-        else if (Player_1_Win == 2)
+        if (Player_1_Win == 2)
         {
             print("Player 1 wins the MATCH");
-<<<<<<< HEAD
             canvas3.SetActive(true);
         }
         if (player2Wins >= 5)
         {
             Player_2_Win = Player_2_Win + 1;
-            print("Player 2 wins a ROUND"); 
-=======
-            PlayerPrefs.DeleteAll();
-
->>>>>>> develop
+            print("Player 2 wins a ROUND");
         }
-        if(player1Wins >= 5)
+        if (player1Wins >= 5)
         {
-             Player_1_Win = Player_1_Win + 1;
-             print("Player 1 wins a ROUND");
-        }
-        else if(player1Wins >=5 || player2Wins>=5)
+            Player_1_Win = Player_1_Win + 1;
+            print("Player 1 wins a ROUND");
+        } 
+        if (player1Wins >= 5 || player2Wins >= 5)
         {
             player2Wins = Time.deltaTime;
             player1Wins = Time.deltaTime;
         }
-        else if (PauseTimer >= 5)
+        if (PauseTimer >= 5 && Player_2_Win == 1 && Player_1_Win != 2)
         {
-            if (Player_1_Win == 1 || Player_2_Win ==1)
-            {
-                SceneManager.LoadScene("Round");
-            }
+            SceneManager.LoadScene("Workspace (Alex)");
         }
-        if (Player_1_Win == 2 & PauseTimer >= 9 )
+        if (PauseTimer >= 5 && Player_1_Win == 1 && Player_2_Win != 2)
+        {
+            SceneManager.LoadScene("Workspace (Alex)");
+        }
+        if (Player_1_Win == 2 && PauseTimer >= 9)
         {
             Player_2_Win = 0;
             Player_1_Win = 0;
-            SceneManager.LoadScene("Round");
+            SceneManager.LoadScene("Workspace (Alex)");
         }
-        else if(Player_2_Win == 2 & PauseTimer >= 9)
+        if (Player_2_Win == 2 && PauseTimer >= 9)
         {
             Player_2_Win = 0;
             Player_1_Win = 0;
-            SceneManager.LoadScene("Round");
+            SceneManager.LoadScene("Workspace (Alex)");
         }
     }
 }
+
