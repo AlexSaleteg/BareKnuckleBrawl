@@ -1540,14 +1540,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 239dd90f9bb7d6042b1b5589bbf0f21d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealthInit: 100
+  maxHealth: 100
   damageDiff: 2
   maxBar: {fileID: 0}
   bar: {fileID: 0}
-  hitSound1: {fileID: 8300000, guid: 0b66a4b0d371efa498befb3cc8863161, type: 3}
-  hitSound2: {fileID: 8300000, guid: 05ce2fa9cbc22a4458151f114636f2d0, type: 3}
-  hitSound3: {fileID: 8300000, guid: 0db3cf41c49b1f043a031c46fd830590, type: 3}
-  maxHealth: 100
+  hitSound: {fileID: 0}
   health: 0
 --- !u!114 &114041023332006284
 MonoBehaviour:
@@ -2046,7 +2043,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lightAttack: left
   heavyAttack: right ctrl
+  Defensive: 
   dodge: right
+  player: 
+  timeLeft: 0
+  chargeTimer: 0
+  leastAmount: 0.001
 --- !u!114 &114387956411084156
 MonoBehaviour:
   m_ObjectHideFlags: 1
