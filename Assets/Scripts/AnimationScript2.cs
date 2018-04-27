@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnimationScript : MonoBehaviour
+public class AnimationScript2 : MonoBehaviour
 {
     private TimerScript animationhinder;
     public string lightAttack;
@@ -42,11 +42,12 @@ public class AnimationScript : MonoBehaviour
             animator.SetInteger("AnimState", 3);
             chargeTimer += Time.deltaTime;
         }
-        else if(timeLeft <= 0.1f){
+        else if (timeLeft <= 0.1f)
+        {
             animator.SetInteger("AnimState", 0);
         }
 
-    //    if (Input.GetAxis("Vertical") <= -1 && Input.GetAxis("RightJoystickVertical") >= 1)
+    //    if (Input.GetAxis("Vertical2") <= -1 && Input.GetAxis("RightJoystickVertical2") >= 1)
     //    {
     //        //animator.Play("DodgeBoxer");
     //        if (timeLeft <= 0.1)
@@ -57,7 +58,7 @@ public class AnimationScript : MonoBehaviour
     //        }
     //    }
 
-    //    else if (Input.GetAxis("Vertical") >= 1)
+    //    else if (Input.GetAxis("Vertical2") >= 1)
     //    {
 
     //        if (timeLeft <= 0.1)
@@ -66,7 +67,7 @@ public class AnimationScript : MonoBehaviour
 
     //        timeLeft = +0.5f;
     //    }
-    //    else if (Input.GetAxis("RightJoystickVertical") <= 0)
+    //    else if (Input.GetAxis("RightJoystickVertical2") <= 0)
     //    {
     //        if (timeLeft <= 0.1)
     //            animator.SetInteger("AnimState", 2);
@@ -77,6 +78,5 @@ public class AnimationScript : MonoBehaviour
     //    {
     //        animator.SetInteger("AnimState", 0);
     //    }
-    //    Debug.Log(Input.GetAxis("RightJoystickVertical"));
     }
 }
