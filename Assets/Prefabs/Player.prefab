@@ -1904,11 +1904,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 239dd90f9bb7d6042b1b5589bbf0f21d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 0
+  maxHealthInit: 0
   damageDiff: 0
   maxBar: {fileID: 0}
   bar: {fileID: 0}
   hitSound: {fileID: 0}
+  hitSound1: {fileID: 0}
+  hitSound2: {fileID: 0}
+  hitSound3: {fileID: 0}
+  maxHealth: 0
   health: 0
 --- !u!114 &114942387750283030
 MonoBehaviour:
