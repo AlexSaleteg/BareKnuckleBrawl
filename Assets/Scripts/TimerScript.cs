@@ -87,7 +87,7 @@ public class TimerScript : MonoBehaviour
         {
             Player_1_Win = Player_1_Win + 1;
             print("Player 1 wins a ROUND");
-        } 
+        }
         if (player1Wins >= 5 || player2Wins >= 5)
         {
             player2Wins = Time.deltaTime;
@@ -115,4 +115,3 @@ public class TimerScript : MonoBehaviour
         }
     }
 }
-
