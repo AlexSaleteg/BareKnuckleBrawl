@@ -5,19 +5,26 @@ using UnityEngine.UI;
 
 public class TakeDamage : MonoBehaviour
 {
-    public int maxHealth;
+    public int maxHealthInit;
     public int damageDiff;
     public Slider maxBar;
     public Slider bar;
     public AudioClip hitSound;
+    public AudioClip hitSound1;
+    public AudioClip hitSound2;
+    public AudioClip hitSound3;
+
 
     private bool cooldown;
     private AudioSource audiosource;
     [HideInInspector]
+    public int maxHealth;
+    [HideInInspector]
     public int health;
     void Start()
     {
-        audiosource = GameObject.Find("Sound Manager").GetComponent<AudioSource>();
+        audiosource = GetComponent<AudioSource>();
+        maxHealth = PlayerPrefs.GetInt(this.gameObject.name + "Health", maxHealthInit);
         health = maxHealth;
         bar.value = health;
     }
@@ -34,9 +41,23 @@ public class TakeDamage : MonoBehaviour
     {
         health -= damage;
         maxHealth -= damage / damageDiff;
+        PlayerPrefs.SetInt(this.gameObject.name + "Health", maxHealth);
         bar.value = health;
         maxBar.value = maxHealth;
-        audiosource.PlayOneShot(hitSound, 0.7f);
+        int randNum = Random.Range(0, 3);
+        if (randNum == 0)
+        {
+            audiosource.PlayOneShot(hitSound1, 0.7f);
+        }
+        else if (randNum == 1)
+        {
+            audiosource.PlayOneShot(hitSound2, 0.7f);
+        }
+        else
+        {
+            audiosource.PlayOneShot(hitSound3, 0.7f);
+        }
+        audiosource.pitch = Random.Range(0.8f, 1.2f);
     }
 
     IEnumerator Cooldown()

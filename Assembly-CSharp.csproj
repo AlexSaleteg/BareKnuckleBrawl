@@ -76,12 +76,10 @@
      <Compile Include="Assets\Anima2D\Scripts\SpriteMeshAnimation.cs" />
      <Compile Include="Assets\Anima2D\Scripts\SpriteMeshInstance.cs" />
      <Compile Include="Assets\Scripts\AnimationScript.cs" />
+     <Compile Include="Assets\Scripts\AnimationScript2.cs" />
      <Compile Include="Assets\Scripts\HeadCollision.cs" />
-<<<<<<< HEAD
-     <Compile Include="Assets\Scripts\SliderScript.cs" />
-=======
      <Compile Include="Assets\Scripts\MeshCustomization.cs" />
->>>>>>> develop
+     <Compile Include="Assets\Scripts\SliderScript.cs" />
      <Compile Include="Assets\Scripts\TakeDamage.cs" />
      <Compile Include="Assets\Scripts\TimerScript.cs" />
      <None Include="Assets\Anima2D\Examples\Shaders\VisibleInsideMask.shader" />

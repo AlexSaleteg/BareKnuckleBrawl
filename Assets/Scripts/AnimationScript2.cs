@@ -47,36 +47,36 @@ public class AnimationScript2 : MonoBehaviour
             animator.SetInteger("AnimState", 0);
         }
 
-    //    if (Input.GetAxis("Vertical2") <= -1 && Input.GetAxis("RightJoystickVertical2") >= 1)
-    //    {
-    //        //animator.Play("DodgeBoxer");
-    //        if (timeLeft <= 0.1)
-    //        {
-    //            animator.SetInteger("AnimState", 3);
-    //            //animator.Play("DodgeStart");
-    //            //timeLeft = +1.0f;
-    //        }
-    //    }
+        if (Input.GetAxis("Vertical2") <= -1 && Input.GetAxis("RightJoystickVertical2") >= 1)
+        {
+            //animator.Play("DodgeBoxer");
+            if (timeLeft <= 0.1)
+            {
+                animator.SetInteger("AnimState", 3);
+                //animator.Play("DodgeStart");
+                //timeLeft = +1.0f;
+            }
+        }
 
-    //    else if (Input.GetAxis("Vertical2") >= 1)
-    //    {
+        else if (Input.GetAxis("Vertical2") >= 1)
+        {
 
-    //        if (timeLeft <= 0.1)
-    //            animator.SetInteger("AnimState", 1);
-    //        //animator.Play("LPunchBoxer");
+            if (timeLeft <= 0.1)
+                animator.SetInteger("AnimState", 1);
+            //animator.Play("LPunchBoxer");
 
-    //        timeLeft = +0.5f;
-    //    }
-    //    else if (Input.GetAxis("RightJoystickVertical2") <= 0)
-    //    {
-    //        if (timeLeft <= 0.1)
-    //            animator.SetInteger("AnimState", 2);
-    //        //animator.Play("RPunchBoxer");
-    //        timeLeft = +1.1f;
-    //    }
-    //    else if (timeLeft <= 0.1f)
-    //    {
-    //        animator.SetInteger("AnimState", 0);
-    //    }
+            timeLeft = +0.5f;
+        }
+        else if (Input.GetAxis("RightJoystickVertical2") <= 0)
+        {
+            if (timeLeft <= 0.1)
+                animator.SetInteger("AnimState", 2);
+            //animator.Play("RPunchBoxer");
+            timeLeft = +1.1f;
+        }
+        else if (timeLeft <= 0.1f)
+        {
+            animator.SetInteger("AnimState", 0);
+        }
     }
 }
