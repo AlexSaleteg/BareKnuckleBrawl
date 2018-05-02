@@ -9,7 +9,6 @@ public class TakeDamage : MonoBehaviour
     public int damageDiff;
     public Slider maxBar;
     public Slider bar;
-    public AudioClip hitSound;
     public AudioClip hitSound1;
     public AudioClip hitSound2;
     public AudioClip hitSound3;
@@ -24,13 +23,14 @@ public class TakeDamage : MonoBehaviour
     void Start()
     {
         audiosource = GetComponent<AudioSource>();
-        maxHealth = PlayerPrefs.GetInt(this.gameObject.name + "Health", maxHealthInit);
+        maxHealth = 100 /*PlayerPrefs.GetInt(gameObject.name + "Health", maxHealthInit)*/;
+        maxBar.value = maxHealth;
         health = maxHealth;
         bar.value = health;
     }
     void FixedUpdate()
     {
-        if (health < maxHealth && !cooldown && health !=0)
+        if (health < maxHealth && !cooldown && health != 0)
         {
             StartCoroutine(Cooldown());
             health++;
@@ -41,7 +41,7 @@ public class TakeDamage : MonoBehaviour
     {
         health -= damage;
         maxHealth -= damage / damageDiff;
-        PlayerPrefs.SetInt(this.gameObject.name + "Health", maxHealth);
+        PlayerPrefs.SetInt(gameObject.name + "Health", maxHealth);
         bar.value = health;
         maxBar.value = maxHealth;
         int randNum = Random.Range(0, 3);

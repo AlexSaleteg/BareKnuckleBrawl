@@ -1107,6 +1107,11 @@ Prefab:
       propertyPath: player
       value: Player1
       objectReference: {fileID: 0}
+    - target: {fileID: 114757837369781012, guid: 95fe7c5675d11b740bfb1b74a7d8af24,
+        type: 2}
+      propertyPath: maxHealthInit
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 95fe7c5675d11b740bfb1b74a7d8af24, type: 2}
   m_IsPrefabParent: 0
@@ -1697,6 +1702,11 @@ Prefab:
       propertyPath: bar
       value: 
       objectReference: {fileID: 1070259156}
+    - target: {fileID: 114757837369781012, guid: 95fe7c5675d11b740bfb1b74a7d8af24,
+        type: 2}
+      propertyPath: maxHealthInit
+      value: 100
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 95fe7c5675d11b740bfb1b74a7d8af24, type: 2}
   m_IsPrefabParent: 0
@@ -2517,7 +2527,7 @@ GameObject:
   - component: {fileID: 1692888788}
   - component: {fileID: 1692888787}
   m_Layer: 0
-  m_Name: Main Camera (1)
+  m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1963,7 +1963,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lightAttack: d
   heavyAttack: space
+  Defensive: 
   dodge: a
+  player: 
+  timeLeft: 0
+  chargeTimer: 0
+  leastAmount: 0.001
 --- !u!114 &114566869632564666
 MonoBehaviour:
   m_ObjectHideFlags: 1
