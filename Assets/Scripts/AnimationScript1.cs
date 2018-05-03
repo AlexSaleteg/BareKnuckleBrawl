@@ -55,10 +55,15 @@ public class AnimationScript1 : MonoBehaviour
                 animator.SetInteger("AnimState", 2);
                 chargeTimer += Time.deltaTime;
                 newState = 2;
+                if (Input.GetKeyDown(lightAttack))
+                {
+                    animator.SetInteger("AnimState", 5);
+                    timeLeft = +1.1f;
+                }
                 if (Input.GetKeyDown(heavyAttack))
                 {
                     animator.SetInteger("AnimState", 9);
-                    timeLeft = +1.1f;
+                    timeLeft =+ 1.1f;
                 }
             }
             else if (timeLeft <= 0.1f)
