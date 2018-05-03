@@ -1794,7 +1794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SpriteMesh: {fileID: 11400000, guid: ee591138330d6e840a931d9000d712e1, type: 2}
-  m_Color: {r: 0.934, g: 0.784, b: 0.641, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Materials:
   - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_SortingLayerID: -1069186037
@@ -2332,15 +2332,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 239dd90f9bb7d6042b1b5589bbf0f21d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealthInit: 0
+  maxHealthInit: 100
   damageDiff: 2
   maxBar: {fileID: 0}
   bar: {fileID: 0}
-  hitSound: {fileID: 0}
-  hitSound1: {fileID: 0}
-  hitSound2: {fileID: 0}
-  hitSound3: {fileID: 0}
-  maxHealth: 100
+  hitSound1: {fileID: 8300000, guid: 0b66a4b0d371efa498befb3cc8863161, type: 3}
+  hitSound2: {fileID: 8300000, guid: 05ce2fa9cbc22a4458151f114636f2d0, type: 3}
+  hitSound3: {fileID: 8300000, guid: 0db3cf41c49b1f043a031c46fd830590, type: 3}
+  maxHealth: 0
   health: 0
 --- !u!114 &114771585973095442
 MonoBehaviour:
