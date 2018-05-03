@@ -54,6 +54,12 @@ AnimationClip:
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       - serializedVersion: 2
+        time: 0.26666668
+        value: {x: 0, y: 0, z: 75.12701}
+        inSlope: {x: 0, y: 0, z: -37.206}
+        outSlope: {x: 0, y: 0, z: -37.206}
+        tangentMode: 0
+      - serializedVersion: 2
         time: 0.5
         value: {x: 0, y: 0, z: 62.430004}
         inSlope: {x: 0, y: 0, z: 0}
@@ -808,6 +814,12 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
+        time: 0.26666668
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
         time: 0.5
         value: 0
         inSlope: 0
@@ -831,6 +843,12 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 0.26666668
         value: 0
         inSlope: 0
         outSlope: 0
@@ -862,6 +880,12 @@ AnimationClip:
         value: 81.033005
         inSlope: 0
         outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 0.26666668
+        value: 75.12701
+        inSlope: -37.206
+        outSlope: -37.206
         tangentMode: 136
       - serializedVersion: 2
         time: 0.5
@@ -938,7 +962,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bones/HipBone/RUpperLegBone/RLowerLegBone/RFootBone
+    path: Bones/HipBone/Spine/NeckBone/RShoulderBone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -948,7 +972,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bones/HipBone/RUpperLegBone/RLowerLegBone/RFootBone
+    path: Bones/HipBone/Spine/NeckBone/RShoulderBone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -958,7 +982,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bones/HipBone/RUpperLegBone/RLowerLegBone/RFootBone
+    path: Bones/HipBone/Spine/NeckBone/RShoulderBone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -998,7 +1022,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Bones/HipBone/Spine/NeckBone/RShoulderBone
+    path: Bones/HipBone/RUpperLegBone/RLowerLegBone/RFootBone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1008,7 +1032,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Bones/HipBone/Spine/NeckBone/RShoulderBone
+    path: Bones/HipBone/RUpperLegBone/RLowerLegBone/RFootBone
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -1018,7 +1042,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Bones/HipBone/Spine/NeckBone/RShoulderBone
+    path: Bones/HipBone/RUpperLegBone/RLowerLegBone/RFootBone
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
