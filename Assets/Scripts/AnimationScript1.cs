@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnimationScript : MonoBehaviour
+public class AnimationScript1 : MonoBehaviour
 {
     private TimerScript animationhinder;
     public string lightAttack;

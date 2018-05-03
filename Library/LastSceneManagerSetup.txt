@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Workspace (Alex).unity
+- path: Assets/Scenes/Guy's lab.unity
   isLoaded: 1
   isActive: 1

@@ -1745,7 +1745,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c2b334c10690e04ca568d4b23d65845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: Player1
 --- !u!114 &114321066507606218
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2060,16 +2059,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d02b90a93c172e6478b34179ff17e7d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationhinder: {fileID: 0}
-  lightAttack: d
-  heavyAttack: space
-  Defensive: w
-  dodge: a
-  player: Player1
-  timeLeft: 0
-  chargeTimer: 0
-  leastAmount: 0.001
-  animator: {fileID: 0}
 --- !u!114 &114566869632564666
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2522,6 +2511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed618fe1d93b8664e9729596d636d087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animationhinder: {fileID: 0}
   lightAttack: d
   heavyAttack: space
   Defensive: w
@@ -2530,6 +2520,7 @@ MonoBehaviour:
   timeLeft: 0
   chargeTimer: 0
   leastAmount: 0.001
+  animator: {fileID: 0}
 --- !u!137 &137023467491948450
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

@@ -5,17 +5,17 @@ using UnityEngine;
 public class HeadCollision : MonoBehaviour
 {
 
-    public string player;
-
+    private string player;
     private float damageMult = 1.2f;
     private float damageExp = 0;
     private float timeStamp;
     private TakeDamage damage;
     private Animator animator;
-    private AnimationScript time;
+    private AnimationScript1 time;
     void Start()
     {
-        time = GameObject.Find(player).GetComponent<AnimationScript>();
+        player = transform.root.name;
+        time = GameObject.Find(player).GetComponent<AnimationScript1>();
         animator = GameObject.Find(player).GetComponent<Animator>();
         damage = GameObject.Find(player).GetComponent<TakeDamage>();
 
