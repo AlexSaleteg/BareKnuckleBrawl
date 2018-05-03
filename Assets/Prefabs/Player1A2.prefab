@@ -2060,6 +2060,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d02b90a93c172e6478b34179ff17e7d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animationhinder: {fileID: 0}
   lightAttack: d
   heavyAttack: space
   Defensive: w
@@ -2068,6 +2069,7 @@ MonoBehaviour:
   timeLeft: 0
   chargeTimer: 0
   leastAmount: 0.001
+  animator: {fileID: 0}
 --- !u!114 &114566869632564666
 MonoBehaviour:
   m_ObjectHideFlags: 1
