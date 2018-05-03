@@ -53,6 +53,7 @@ public class HeadCollision : MonoBehaviour
                 // animator.SetInteger("AnimState", 4);
             }
             timeStamp = Time.time;
+            animator.Play("Stagger");
         }
         else if (other.gameObject.tag == "HeavyFist")
         {
@@ -79,6 +80,7 @@ public class HeadCollision : MonoBehaviour
             }
 
             timeStamp = Time.time;
+            animator.Play("Stagger");
         }
         if (time.chargeTimer >= 10)
         {
