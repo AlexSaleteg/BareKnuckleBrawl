@@ -23,6 +23,7 @@ TextureImporter:
     21300032: BKB MALE Sheet (1)_19
     21300034: BKB MALE Sheet (1)_20
     21300036: BKB MALE Sheet (1)_1
+    21300038: BKB MALE Sheet (1)_2
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -119,9 +120,9 @@ TextureImporter:
         x: 337.6271
         y: 749.68
         width: 201.39865
-        height: 119.30304
+        height: 119.581055
       alignment: 9
-      pivot: {x: 0.50582707, y: 0.49303022}
+      pivot: {x: 0.50582707, y: 0.49188402}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -336,9 +337,23 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB MALE Sheet (1)_2
+      rect:
+        serializedVersion: 2
+        x: 830.7399
+        y: 970.02795
+        width: 30.01233
+        height: 29.244385
+      alignment: 9
+      pivot: {x: 0.5084601, y: 0.4777685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
-  userData: 99960172693845
+  userData: 99988774533556
   assetBundleName: 
   assetBundleVariant: 
