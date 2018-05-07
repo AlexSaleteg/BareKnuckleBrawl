@@ -1,26 +1,27 @@
 fileFormatVersion: 2
-guid: a19b8183ee30bbf4fa689e2a7393ee71
-timeCreated: 1523359015
+guid: 852b9d4036d4f134b8b911264f0fc1bc
+timeCreated: 1525684880
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: CharacterSheetFirst_0
-    21300002: CharacterSheetFirst_1
-    21300004: CharacterSheetFirst_2
-    21300006: CharacterSheetFirst_3
-    21300008: CharacterSheetFirst_4
-    21300010: CharacterSheetFirst_6
-    21300012: CharacterSheetFirst_7
-    21300014: CharacterSheetFirst_8
-    21300016: CharacterSheetFirst_9
-    21300018: CharacterSheetFirst_10
-    21300020: CharacterSheetFirst_11
-    21300022: CharacterSheetFirst_12
-    21300024: CharacterSheetFirst_13
-    21300026: CharacterSheetFirst_14
-    21300028: CharacterSheetFirst_15
-    21300030: CharacterSheetFirst_16
-    21300032: CharacterSheetFirst_17
+    21300000: BKB FEMALE Sheet_0
+    21300002: BKB FEMALE Sheet_1
+    21300004: BKB FEMALE Sheet_4
+    21300006: BKB FEMALE Sheet_5
+    21300008: BKB FEMALE Sheet_6
+    21300010: BKB FEMALE Sheet_7
+    21300012: BKB FEMALE Sheet_8
+    21300014: BKB FEMALE Sheet_9
+    21300016: BKB FEMALE Sheet_10
+    21300018: BKB FEMALE Sheet_11
+    21300020: BKB FEMALE Sheet_12
+    21300022: BKB FEMALE Sheet_13
+    21300024: BKB FEMALE Sheet_14
+    21300026: BKB FEMALE Sheet_15
+    21300028: BKB FEMALE Sheet_16
+    21300030: BKB FEMALE Sheet_17
+    21300032: BKB FEMALE Sheet_18
+    21300034: BKB FEMALE Sheet_2
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -97,239 +98,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CharacterSheetFirst_0
+      name: BKB FEMALE Sheet_0
       rect:
         serializedVersion: 2
-        x: 886.6474
-        y: 893.82385
-        width: 86.74487
-        height: 48.27362
+        x: 757
+        y: 1013
+        width: 60
+        height: 21
       alignment: 9
-      pivot: {x: 0.5112994, y: 0.45938438}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: CharacterSheetFirst_1
+      name: BKB FEMALE Sheet_1
       rect:
         serializedVersion: 2
-        x: 781.07465
-        y: 518.07465
-        width: 298.92535
-        height: 237.92535
+        x: 832.18
+        y: 970.2134
+        width: 27.9646
+        height: 28.529541
       alignment: 9
-      pivot: {x: 0.535001, y: 0.49353862}
+      pivot: {x: 0.4941965, y: 0.50076586}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: CharacterSheetFirst_2
+      name: BKB FEMALE Sheet_4
       rect:
         serializedVersion: 2
-        x: 890
-        y: 760.7179
-        width: 89.4516
-        height: 120.12854
+        x: 1126.3047
+        y: 877.3046
+        width: 90.038574
+        height: 88.91333
       alignment: 9
-      pivot: {x: 0.46393806, y: 0.48932672}
+      pivot: {x: 0.4797423, y: 0.48581436}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: CharacterSheetFirst_3
+      name: BKB FEMALE Sheet_5
       rect:
         serializedVersion: 2
-        x: 675
-        y: 595.0425
-        width: 109.70642
-        height: 133.28943
+        x: 363.18326
+        y: 747.77576
+        width: 191.53403
+        height: 117.11011
       alignment: 9
-      pivot: {x: 0.5058956, y: 0.49109313}
+      pivot: {x: 0.50025964, y: 0.5014447}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: CharacterSheetFirst_4
+      name: BKB FEMALE Sheet_6
       rect:
         serializedVersion: 2
-        x: 1147.0425
-        y: 617
-        width: 88.33191
-        height: 116
+        x: 729.2851
+        y: 743.08453
+        width: 102.367676
+        height: 105.36487
       alignment: 9
-      pivot: {x: 0.50896126, y: 0.5}
+      pivot: {x: 0.4954191, y: 0.51644796}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: CharacterSheetFirst_6
+      name: BKB FEMALE Sheet_7
       rect:
         serializedVersion: 2
-        x: 525
-        y: 411
-        width: 88
-        height: 91.00003
+        x: 1230.6721
+        y: 688.99994
+        width: 139.39734
+        height: 121.99994
       alignment: 9
-      pivot: {x: 0.5, y: 0.49999985}
+      pivot: {x: 0.5116875, y: 0.5000008}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: CharacterSheetFirst_7
+      name: BKB FEMALE Sheet_8
       rect:
         serializedVersion: 2
-        x: 662.2085
-        y: 406.08496
-        width: 113.45154
-        height: 158.91504
+        x: 68.622955
+        y: 498.7898
+        width: 191.68588
+        height: 159.94244
       alignment: 9
-      pivot: {x: 0.4565077, y: 0.521757}
+      pivot: {x: 0.49756947, y: 0.49524194}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: CharacterSheetFirst_8
+      name: BKB FEMALE Sheet_9
       rect:
         serializedVersion: 2
-        x: 889.8197
-        y: 391.15356
-        width: 115.02673
-        height: 108.48746
+        x: 358.31644
+        y: 550.6329
+        width: 140.73422
+        height: 123.78491
       alignment: 9
-      pivot: {x: 0.48406395, y: 0.5285997}
+      pivot: {x: 0.495143, y: 0.49171683}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: CharacterSheetFirst_9
+      name: BKB FEMALE Sheet_10
       rect:
         serializedVersion: 2
-        x: 997
-        y: 479
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 659
+        y: 398
+        width: 239
+        height: 255
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: CharacterSheetFirst_10
+      name: BKB FEMALE Sheet_11
       rect:
         serializedVersion: 2
-        x: 1159.0543
-        y: 465.66797
-        width: 125.94568
-        height: 108.081055
+        x: 986.5436
+        y: 512.92847
+        width: 194.35925
+        height: 160.07153
       alignment: 9
-      pivot: {x: 0.52360415, y: 0.50732327}
+      pivot: {x: 0.50399673, y: 0.5064707}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: CharacterSheetFirst_11
+      name: BKB FEMALE Sheet_12
       rect:
         serializedVersion: 2
-        x: 1338.7915
-        y: 401
-        width: 88.58301
-        height: 94.540436
+        x: 85.19697
+        y: 342.62283
+        width: 90.58593
+        height: 88.79266
       alignment: 9
-      pivot: {x: 0.48212966, y: 0.4706981}
+      pivot: {x: 0.51115036, y: 0.49978414}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: CharacterSheetFirst_12
+      name: BKB FEMALE Sheet_13
       rect:
         serializedVersion: 2
-        x: 603.12744
-        y: 129.41698
-        width: 118.87256
-        height: 187.58302
+        x: 346.33267
+        y: 256.58243
+        width: 131.83417
+        height: 180.33466
       alignment: 9
-      pivot: {x: 0.5499382, y: 0.50421953}
+      pivot: {x: 0.5132761, y: 0.50970554}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: CharacterSheetFirst_13
+      name: BKB FEMALE Sheet_14
       rect:
         serializedVersion: 2
-        x: 810.0849
-        y: 271.50198
-        width: 99.706604
-        height: 125.49802
+        x: 562.03503
+        y: 180.1395
+        width: 106.40234
+        height: 181.19418
       alignment: 9
-      pivot: {x: 0.5357228, y: 0.5258889}
+      pivot: {x: 0.48838177, y: 0.49593478}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: CharacterSheetFirst_14
+      name: BKB FEMALE Sheet_15
       rect:
         serializedVersion: 2
-        x: 1004.33466
-        y: 265
-        width: 77.55939
-        height: 124.39447
+        x: 1138.6312
+        y: 296.62448
+        width: 93.338135
+        height: 163.15717
       alignment: 9
-      pivot: {x: 0.45984563, y: 0.48233655}
+      pivot: {x: 0.5021396, y: 0.5018199}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: CharacterSheetFirst_15
+      name: BKB FEMALE Sheet_16
       rect:
         serializedVersion: 2
-        x: 1143.6293
-        y: 132.38203
-        width: 113.79761
-        height: 177.61797
+        x: 919.5939
+        y: 189.21834
+        width: 84.187744
+        height: 160.15718
       alignment: 9
-      pivot: {x: 0.47778448, y: 0.5158147}
+      pivot: {x: 0.48589173, y: 0.498146}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: CharacterSheetFirst_16
+      name: BKB FEMALE Sheet_17
       rect:
         serializedVersion: 2
-        x: 797
-        y: 120.752815
-        width: 112.11224
-        height: 86.988686
+        x: 683
+        y: 36.526855
+        width: 98
+        height: 84.964195
       alignment: 9
-      pivot: {x: 0.45490125, y: 0.47416723}
+      pivot: {x: 0.5, y: 0.50577945}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: CharacterSheetFirst_17
+      name: BKB FEMALE Sheet_18
       rect:
         serializedVersion: 2
-        x: 1012.94385
-        y: 121.31465
-        width: 118.67407
-        height: 83.55052
+        x: 884.62445
+        y: 35.030563
+        width: 130.75104
+        height: 78.5633
       alignment: 9
-      pivot: {x: 0.4976332, y: 0.46301743}
+      pivot: {x: 0.50000024, y: 0.51511884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB FEMALE Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 768.3869
+        y: 939.61694
+        width: 48.452087
+        height: 35.346497
+      alignment: 9
+      pivot: {x: 0.5079884, y: 0.4917901}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -337,6 +352,6 @@ TextureImporter:
     outline: []
     physicsShape: []
   spritePackingTag: 
-  userData: 99988762576048
+  userData: 99988878169938
   assetBundleName: 
   assetBundleVariant: 
