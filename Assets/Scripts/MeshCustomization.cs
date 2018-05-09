@@ -37,6 +37,7 @@ public class MeshCustomization : MonoBehaviour
         {
             mesh.color = source.skinColors[index];
         }
+        transform.Find("Bones/HipBone/Spine/NeckBone/LShoulderBone/LUpperArmBone/LLowerArmBone/LHandBone/ZaHando").GetComponent<SpriteRenderer>().color = source.skinColors[index];
     }
 
     public void RecolorMoustache(int index)
