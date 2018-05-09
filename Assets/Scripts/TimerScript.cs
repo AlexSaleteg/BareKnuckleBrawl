@@ -38,7 +38,7 @@ public class TimerScript : MonoBehaviour
     {
         Timer -= Time.deltaTime;
         timerText.text = Timer.ToString("f0");
-
+        
         if (Timer <= 0.001)
         {
             if (Player_1_HP.health > Player_2_HP.health)
