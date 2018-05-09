@@ -9,5 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Workspace (Alex).unity
     guid: 23d9fe8a568a7f14797e96ec5b83c549
   - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: 1c86fac31e1ab494f9715bd2e0ea6ab4
+  - enabled: 1
     path: Assets/Scenes/Round.unity
     guid: 3724553438a95ad4a8dd56cc842a78b4

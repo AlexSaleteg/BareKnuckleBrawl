@@ -79,6 +79,7 @@
      <Compile Include="Assets\Scripts\Database.cs" />
      <Compile Include="Assets\Scripts\HeadCollision.cs" />
      <Compile Include="Assets\Scripts\MeshCustomization.cs" />
+     <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\SliderScript.cs" />
      <Compile Include="Assets\Scripts\StartScreen.cs" />
      <Compile Include="Assets\Scripts\TakeDamage.cs" />

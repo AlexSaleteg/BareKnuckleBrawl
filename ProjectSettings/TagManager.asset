@@ -8,6 +8,7 @@ TagManager:
   - head
   - HeavyFist
   - LightFist
+  - Moustache
   layers:
   - Default
   - TransparentFX

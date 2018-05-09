@@ -4,12 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class StartScreen : MonoBehaviour {
-
+    public string scene;
 	void Update()
     {
         if (Input.anyKey)
         {
-            SceneManager.LoadScene("CharacterSelect");
+            SceneManager.LoadScene(scene);
         }
     }
 }
