@@ -23,7 +23,7 @@ public class TakeDamage : MonoBehaviour
     void Start()
     {
         audiosource = GetComponent<AudioSource>();
-        maxHealth = 100 /*PlayerPrefs.GetInt(gameObject.name + "Health", maxHealthInit)*/;
+        maxHealth = PlayerPrefs.GetInt(gameObject.name + "Health", maxHealthInit);
         maxBar.value = maxHealth;
         health = maxHealth;
         bar.value = health;
