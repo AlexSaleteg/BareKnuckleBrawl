@@ -1,0 +1,417 @@
+fileFormatVersion: 2
+guid: b53c3640767ad5c40958ff793b044d8d
+timeCreated: 1525868078
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BKB_Pub_FarCandles_0
+    21300002: BKB_Pub_FarCandles_1
+    21300004: BKB_Pub_FarCandles_2
+    21300006: BKB_Pub_FarCandles_3
+    21300008: BKB_Pub_FarCandles_4
+    21300010: BKB_Pub_FarCandles_5
+    21300012: BKB_Pub_FarCandles_6
+    21300014: BKB_Pub_FarCandles_7
+    21300016: BKB_Pub_FarCandles_8
+    21300018: BKB_Pub_FarCandles_9
+    21300020: BKB_Pub_FarCandles_10
+    21300022: BKB_Pub_FarCandles_11
+    21300024: BKB_Pub_FarCandles_12
+    21300026: BKB_Pub_FarCandles_13
+    21300028: BKB_Pub_FarCandles_14
+    21300030: BKB_Pub_FarCandles_15
+    21300032: BKB_Pub_FarCandles_16
+    21300034: BKB_Pub_FarCandles_17
+    21300036: BKB_Pub_FarCandles_18
+    21300038: BKB_Pub_FarCandles_19
+    21300040: BKB_Pub_FarCandles_20
+    21300042: BKB_Pub_FarCandles_21
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_0
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 7844
+        width: 1132
+        height: 152
+      alignment: 9
+      pivot: {x: 0.32881042, y: 0.32745683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_1
+      rect:
+        serializedVersion: 2
+        x: 2060
+        y: 7862
+        width: 1058
+        height: 124
+      alignment: 9
+      pivot: {x: 0.34866327, y: 0.27296892}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_2
+      rect:
+        serializedVersion: 2
+        x: 3983
+        y: 7862
+        width: 1045
+        height: 129
+      alignment: 9
+      pivot: {x: 0.3501481, y: 0.25449294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_3
+      rect:
+        serializedVersion: 2
+        x: 5908
+        y: 7868
+        width: 1046
+        height: 118
+      alignment: 9
+      pivot: {x: 0.34440213, y: 0.26067185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_4
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 6788
+        width: 1040
+        height: 139
+      alignment: 9
+      pivot: {x: 0.3394625, y: 0.21205458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_5
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 6786
+        width: 1037
+        height: 141
+      alignment: 9
+      pivot: {x: 0.34451163, y: 0.21613544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_6
+      rect:
+        serializedVersion: 2
+        x: 3991
+        y: 6786
+        width: 1076
+        height: 154
+      alignment: 9
+      pivot: {x: 0.33208025, y: 0.18812145}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_7
+      rect:
+        serializedVersion: 2
+        x: 5908
+        y: 6788
+        width: 1069
+        height: 121
+      alignment: 9
+      pivot: {x: 0.33739868, y: 0.21647}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_8
+      rect:
+        serializedVersion: 2
+        x: 5903
+        y: 5703
+        width: 1046
+        height: 152
+      alignment: 9
+      pivot: {x: 0.35022277, y: 0.20658794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_9
+      rect:
+        serializedVersion: 2
+        x: 3980
+        y: 5709
+        width: 1064
+        height: 125
+      alignment: 9
+      pivot: {x: 0.34845752, y: 0.20725}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_10
+      rect:
+        serializedVersion: 2
+        x: 2049
+        y: 5709
+        width: 1077
+        height: 139
+      alignment: 9
+      pivot: {x: 0.35241032, y: 0.1544655}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_11
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 5711
+        width: 1075
+        height: 147
+      alignment: 9
+      pivot: {x: 0.3595822, y: 0.15771152}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_12
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 4613
+        width: 1059
+        height: 137
+      alignment: 9
+      pivot: {x: 0.35638082, y: 0.29132214}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_13
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 4624
+        width: 1048
+        height: 123
+      alignment: 9
+      pivot: {x: 0.34723505, y: 0.23038141}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_14
+      rect:
+        serializedVersion: 2
+        x: 3985
+        y: 4624
+        width: 1056
+        height: 128
+      alignment: 9
+      pivot: {x: 0.34297734, y: 0.22304535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_15
+      rect:
+        serializedVersion: 2
+        x: 5903
+        y: 4632
+        width: 1072
+        height: 131
+      alignment: 9
+      pivot: {x: 0.33998677, y: 0.17701127}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_16
+      rect:
+        serializedVersion: 2
+        x: 5905
+        y: 3547
+        width: 1069
+        height: 134
+      alignment: 9
+      pivot: {x: 0.33846843, y: 0.21837832}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_17
+      rect:
+        serializedVersion: 2
+        x: 3977
+        y: 3555
+        width: 1077
+        height: 113
+      alignment: 9
+      pivot: {x: 0.34391594, y: 0.20652136}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_18
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 3555
+        width: 1077
+        height: 144
+      alignment: 9
+      pivot: {x: 0.34391594, y: 0.15058051}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_19
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 3547
+        width: 1053
+        height: 144
+      alignment: 9
+      pivot: {x: 0.35447648, y: 0.19822863}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_20
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 2460
+        width: 1066
+        height: 141
+      alignment: 9
+      pivot: {x: 0.36376047, y: 0.24046986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Pub_FarCandles_21
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 2462
+        width: 1074
+        height: 147
+      alignment: 9
+      pivot: {x: 0.3583866, y: 0.22772507}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
