@@ -35,14 +35,26 @@ public class MeshCustomization : MonoBehaviour
         SpriteMeshInstance[] meshes = child.GetComponentsInChildren<SpriteMeshInstance>();
         foreach (SpriteMeshInstance mesh in meshes)
         {
-            mesh.color = source.skinColors[index];
+            if (mesh.gameObject.name != "MEyes")
+            {
+                mesh.color = source.skinColors[index];
+            }
         }
         transform.Find("Bones/HipBone/Spine/NeckBone/LShoulderBone/LUpperArmBone/LLowerArmBone/LHandBone/ZaHando").GetComponent<SpriteRenderer>().color = source.skinColors[index];
     }
 
     public void RecolorMoustache(int index)
     {
-        transform.Find("Meshes/MHead/Moustache").gameObject.GetComponent<SpriteMeshInstance>().color = source.moustacheColors[index];
+        GameObject child = transform.Find("Meshes/MHead").gameObject;
+        SpriteMeshInstance[] meshes = child.GetComponentsInChildren<SpriteMeshInstance>();
+        foreach (SpriteMeshInstance mesh in meshes)
+        {
+            if (mesh.gameObject.tag == "Moustache")
+            {
+                mesh.color = source.moustacheColors[index];
+            }
+        }
+        //transform.Find("Meshes/MHead/Moustache").gameObject.GetComponent<SpriteMeshInstance>().color = source.moustacheColors[index];
         transform.Find("Meshes/MHead/MEyebrows").gameObject.GetComponent<SpriteMeshInstance>().color = source.moustacheColors[index];
     }
 

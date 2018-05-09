@@ -25,7 +25,7 @@ public class TimerScript : MonoBehaviour
     public Slider Player_2_HP_Slider;
     private int scene;
 
-    // Use this for initialization
+
     void Start()
     {
         timerText = GetComponent<Text>();
@@ -33,7 +33,7 @@ public class TimerScript : MonoBehaviour
         Player_2_HP = GameObject.Find("Player2").GetComponent<TakeDamage>();
         scene = SceneManager.GetActiveScene().buildIndex;
     }
-    // Update is called once per frame
+ 
     void Update()
     {
         Timer -= Time.deltaTime;
