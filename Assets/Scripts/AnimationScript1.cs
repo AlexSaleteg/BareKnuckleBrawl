@@ -5,6 +5,8 @@ using UnityEngine;
 public class AnimationScript1 : MonoBehaviour
 {
     private TimerScript animationhinder;
+    public string Lfeint;
+    public string Rfeint;
     public string lightAttack;
     public string heavyAttack;
     public string Defensive;
@@ -16,7 +18,7 @@ public class AnimationScript1 : MonoBehaviour
     public float timeLeft = 0.0f;
     public float chargeTimer = 0.0f;
     float leastAmount = 0.001f;
-    private int newState = 0;
+    public int newState = 0;
     private Animator animator;
 
     void Start()
@@ -37,15 +39,25 @@ public class AnimationScript1 : MonoBehaviour
                 animator.SetInteger("AnimState", 1);
                 newState = 1;
 
-                if (Input.GetKeyDown(lightAttack))
+                if (Input.GetKeyDown(Lfeint))
                 {
                     animator.SetInteger("AnimState", 3);
                     timeLeft = +1.0f;
                 }
-                else if (Input.GetKeyDown(heavyAttack))
+                else if (Input.GetKeyDown(lightAttack))
+                {
+                    animator.SetInteger("AnimState", 11);
+                    timeLeft = +1.0f;
+                }
+                if (Input.GetKeyDown(Rfeint))
                 {
                     animator.SetInteger("AnimState", 4);
                     timeLeft = +1.1f;
+                }
+                else if (Input.GetKeyDown(heavyAttack))
+                {
+                    animator.SetInteger("AnimState", 10);
+                    timeLeft = +1.0f;
                 }
             }
 
@@ -55,21 +67,29 @@ public class AnimationScript1 : MonoBehaviour
                 animator.SetInteger("AnimState", 2);
                 chargeTimer += Time.deltaTime;
                 newState = 2;
-                if (Input.GetKeyDown(lightAttack))
+                if (Input.GetKey(lightAttack))
                 {
+                    //animator.SetInteger("handState", 1);
                     animator.SetInteger("AnimState", 5);
+                    //animator.Play("TheHand");
                     timeLeft = +1.1f;
+                    newState = 3;
+                    chargeTimer = 0;
                 }
-                if (Input.GetKeyDown(heavyAttack))
+                
+                if (Input.GetKey(heavyAttack))
                 {
                     animator.SetInteger("AnimState", 9);
                     timeLeft =+ 1.1f;
+                    newState = 4;
                 }
+                
             }
             else if (timeLeft <= 0.1f)
             {
                 animator.SetInteger("AnimState", 0);
                 newState = 0;
+                chargeTimer = 0;
             }
         }
 

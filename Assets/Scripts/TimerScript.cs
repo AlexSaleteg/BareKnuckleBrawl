@@ -23,6 +23,7 @@ public class TimerScript : MonoBehaviour
     public GameObject canvas4;
     public Slider Player_1_HP_Slider;
     public Slider Player_2_HP_Slider;
+    private int scene;
 
     // Use this for initialization
     void Start()
@@ -30,28 +31,33 @@ public class TimerScript : MonoBehaviour
         timerText = GetComponent<Text>();
         Player_1_HP = GameObject.Find("Player1").GetComponent<TakeDamage>();
         Player_2_HP = GameObject.Find("Player2").GetComponent<TakeDamage>();
+        scene = SceneManager.GetActiveScene().buildIndex;
     }
     // Update is called once per frame
     void Update()
     {
         Timer -= Time.deltaTime;
         timerText.text = Timer.ToString("f0");
-
+        
         if (Timer <= 0.001)
         {
             if (Player_1_HP.health > Player_2_HP.health)
             {
                 Player_1_Win = Player_1_Win + 1;
                 print("Player 1 wins a ROUND");
-                SceneManager.LoadScene("Workspace (Alex)");
+                SceneManager.LoadScene(scene);
                 canvas.SetActive(true);
             }
             else if (Player_2_HP.health > Player_1_HP.health)
             {
                 Player_2_Win = Player_2_Win + 1;
                 print("Player 2 wins a ROUND");
-                SceneManager.LoadScene("Workspace (Alex)");
+                SceneManager.LoadScene(scene);
                 canvas2.SetActive(true);
+            }
+            else
+            {
+                SceneManager.LoadScene(scene);
             }
         }
         if (Player_1_HP.health <= 0.001f)
@@ -95,23 +101,23 @@ public class TimerScript : MonoBehaviour
         }
         if (PauseTimer >= 5 && Player_2_Win == 1 && Player_1_Win != 2)
         {
-            SceneManager.LoadScene("Workspace (Alex)");
+            SceneManager.LoadScene(scene);
         }
         if (PauseTimer >= 5 && Player_1_Win == 1 && Player_2_Win != 2)
         {
-            SceneManager.LoadScene("Workspace (Alex)");
+            SceneManager.LoadScene(scene);
         }
         if (Player_1_Win == 2 && PauseTimer >= 9)
         {
             Player_2_Win = 0;
             Player_1_Win = 0;
-            SceneManager.LoadScene("Workspace (Alex)");
+            SceneManager.LoadScene(scene);
         }
         if (Player_2_Win == 2 && PauseTimer >= 9)
         {
             Player_2_Win = 0;
             Player_1_Win = 0;
-            SceneManager.LoadScene("Workspace (Alex)");
+            SceneManager.LoadScene(scene);
         }
     }
 }
