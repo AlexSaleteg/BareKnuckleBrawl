@@ -41,7 +41,7 @@ public class HeadCollision : MonoBehaviour
             }
             if (time.timeLeft >= 0.1f)
             {
-                damage.InflictDamage((int) (10 * Mathf.Pow(damageMult, damageExp)));
+                damage.InflictDamage((int)(10 * Mathf.Pow(damageMult, damageExp)));
                 time.timeLeft = +0.5f;
                 //animator.SetInteger("AnimState", 4);
             }
@@ -82,7 +82,7 @@ public class HeadCollision : MonoBehaviour
                 damage.InflictDamage(2);
             }
 
-            
+
 
             else
             {
@@ -101,7 +101,7 @@ public class HeadCollision : MonoBehaviour
             //animator.Play("Stunned");
             //}
         }
-        
+
         //if (time.timeLeft <= 0.1f)
         //{
         //    animator.SetInteger("AnimState", 0);
