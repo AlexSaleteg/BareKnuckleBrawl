@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class HeadCollision : MonoBehaviour
 {
-
     private string player;
     private float damageMult = 1.2f;
     private float damageExp = 0;
@@ -46,6 +45,10 @@ public class HeadCollision : MonoBehaviour
                 time.timeLeft = +0.5f;
                 //animator.SetInteger("AnimState", 4);
             }
+            else if (time.newState == 1)
+            {
+                damage.InflictDamage(2);
+            }
             else
             {
                 damage.InflictDamage((int)(5 * Mathf.Pow(damageMult, damageExp)));
@@ -66,12 +69,21 @@ public class HeadCollision : MonoBehaviour
             {
                 damageExp = 0;
             }
+
             if (time.timeLeft >= 0.1f)
             {
                 damage.InflictDamage((int)(20 * Mathf.Pow(damageMult, damageExp)));
                 time.timeLeft = +0.5f;
                 //animator.SetInteger("AnimState", 4);
             }
+
+            else if (time.newState == 1)
+            {
+                damage.InflictDamage(2);
+            }
+
+            
+
             else
             {
                 damage.InflictDamage((int)(10 * Mathf.Pow(damageMult, damageExp)));
@@ -81,12 +93,15 @@ public class HeadCollision : MonoBehaviour
 
             timeStamp = Time.time;
             animator.Play("Stagger");
+
+            //if (time.chargeTimer >= 5)
+            //{
+            //damage.InflictDamage(30);
+            //time.chargeTimer = 0;
+            //animator.Play("Stunned");
+            //}
         }
-        if (time.chargeTimer >= 10)
-        {
-            damage.InflictDamage(30);
-            time.chargeTimer = 0;
-        }
+        
         //if (time.timeLeft <= 0.1f)
         //{
         //    animator.SetInteger("AnimState", 0);
