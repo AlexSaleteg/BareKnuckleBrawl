@@ -1982,6 +1982,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c2b334c10690e04ca568d4b23d65845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lightcomboDmg: 0
+  lightguardlessDmg: 0
+  lightguardDmg: 0
+  slapDmg: 0
+  heavycomboDmg: 0
+  heavyguardlessDmg: 0
+  heavyguardDmg: 0
+  chargeDmg: 0
+  leastAountofTime: 0
 --- !u!114 &114321066507606218
 MonoBehaviour:
   m_ObjectHideFlags: 1
