@@ -74,15 +74,16 @@ public class TimerScript : MonoBehaviour
         }
         if (Player_2_Win == 2)
         {
+            canvas4.SetActive(true);
             print("Player 2 wins the MATCH");
             PlayerPrefs.DeleteAll();
-            canvas4.SetActive(true);
+           
         }
         if (Player_1_Win == 2)
         {
-            print("Player 1 wins the MATCH");
-            PlayerPrefs.DeleteAll();
             canvas3.SetActive(true);
+            print("Player 1 wins the MATCH");
+            PlayerPrefs.DeleteAll();  
         }
         if (player2Wins >= 5)
         {
@@ -118,6 +119,14 @@ public class TimerScript : MonoBehaviour
             Player_2_Win = 0;
             Player_1_Win = 0;
             SceneManager.LoadScene(scene);
+        }
+        if(Player_1_Win == 1)
+        {
+            canvas.SetActive(true);
+        }
+        if (Player_2_Win == 1)
+        {
+            canvas2.SetActive(true);
         }
     }
 }

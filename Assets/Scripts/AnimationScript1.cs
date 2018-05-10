@@ -76,20 +76,20 @@ public class AnimationScript1 : MonoBehaviour
                     newState = 3;
                     chargeTimer = 0;
                 }
-                
-                if (Input.GetKey(heavyAttack))
+
+                if (Input.GetKey(heavyAttack) && chargeTimer >= 3)
                 {
                     animator.SetInteger("AnimState", 9);
-                    timeLeft =+ 1.1f;
+                    timeLeft = +1.1f;
                     newState = 4;
+                    chargeTimer = 0;
                 }
-                
+
             }
             else if (timeLeft <= 0.1f)
             {
                 animator.SetInteger("AnimState", 0);
                 newState = 0;
-                chargeTimer = 0;
             }
         }
 
