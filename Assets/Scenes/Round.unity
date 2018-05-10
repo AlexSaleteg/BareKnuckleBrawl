@@ -2733,6 +2733,11 @@ Prefab:
       propertyPath: chargeDmg
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 95015169959967592, guid: a07a17662cd4063429d93d71f9d60268,
+        type: 2}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: aa35f95349b9e9c4fa7e4cdc0bef4f6a, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a07a17662cd4063429d93d71f9d60268, type: 2}
   m_IsPrefabParent: 0
