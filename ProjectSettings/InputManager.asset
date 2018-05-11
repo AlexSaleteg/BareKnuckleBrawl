@@ -334,8 +334,8 @@ InputManager:
     altNegativeButton: 
     altPositiveButton: 
     gravity: 0
-    dead: 0
-    sensitivity: 0.19
+    dead: 0.19
+    sensitivity: 1
     snap: 0
     invert: 1
     type: 2
@@ -356,7 +356,7 @@ InputManager:
     invert: 1
     type: 2
     axis: 5
-    joyNum: 2
+    joyNum: 1
   - serializedVersion: 3
     m_Name: RightJoystickVertical2
     descriptiveName: 

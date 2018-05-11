@@ -2752,6 +2752,16 @@ Prefab:
       propertyPath: Rfeint
       value: /
       objectReference: {fileID: 0}
+    - target: {fileID: 114257889160557356, guid: a07a17662cd4063429d93d71f9d60268,
+        type: 2}
+      propertyPath: isKeyboard
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114257889160557356, guid: a07a17662cd4063429d93d71f9d60268,
+        type: 2}
+      propertyPath: isConsole2
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a07a17662cd4063429d93d71f9d60268, type: 2}
   m_IsPrefabParent: 0
@@ -3432,6 +3442,16 @@ Prefab:
     - target: {fileID: 4570486596094038, guid: db9ff26e1f4071a41aa86a2ba2ba3afa, type: 2}
       propertyPath: m_LocalPosition.y
       value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 114695122096737928, guid: db9ff26e1f4071a41aa86a2ba2ba3afa,
+        type: 2}
+      propertyPath: isKeyboard
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114695122096737928, guid: db9ff26e1f4071a41aa86a2ba2ba3afa,
+        type: 2}
+      propertyPath: isConsole1
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 58456297599762312, guid: db9ff26e1f4071a41aa86a2ba2ba3afa, type: 2}
