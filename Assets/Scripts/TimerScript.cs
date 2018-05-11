@@ -21,6 +21,10 @@ public class TimerScript : MonoBehaviour
     public GameObject canvas2;
     public GameObject canvas3;
     public GameObject canvas4;
+    public GameObject win;
+    public GameObject win2;
+    public GameObject win3;
+    public GameObject win4;
     public Slider Player_1_HP_Slider;
     public Slider Player_2_HP_Slider;
     private int scene;
@@ -44,16 +48,18 @@ public class TimerScript : MonoBehaviour
             if (Player_1_HP.health > Player_2_HP.health)
             {
                 Player_1_Win = Player_1_Win + 1;
-                print("Player 1 wins a ROUND");
+               // print("Player 1 wins a ROUND");
                 SceneManager.LoadScene(scene);
                 canvas.SetActive(true);
+                win.SetActive(true);
             }
             else if (Player_2_HP.health > Player_1_HP.health)
             {
                 Player_2_Win = Player_2_Win + 1;
-                print("Player 2 wins a ROUND");
+                //print("Player 2 wins a ROUND");
                 SceneManager.LoadScene(scene);
                 canvas2.SetActive(true);
+                win2.SetActive(true);
             }
             else
             {
@@ -65,35 +71,39 @@ public class TimerScript : MonoBehaviour
             player2Wins += Time.deltaTime;
             PauseTimer += Time.deltaTime;
             canvas2.SetActive(true);
+            win2.SetActive(true);
         }
         else if (Player_2_HP.health <= 0.001)
         {
             player1Wins += Time.deltaTime;
             PauseTimer += Time.deltaTime;
             canvas.SetActive(true);
+            win.SetActive(true);
         }
         if (Player_2_Win == 2)
         {
+            win4.SetActive(true);
             canvas4.SetActive(true);
-            print("Player 2 wins the MATCH");
+            //print("Player 2 wins the MATCH");
             PlayerPrefs.DeleteAll();
            
         }
         if (Player_1_Win == 2)
         {
+            win3.SetActive(true);
             canvas3.SetActive(true);
-            print("Player 1 wins the MATCH");
+            //print("Player 1 wins the MATCH");
             PlayerPrefs.DeleteAll();  
         }
         if (player2Wins >= 5)
         {
             Player_2_Win = Player_2_Win + 1;
-            print("Player 2 wins a ROUND");
+            //print("Player 2 wins a ROUND");
         }
         if (player1Wins >= 5)
         {
             Player_1_Win = Player_1_Win + 1;
-            print("Player 1 wins a ROUND");
+            //print("Player 1 wins a ROUND");
         }
         if (player1Wins >= 5 || player2Wins >= 5)
         {
