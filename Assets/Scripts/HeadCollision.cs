@@ -66,7 +66,7 @@ public class HeadCollision : MonoBehaviour
                 time.timeLeft = +0.5f;
                 animator.Play("Stagger");
             }
-            else if (time.newState == 1)
+            else if (time.newState == 1 && player_1.newState != 4 && player_2.newState != 4 && player_1.newState != 3 && player_2.newState != 3)
             {
                 damage.InflictDamage(lightguardDmg);
                 animator.Play("HitWhGuard");
@@ -104,7 +104,7 @@ public class HeadCollision : MonoBehaviour
                 animator.Play("Stagger");
             }
 
-            else if (time.newState == 1)
+            else if (time.newState == 1 && player_1.newState != 4 && player_2.newState != 4 && player_1.newState != 3 && player_2.newState != 3)
             {
                 damage.InflictDamage(heavyguardDmg);
                 animator.Play("HitWhGuard");
