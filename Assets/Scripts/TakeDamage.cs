@@ -7,21 +7,33 @@ public class TakeDamage : MonoBehaviour
 {
     public int maxHealthInit;
     public int damageDiff;
-    public Slider maxBar;
-    public Slider bar;
+    //public Slider maxBar;
+    //public Slider bar;
     public AudioClip hitSound1;
     public AudioClip hitSound2;
     public AudioClip hitSound3;
 
 
+    private Slider maxBar;
+    private Slider bar;
     private bool cooldown;
     private AudioSource audiosource;
     [HideInInspector]
-    public int maxHealth;
+    private int maxHealth;
     [HideInInspector]
     public int health;
     void Start()
     {
+        if (gameObject.name == "Player1")
+        {
+            maxBar = GameObject.Find("MaxHealthbar1").GetComponent<Slider>();
+            bar = GameObject.Find("Healthbar1").GetComponent<Slider>();
+        }
+        else if (gameObject.name == "Player2")
+        {
+            maxBar = GameObject.Find("MaxHealthbar2").GetComponent<Slider>();
+            bar = GameObject.Find("Healthbar2").GetComponent<Slider>();
+        }
         audiosource = GetComponent<AudioSource>();
         maxHealth = PlayerPrefs.GetInt(gameObject.name + "Health", maxHealthInit);
         maxBar.value = maxHealth;

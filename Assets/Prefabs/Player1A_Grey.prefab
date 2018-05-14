@@ -786,7 +786,7 @@ GameObject:
   - component: {fileID: 137283413029348102}
   m_Layer: 0
   m_Name: Moustache
-  m_TagString: Moustache
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -907,7 +907,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1355673928695032}
   m_LocalRotation: {x: 0, y: 0, z: 0.026176924, w: 0.99965733}
-  m_LocalPosition: {x: 0.65, y: 0.5, z: 0}
+  m_LocalPosition: {x: -1.87, y: 3.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4619259520748662}
@@ -948,7 +948,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1490010446259710}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7037559, w: 0.7104418}
+  m_LocalRotation: {x: 0, y: 0, z: 0.70375586, w: 0.7104419}
   m_LocalPosition: {x: 1.1191247, y: 0.00000034327715, z: 0.00053747086}
   m_LocalScale: {x: 0.82393336, y: 0.8239332, z: 0.8239332}
   m_Children:
@@ -1369,7 +1369,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1844957900563714}
-  m_LocalRotation: {x: 0, y: 0, z: 0.8960938, w: 0.4438648}
+  m_LocalRotation: {x: 0, y: 0, z: 0.8960939, w: 0.44386455}
   m_LocalPosition: {x: 1.2652436, y: 0.41560787, z: -0.03447736}
   m_LocalScale: {x: 2.778148, y: 2.778147, z: 2.778143}
   m_Children:
@@ -1627,7 +1627,7 @@ CircleCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1160345673188516}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -1770,7 +1770,7 @@ Animator:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1355673928695032}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4b941126021c697439deb8d99124d26b, type: 2}
   m_CullingMode: 0
@@ -1794,6 +1794,7 @@ MonoBehaviour:
   source: {fileID: 11400000, guid: 9de7256db0af6ed4bae840949aa53d79, type: 2}
   skincolor: 0
   haircolor: 0
+  moustacheType: 1
 --- !u!114 &114050132826497474
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1977,7 +1978,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1160345673188516}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c2b334c10690e04ca568d4b23d65845, type: 3}
   m_Name: 
@@ -2106,7 +2107,7 @@ MonoBehaviour:
         w: 0.9984615}
     m_Weight: 0.457
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -3.7889361, y: 1.3188064, z: 0}
+    targetPosition: {x: -6.308936, y: 3.9188063, z: 0}
     flip: 0
 --- !u!114 &114367602939173048
 MonoBehaviour:
@@ -2260,7 +2261,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: 0.0496359, w: 0.99876744}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -3.4355168, y: -3.800713, z: 0}
+    targetPosition: {x: -5.955517, y: -1.2007132, z: 0}
     flip: 1
 --- !u!114 &114505723176538700
 MonoBehaviour:
@@ -2377,7 +2378,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: 0.573911, w: 0.8189177}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -0.23716778, y: 0.6137251, z: 0}
+    targetPosition: {x: -2.7571678, y: 3.213725, z: 0}
     flip: 0
 --- !u!114 &114614586484582210
 MonoBehaviour:
@@ -2431,7 +2432,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.1191248
+  m_Length: 1.1191249
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 4045644608985610}
   m_AttachedIK: {fileID: 114783237440128700}
@@ -2483,7 +2484,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1355673928695032}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: debacd8b35ea2e340905e9062ee2bfd7, type: 3}
   m_Name: 
@@ -2494,7 +2495,6 @@ MonoBehaviour:
   heavyAttack: space
   Defensive: w
   dodge: a
-  player: Player1
   isConsole1: 0
   isConsole2: 0
   isKeyboard: 1
@@ -2608,7 +2608,7 @@ MonoBehaviour:
       defaultLocalRotation: {x: 0, y: 0, z: -0.011114013, w: 0.9999383}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -1.820367, y: -3.7230763, z: 0}
+    targetPosition: {x: -4.340367, y: -1.1230764, z: 0}
     flip: 1
 --- !u!114 &114757837369781012
 MonoBehaviour:
@@ -2616,19 +2616,16 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1355673928695032}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 239dd90f9bb7d6042b1b5589bbf0f21d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealthInit: 100
   damageDiff: 2
-  maxBar: {fileID: 0}
-  bar: {fileID: 0}
   hitSound1: {fileID: 8300000, guid: 0b66a4b0d371efa498befb3cc8863161, type: 3}
   hitSound2: {fileID: 8300000, guid: 05ce2fa9cbc22a4458151f114636f2d0, type: 3}
   hitSound3: {fileID: 8300000, guid: 0db3cf41c49b1f043a031c46fd830590, type: 3}
-  maxHealth: 100
   health: 0
 --- !u!114 &114771585973095442
 MonoBehaviour:
@@ -2672,16 +2669,16 @@ MonoBehaviour:
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 4684016595679730}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: 0.8960938, w: 0.4438648}
+      solverRotation: {x: 0, y: 0, z: 0.8960939, w: 0.44386455}
       defaultLocalRotation: {x: 0, y: 0, z: -0.9630461, w: -0.2693367}
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 4045644608985610}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: 0.7037559, w: 0.7104418}
+      solverRotation: {x: 0, y: 0, z: 0.70375586, w: 0.7104419}
       defaultLocalRotation: {x: 0, y: 0, z: -0.6301811, w: -0.7764483}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -1.8020035, y: -0.09914899, z: 0}
+    targetPosition: {x: -4.3220034, y: 2.500851, z: 0}
     flip: 0
 --- !u!114 &114832128514687536
 MonoBehaviour:
@@ -2756,7 +2753,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.2819986
+  m_Length: 1.2819983
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 4082405068699840}
   m_AttachedIK: {fileID: 114754129186734500}

@@ -11,7 +11,6 @@ public class AnimationScript1 : MonoBehaviour
     public string heavyAttack;
     public string Defensive;
     public string dodge;
-    public string player;
     public bool isConsole1;
     public bool isConsole2;
     public bool isKeyboard;
