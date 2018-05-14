@@ -2743,7 +2743,7 @@ Prefab:
     - target: {fileID: 114638876849278292, guid: a07a17662cd4063429d93d71f9d60268,
         type: 2}
       propertyPath: haircolor
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1423082166742840, guid: a07a17662cd4063429d93d71f9d60268, type: 2}
       propertyPath: m_TagString
@@ -2772,17 +2772,17 @@ Prefab:
     - target: {fileID: 114146825520521512, guid: a07a17662cd4063429d93d71f9d60268,
         type: 2}
       propertyPath: lightcomboDmg
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 114146825520521512, guid: a07a17662cd4063429d93d71f9d60268,
         type: 2}
       propertyPath: lightguardlessDmg
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114146825520521512, guid: a07a17662cd4063429d93d71f9d60268,
         type: 2}
       propertyPath: lightguardDmg
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114146825520521512, guid: a07a17662cd4063429d93d71f9d60268,
         type: 2}
@@ -2792,12 +2792,12 @@ Prefab:
     - target: {fileID: 114146825520521512, guid: a07a17662cd4063429d93d71f9d60268,
         type: 2}
       propertyPath: heavycomboDmg
-      value: 20
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 114146825520521512, guid: a07a17662cd4063429d93d71f9d60268,
         type: 2}
       propertyPath: heavyguardlessDmg
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114146825520521512, guid: a07a17662cd4063429d93d71f9d60268,
         type: 2}
@@ -2807,7 +2807,7 @@ Prefab:
     - target: {fileID: 114146825520521512, guid: a07a17662cd4063429d93d71f9d60268,
         type: 2}
       propertyPath: chargeDmg
-      value: 30
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 95015169959967592, guid: a07a17662cd4063429d93d71f9d60268,
         type: 2}
@@ -3440,17 +3440,17 @@ Prefab:
     - target: {fileID: 114256480595865366, guid: db9ff26e1f4071a41aa86a2ba2ba3afa,
         type: 2}
       propertyPath: lightcomboDmg
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 114256480595865366, guid: db9ff26e1f4071a41aa86a2ba2ba3afa,
         type: 2}
       propertyPath: lightguardlessDmg
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114256480595865366, guid: db9ff26e1f4071a41aa86a2ba2ba3afa,
         type: 2}
       propertyPath: lightguardDmg
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 114256480595865366, guid: db9ff26e1f4071a41aa86a2ba2ba3afa,
         type: 2}
@@ -3460,12 +3460,12 @@ Prefab:
     - target: {fileID: 114256480595865366, guid: db9ff26e1f4071a41aa86a2ba2ba3afa,
         type: 2}
       propertyPath: heavycomboDmg
-      value: 20
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 114256480595865366, guid: db9ff26e1f4071a41aa86a2ba2ba3afa,
         type: 2}
       propertyPath: heavyguardlessDmg
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114256480595865366, guid: db9ff26e1f4071a41aa86a2ba2ba3afa,
         type: 2}
@@ -3475,7 +3475,7 @@ Prefab:
     - target: {fileID: 114256480595865366, guid: db9ff26e1f4071a41aa86a2ba2ba3afa,
         type: 2}
       propertyPath: chargeDmg
-      value: 30
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4082405068699840, guid: db9ff26e1f4071a41aa86a2ba2ba3afa, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
