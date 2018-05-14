@@ -9,24 +9,17 @@ public class MeshCustomization : MonoBehaviour
 
     public int skincolor;
     public int haircolor;
+    public int moustacheType;
 
     void Start()
     {
         RecolorSkin(skincolor);
+        ChangeMoustache(moustacheType);
         RecolorMoustache(haircolor);
     }
-    //public void ChangeSkin(int index)
-    //{
-    //    GameObject child = transform.Find("Meshes").gameObject;
-    //    SpriteMeshAnimation[] meshes = child.GetComponentsInChildren<SpriteMeshAnimation>();
-    //    foreach (SpriteMeshAnimation mesh in meshes)
-    //    {
-    //        mesh.frame = index;
-    //    }
-    //}
-    public void ChangeMoustache(int index)
+    public void ChangeSkin(int index)
     {
-        transform.Find("Meshes/MHead/Moustache").gameObject.GetComponent<SpriteMeshAnimation>().frame = index;
+        
     }
 
     public void RecolorSkin(int index)
@@ -54,8 +47,21 @@ public class MeshCustomization : MonoBehaviour
                 mesh.color = source.moustacheColors[index];
             }
         }
-        //transform.Find("Meshes/MHead/Moustache").gameObject.GetComponent<SpriteMeshInstance>().color = source.moustacheColors[index];
         transform.Find("Meshes/MHead/MEyebrows").gameObject.GetComponent<SpriteMeshInstance>().color = source.moustacheColors[index];
+    }
+
+    public void ChangeMoustache(int index)
+    {
+        GameObject child = transform.Find("Meshes/MHead").gameObject;
+        Transform[] moustaches = child.GetComponentsInChildren<Transform>();
+        foreach (Transform moustache in moustaches)
+        {
+            if (moustache.gameObject.tag == "Moustache")
+            {
+                moustache.gameObject.SetActive(false);
+            }
+        }
+        child.transform.Find("Moustache" + index).gameObject.SetActive(true);
     }
 
 }
