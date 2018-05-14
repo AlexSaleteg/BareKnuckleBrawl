@@ -5,12 +5,11 @@ using UnityEngine;
 public class LoadCustom : MonoBehaviour {
 
     public MeshCustomization player;
-    public PlayerVisualsData data;
 
     void Start ()
     {
-        player.RecolorSkin(data.GetSkinColor());
-        player.ChangeMoustache(data.GetMoustache());
-        player.RecolorMoustache(data.GetMoustacheColor());
+        //player.RecolorSkin(PlayerPrefs.GetInt("Player" + player.gameObject.name[6] + "SkinColor", 0));
+        //player.ChangeMoustache(PlayerPrefs.GetInt("Player" + player.gameObject.name[6] + "Moustache", 1));
+        //player.RecolorMoustache(PlayerPrefs.GetInt("Player" + player.gameObject.name[6] + "MoustacheColor", 0));
 	}
 }

@@ -8,18 +8,7 @@ public class PlayerVisualsData : ScriptableObject {
     private int moustache = 1;
     private int moustacheColor = 0;
     private int skinColor = 0;
-    //static PlayerVisualsData _instance;
-    //public PlayerVisualsData Instance {  get
-    //    {
-    //        if (!_instance)
-    //        {
-    //            _instance = FindObjectOfType<PlayerVisualsData>();
-    //        }
-    //        if (!_instance)
-    //        {
-    //            _instance = CreateDef
-    //        }
-    //    } }
+    
     public void SetMoustache(int index)
     {
         moustache = index;

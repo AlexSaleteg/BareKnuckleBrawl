@@ -13,9 +13,9 @@ public class MeshCustomization : MonoBehaviour
 
     void Start()
     {
-        RecolorSkin(skincolor);
-        ChangeMoustache(moustacheType);
-        RecolorMoustache(haircolor);
+        RecolorSkin(PlayerPrefs.GetInt("Player" + gameObject.name[6] + "SkinColor", 0));
+        ChangeMoustache(PlayerPrefs.GetInt("Player" + gameObject.name[6] + "Moustache", 1));
+        RecolorMoustache(PlayerPrefs.GetInt("Player" + gameObject.name[6] + "MoustacheColor", 0));
     }
     public void ChangeSkin(int index)
     {
