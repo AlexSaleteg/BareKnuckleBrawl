@@ -69,20 +69,21 @@ public class AnimationScript1 : MonoBehaviour
                 if (Input.GetKey(lightAttack))
                 {
                     //animator.SetInteger("handState", 1);
-                    animator.SetInteger("AnimState", 5);
+                    //animator.SetInteger("AnimState", 5);
+                    animator.Play("SlappyBoi");
                     //animator.Play("TheHand");
                     timeLeft = +1.1f;
                     newState = 3;
                     chargeTimer = 0;
                 }
 
-                if (Input.GetKey(heavyAttack) && chargeTimer >= 3)
+                if (Input.GetKey(heavyAttack) && chargeTimer >= 1.2)
                 {
                     animator.SetInteger("AnimState", 9);
-                    timeLeft = +1.1f;
                     newState = 4;
                     chargeTimer = 0;
                 }
+                
 
             }
             else if (timeLeft <= 0.1f)
@@ -104,18 +105,31 @@ public class AnimationScript1 : MonoBehaviour
                 {
                     animator.SetInteger("AnimState", 9);
                 }
+               else if(Input.GetAxis("L2_1") >= 0.9)
+                {
+                    animator.Play("SlappyBoi");
+                } 
             }
             else if (Input.GetAxis("L2_1") > 0.9 && Input.GetAxis("R2_1") > 0.9)
             {
                 animator.SetInteger("AnimState", 1);
 
-                if (Input.GetAxis("Vertical") >= 0.9)
+                if (Input.GetAxis("Vertical") < -0.9)
                 {
                     animator.SetInteger("AnimState", 3);
                 }
-                else if (Input.GetAxis("RightJoystickVertical") >= 0.8)
+                else if(Input.GetAxis("Vertical")>  0.9)
+                {
+                    animator.Play("LPunchBoxer");
+                }
+
+                if (Input.GetAxis("RightJoystickVertical") < -0.9)
                 {
                     animator.SetInteger("AnimState", 4);
+                }
+                if(Input.GetAxis("RightJoystickVertical") > 0.9)
+                {
+                    animator.Play("RPunchBoxer");
                 }
             }
             else if (timeLeft <= 0.1f)
@@ -135,18 +149,31 @@ public class AnimationScript1 : MonoBehaviour
                 {
                     animator.SetInteger("AnimState", 9);
                 }
+                else if (Input.GetAxis("L2_1") >= 0.9)
+                {
+                    animator.Play("SlappyBoi");
+                }
             }
             else if (Input.GetAxis("L2_2") > 0.9 && Input.GetAxis("R2_2") > 0.9)
             {
                 animator.SetInteger("AnimState", 1);
 
-                if (Input.GetAxis("Vertical2") >= 0.9)
+                if (Input.GetAxis("Vertical2") < -0.9)
                 {
                     animator.SetInteger("AnimState", 3);
                 }
-                else if (Input.GetAxis("RightJoystickVertical2") >= 0.8)
+                else if (Input.GetAxis("Vertical2") > 0.9)
+                {
+                    animator.Play("LPunchBoxer");
+                }
+
+                if (Input.GetAxis("RightJoystickVertical2") < -0.9)
                 {
                     animator.SetInteger("AnimState", 4);
+                }
+                if (Input.GetAxis("RightJoystickVertical2") > 0.9)
+                {
+                    animator.Play("RPunchBoxer");
                 }
             }
             else if (timeLeft <= 0.1f)
@@ -155,6 +182,6 @@ public class AnimationScript1 : MonoBehaviour
             }
         }
         
-       // Debug.Log(Input.GetAxis("RightJoystickVertical"));
+        Debug.Log(Input.GetAxis("Vertical2"));
     }
 }

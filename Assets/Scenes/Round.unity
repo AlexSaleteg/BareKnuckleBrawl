@@ -892,6 +892,10 @@ MonoBehaviour:
   canvas2: {fileID: 735033807}
   canvas3: {fileID: 57120417}
   canvas4: {fileID: 883156080}
+  win: {fileID: 174628200}
+  win2: {fileID: 2076761356}
+  win3: {fileID: 1346348614}
+  win4: {fileID: 431402893}
   Player_1_HP_Slider: {fileID: 1069768414}
   Player_2_HP_Slider: {fileID: 1805711381}
 --- !u!114 &615194893
@@ -3191,7 +3195,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4019172673799892, guid: db9ff26e1f4071a41aa86a2ba2ba3afa, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 0.65
+      value: 1.03
       objectReference: {fileID: 0}
     - target: {fileID: 4019172673799892, guid: db9ff26e1f4071a41aa86a2ba2ba3afa, type: 2}
       propertyPath: m_LocalPosition.y
