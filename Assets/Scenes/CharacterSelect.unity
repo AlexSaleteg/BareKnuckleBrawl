@@ -685,6 +685,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player1Input: space
   player2Input: right ctrl
+  player1: {fileID: 11400000, guid: 17c36fce1e03fe0498e67bc2ad600b1c, type: 2}
+  player2: {fileID: 11400000, guid: ee406750cf1a84f419831499288d73d8, type: 2}
 --- !u!4 &1185376487
 Transform:
   m_ObjectHideFlags: 0
