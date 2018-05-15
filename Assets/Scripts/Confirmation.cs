@@ -35,6 +35,7 @@ public class Confirmation : MonoBehaviour {
 
     void SaveData(PlayerVisualsData player)
     {
+        PlayerPrefs.SetInt("Player" + player.name[6] + "BodyType", player.GetBodyType());
         PlayerPrefs.SetInt("Player" + player.name[6] + "MoustacheColor", player.GetMoustacheColor());
         PlayerPrefs.SetInt("Player" + player.name[6] + "SkinColor", player.GetSkinColor());
         PlayerPrefs.SetInt("Player" + player.name[6] + "Moustache", player.GetMoustache());

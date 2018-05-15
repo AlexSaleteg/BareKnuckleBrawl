@@ -4,12 +4,18 @@ using UnityEngine;
 
 public class LoadCustom : MonoBehaviour {
 
-    public MeshCustomization player;
+    public GameObject playerM;
+    public GameObject playerF;
 
-    void Start ()
+    void Awake ()
     {
-        //player.RecolorSkin(PlayerPrefs.GetInt("Player" + player.gameObject.name[6] + "SkinColor", 0));
-        //player.ChangeMoustache(PlayerPrefs.GetInt("Player" + player.gameObject.name[6] + "Moustache", 1));
-        //player.RecolorMoustache(PlayerPrefs.GetInt("Player" + player.gameObject.name[6] + "MoustacheColor", 0));
+        if (PlayerPrefs.GetInt("Player" + playerM.name[6] + "BodyType", 0) == 0)
+        {
+            playerF.SetActive(false);
+        }
+        else
+        {
+            playerM.SetActive(false);
+        }
 	}
 }

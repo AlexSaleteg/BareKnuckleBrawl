@@ -7,11 +7,7 @@ public class MeshCustomization : MonoBehaviour
 {
     public Database source;
 
-    public int skincolor;
-    public int haircolor;
-    public int moustacheType;
-
-    void Start()
+    void Awake()
     {
         RecolorSkin(PlayerPrefs.GetInt("Player" + gameObject.name[6] + "SkinColor", 0));
         ChangeMoustache(PlayerPrefs.GetInt("Player" + gameObject.name[6] + "Moustache", 1));
