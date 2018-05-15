@@ -279,4 +279,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46f9eae0b9e7a824ba9c532b62847dfe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: Round
+  scene: CharacterSelect
