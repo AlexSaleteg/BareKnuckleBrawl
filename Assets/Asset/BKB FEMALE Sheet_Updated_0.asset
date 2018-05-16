@@ -526,9 +526,9 @@ Mesh:
     boneIndex[1]: 3
     boneIndex[2]: 0
     boneIndex[3]: 0
-  - weight[0]: 0.6088577
-    weight[1]: 0.37
-    weight[2]: 0.021142311
+  - weight[0]: 0.686173
+    weight[1]: 0.29
+    weight[2]: 0.02382705
     weight[3]: 0
     boneIndex[0]: 0
     boneIndex[1]: 3
@@ -1861,9 +1861,9 @@ MonoBehaviour:
     boneIndex1: 3
     boneIndex2: -1
     boneIndex3: -1
-  - weight0: 0.37
-    weight1: 0.6088577
-    weight2: 0.021142311
+  - weight0: 0.29
+    weight1: 0.686173
+    weight2: 0.02382705
     weight3: 0
     boneIndex0: 3
     boneIndex1: 0

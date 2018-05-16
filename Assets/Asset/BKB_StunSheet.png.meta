@@ -3,7 +3,26 @@ guid: 2677bc61f3493584eb35f2f3ef58e374
 timeCreated: 1526392803
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: BKB_StunSheet_0
+    21300002: BKB_StunSheet_1
+    21300004: BKB_StunSheet_5
+    21300006: BKB_StunSheet_15
+    21300008: BKB_StunSheet_16
+    21300010: BKB_StunSheet_20
+    21300012: BKB_StunSheet_25
+    21300014: BKB_StunSheet_28
+    21300016: BKB_StunSheet_31
+    21300018: BKB_StunSheet_33
+    21300020: BKB_StunSheet_35
+    21300022: BKB_StunSheet_42
+    21300024: BKB_StunSheet_44
+    21300026: BKB_StunSheet_46
+    21300028: BKB_StunSheet_48
+    21300030: BKB_StunSheet_52
+    21300032: BKB_StunSheet_55
+    21300034: BKB_StunSheet_56
+    21300036: BKB_StunSheet_3
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +59,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -66,9 +85,285 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: BKB_StunSheet_0
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 7771
+        width: 146
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_StunSheet_1
+      rect:
+        serializedVersion: 2
+        x: 2581
+        y: 7772
+        width: 133
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_StunSheet_5
+      rect:
+        serializedVersion: 2
+        x: 6442
+        y: 7777
+        width: 104
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_StunSheet_15
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 6694
+        width: 116
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_StunSheet_16
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 6696
+        width: 118
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_StunSheet_20
+      rect:
+        serializedVersion: 2
+        x: 6435
+        y: 6690
+        width: 128
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_StunSheet_25
+      rect:
+        serializedVersion: 2
+        x: 4518
+        y: 6694
+        width: 119
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_StunSheet_28
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 5618
+        width: 118
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_StunSheet_31
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 5616
+        width: 119
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_StunSheet_33
+      rect:
+        serializedVersion: 2
+        x: 4522
+        y: 5622
+        width: 120
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_StunSheet_35
+      rect:
+        serializedVersion: 2
+        x: 6442
+        y: 5622
+        width: 116
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_StunSheet_42
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 4544
+        width: 125
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_StunSheet_44
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 4543
+        width: 127
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_StunSheet_46
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 4545
+        width: 126
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_StunSheet_48
+      rect:
+        serializedVersion: 2
+        x: 6432
+        y: 4540
+        width: 141
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_StunSheet_52
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 3461
+        width: 124
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_StunSheet_55
+      rect:
+        serializedVersion: 2
+        x: 2606
+        y: 3460
+        width: 115
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_StunSheet_56
+      rect:
+        serializedVersion: 2
+        x: 4522
+        y: 3463
+        width: 118
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_StunSheet_3
+      rect:
+        serializedVersion: 2
+        x: 4509
+        y: 7772
+        width: 133
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
