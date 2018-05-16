@@ -1,0 +1,1002 @@
+fileFormatVersion: 2
+guid: 940456890e68f0243a4b49bca72ac6b0
+timeCreated: 1526393080
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Win Game sheet_0
+    21300002: Win Game sheet_1
+    21300004: Win Game sheet_2
+    21300006: Win Game sheet_3
+    21300008: Win Game sheet_4
+    21300010: Win Game sheet_5
+    21300012: Win Game sheet_6
+    21300014: Win Game sheet_7
+    21300016: Win Game sheet_16
+    21300018: Win Game sheet_17
+    21300020: Win Game sheet_18
+    21300022: Win Game sheet_19
+    21300024: Win Game sheet_20
+    21300026: Win Game sheet_21
+    21300028: Win Game sheet_22
+    21300030: Win Game sheet_23
+    21300032: Win Game sheet_32
+    21300034: Win Game sheet_33
+    21300036: Win Game sheet_34
+    21300038: Win Game sheet_35
+    21300040: Win Game sheet_36
+    21300042: Win Game sheet_37
+    21300044: Win Game sheet_38
+    21300046: Win Game sheet_39
+    21300048: Win Game sheet_48
+    21300050: Win Game sheet_49
+    21300052: Win Game sheet_50
+    21300054: Win Game sheet_51
+    21300056: Win Game sheet_52
+    21300058: Win Game sheet_53
+    21300060: Win Game sheet_54
+    21300062: Win Game sheet_63
+    21300064: Win Game sheet_64
+    21300066: Win Game sheet_65
+    21300068: Win Game sheet_66
+    21300070: Win Game sheet_67
+    21300072: Win Game sheet_68
+    21300074: Win Game sheet_69
+    21300076: Win Game sheet_70
+    21300078: Win Game sheet_79
+    21300080: Win Game sheet_80
+    21300082: Win Game sheet_81
+    21300084: Win Game sheet_82
+    21300086: Win Game sheet_83
+    21300088: Win Game sheet_84
+    21300090: Win Game sheet_85
+    21300092: Win Game sheet_86
+    21300094: Win Game sheet_95
+    21300096: Win Game sheet_96
+    21300098: Win Game sheet_97
+    21300100: Win Game sheet_98
+    21300102: Win Game sheet_99
+    21300104: Win Game sheet_100
+    21300106: Win Game sheet_101
+    21300108: Win Game sheet_102
+    21300110: Win Game sheet_111
+    21300112: Win Game sheet_112
+    21300114: Win Game sheet_113
+    21300116: Win Game sheet_114
+    21300118: Win Game sheet_115
+    21300120: Win Game sheet_56
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Win Game sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5073
+        width: 32
+        height: 244
+      alignment: 9
+      pivot: {x: 18.263567, y: -0.6157987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 5073
+        width: 78
+        height: 244
+      alignment: 9
+      pivot: {x: 7.6525173, y: -0.6261667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 5073
+        width: 117
+        height: 244
+      alignment: 9
+      pivot: {x: 5.083302, y: -0.6193407}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3506
+        y: 5073
+        width: 156
+        height: 244
+      alignment: 9
+      pivot: {x: 3.798537, y: -0.6168853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_4
+      rect:
+        serializedVersion: 2
+        x: 4677
+        y: 5073
+        width: 195
+        height: 244
+      alignment: 9
+      pivot: {x: 3.060707, y: -0.62382334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_5
+      rect:
+        serializedVersion: 2
+        x: 5849
+        y: 5073
+        width: 234
+        height: 244
+      alignment: 9
+      pivot: {x: 2.5398846, y: -0.62382334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_6
+      rect:
+        serializedVersion: 2
+        x: 7020
+        y: 5073
+        width: 273
+        height: 244
+      alignment: 9
+      pivot: {x: 2.1802688, y: -0.6168853}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_7
+      rect:
+        serializedVersion: 2
+        x: 8191
+        y: 5073
+        width: 312
+        height: 244
+      alignment: 9
+      pivot: {x: 1.9051325, y: -0.62382334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4414
+        width: 339
+        height: 244
+      alignment: 9
+      pivot: {x: 1.7313557, y: -0.6203333}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 4414
+        width: 385
+        height: 244
+      alignment: 9
+      pivot: {x: 1.5440164, y: -0.6187664}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 4414
+        width: 425
+        height: 244
+      alignment: 9
+      pivot: {x: 1.40093, y: -0.62295884}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_19
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 4414
+        width: 464
+        height: 244
+      alignment: 9
+      pivot: {x: 1.2843196, y: -0.62382334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_20
+      rect:
+        serializedVersion: 2
+        x: 4677
+        y: 4414
+        width: 503
+        height: 244
+      alignment: 9
+      pivot: {x: 1.1797603, y: -0.62382334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_21
+      rect:
+        serializedVersion: 2
+        x: 5849
+        y: 4414
+        width: 541
+        height: 244
+      alignment: 9
+      pivot: {x: 1.1007259, y: -0.62382334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_22
+      rect:
+        serializedVersion: 2
+        x: 7020
+        y: 4414
+        width: 580
+        height: 244
+      alignment: 9
+      pivot: {x: 1.0253115, y: -0.62382334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_23
+      rect:
+        serializedVersion: 2
+        x: 8191
+        y: 4411
+        width: 620
+        height: 244
+      alignment: 9
+      pivot: {x: 0.9559287, y: -0.60994935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3755
+        width: 651
+        height: 244
+      alignment: 9
+      pivot: {x: 0.9057231, y: -0.63547206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 3755
+        width: 697
+        height: 244
+      alignment: 9
+      pivot: {x: 0.85509694, y: -0.6203323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_34
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 3755
+        width: 732
+        height: 244
+      alignment: 9
+      pivot: {x: 0.8128852, y: -0.6279027}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_35
+      rect:
+        serializedVersion: 2
+        x: 3506
+        y: 3755
+        width: 776
+        height: 244
+      alignment: 9
+      pivot: {x: 0.76896244, y: -0.6279027}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_36
+      rect:
+        serializedVersion: 2
+        x: 4677
+        y: 3755
+        width: 810
+        height: 244
+      alignment: 9
+      pivot: {x: 0.7325895, y: -0.6279027}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_37
+      rect:
+        serializedVersion: 2
+        x: 5849
+        y: 3751
+        width: 849
+        height: 243
+      alignment: 9
+      pivot: {x: 0.702325, y: -0.60974073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_38
+      rect:
+        serializedVersion: 2
+        x: 7020
+        y: 3751
+        width: 888
+        height: 243
+      alignment: 9
+      pivot: {x: 0.67055917, y: -0.60974073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_39
+      rect:
+        serializedVersion: 2
+        x: 8191
+        y: 3751
+        width: 927
+        height: 243
+      alignment: 9
+      pivot: {x: 0.64146674, y: -0.60974073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3093
+        width: 959
+        height: 243
+      alignment: 9
+      pivot: {x: 0.6137304, y: -0.6080689}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 3092
+        width: 1005
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5932638, y: -0.6035276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_50
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 3092
+        width: 1044
+        height: 244
+      alignment: 9
+      pivot: {x: 0.57182366, y: -0.5965426}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_51
+      rect:
+        serializedVersion: 2
+        x: 3506
+        y: 3092
+        width: 1083
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5503543, y: -0.6035276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_52
+      rect:
+        serializedVersion: 2
+        x: 4677
+        y: 3092
+        width: 1122
+        height: 244
+      alignment: 9
+      pivot: {x: 0.53189623, y: -0.6035276}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_53
+      rect:
+        serializedVersion: 2
+        x: 5849
+        y: 3092
+        width: 1161
+        height: 244
+      alignment: 9
+      pivot: {x: 0.51293164, y: -0.6038768}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_54
+      rect:
+        serializedVersion: 2
+        x: 7020
+        y: 3106
+        width: 1175
+        height: 220
+      alignment: 9
+      pivot: {x: 0.50744486, y: -0.7316251}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_63
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 2433
+        width: 1156
+        height: 244
+      alignment: 9
+      pivot: {x: 0.4911547, y: -0.61051166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 2433
+        width: 1118
+        height: 244
+      alignment: 9
+      pivot: {x: 0.4740867, y: -0.61051166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_65
+      rect:
+        serializedVersion: 2
+        x: 2442
+        y: 2435
+        width: 1079
+        height: 244
+      alignment: 9
+      pivot: {x: 0.45419705, y: -0.61051166}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_66
+      rect:
+        serializedVersion: 2
+        x: 3653
+        y: 2433
+        width: 1039
+        height: 244
+      alignment: 9
+      pivot: {x: 0.4302148, y: -0.6046573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_67
+      rect:
+        serializedVersion: 2
+        x: 4859
+        y: 2433
+        width: 1004
+        height: 244
+      alignment: 9
+      pivot: {x: 0.4120826, y: -0.6046573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_68
+      rect:
+        serializedVersion: 2
+        x: 6068
+        y: 2433
+        width: 966
+        height: 244
+      alignment: 9
+      pivot: {x: 0.3890434, y: -0.5981976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_69
+      rect:
+        serializedVersion: 2
+        x: 7279
+        y: 2433
+        width: 926
+        height: 244
+      alignment: 9
+      pivot: {x: 0.3621217, y: -0.6046573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_70
+      rect:
+        serializedVersion: 2
+        x: 8489
+        y: 2433
+        width: 888
+        height: 244
+      alignment: 9
+      pivot: {x: 0.3331464, y: -0.5981976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_79
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 1774
+        width: 849
+        height: 244
+      alignment: 9
+      pivot: {x: 0.3032024, y: -0.60465676}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_80
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1774
+        width: 810
+        height: 244
+      alignment: 9
+      pivot: {x: 0.2703752, y: -0.59173733}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_81
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1774
+        width: 771
+        height: 244
+      alignment: 9
+      pivot: {x: 0.2321828, y: -0.6046573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_82
+      rect:
+        serializedVersion: 2
+        x: 3956
+        y: 1774
+        width: 736
+        height: 244
+      alignment: 9
+      pivot: {x: 0.19374748, y: -0.6046573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_83
+      rect:
+        serializedVersion: 2
+        x: 5166
+        y: 1774
+        width: 697
+        height: 244
+      alignment: 9
+      pivot: {x: 0.15173568, y: -0.6111175}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_84
+      rect:
+        serializedVersion: 2
+        x: 6376
+        y: 1774
+        width: 658
+        height: 244
+      alignment: 9
+      pivot: {x: 0.10234761, y: -0.5981976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_85
+      rect:
+        serializedVersion: 2
+        x: 7586
+        y: 1774
+        width: 619
+        height: 244
+      alignment: 9
+      pivot: {x: 0.046736956, y: -0.6046573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_86
+      rect:
+        serializedVersion: 2
+        x: 8796
+        y: 1774
+        width: 581
+        height: 244
+      alignment: 9
+      pivot: {x: -0.01275078, y: -0.6046573}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_95
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 1115
+        width: 541
+        height: 244
+      alignment: 9
+      pivot: {x: -0.09189018, y: -0.5986821}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_96
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 1115
+        width: 503
+        height: 244
+      alignment: 9
+      pivot: {x: -0.17532817, y: -0.59342253}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_97
+      rect:
+        serializedVersion: 2
+        x: 3057
+        y: 1115
+        width: 464
+        height: 244
+      alignment: 9
+      pivot: {x: -0.27607885, y: -0.5993975}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_98
+      rect:
+        serializedVersion: 2
+        x: 4267
+        y: 1115
+        width: 425
+        height: 244
+      alignment: 9
+      pivot: {x: -0.39188993, y: -0.6113476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_99
+      rect:
+        serializedVersion: 2
+        x: 5473
+        y: 1115
+        width: 390
+        height: 244
+      alignment: 9
+      pivot: {x: -0.5167894, y: -0.6053724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_100
+      rect:
+        serializedVersion: 2
+        x: 6683
+        y: 1115
+        width: 351
+        height: 244
+      alignment: 9
+      pivot: {x: -0.6837621, y: -0.6053724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_101
+      rect:
+        serializedVersion: 2
+        x: 7893
+        y: 1115
+        width: 312
+        height: 244
+      alignment: 9
+      pivot: {x: -0.892478, y: -0.6053724}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_102
+      rect:
+        serializedVersion: 2
+        x: 9103
+        y: 1115
+        width: 274
+        height: 244
+      alignment: 9
+      pivot: {x: -1.160085, y: -0.6113469}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_111
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 457
+        width: 234
+        height: 243
+      alignment: 9
+      pivot: {x: -1.5236814, y: -0.6020558}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_112
+      rect:
+        serializedVersion: 2
+        x: 2154
+        y: 457
+        width: 196
+        height: 243
+      alignment: 9
+      pivot: {x: -2.0210483, y: -0.5998967}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_113
+      rect:
+        serializedVersion: 2
+        x: 3365
+        y: 457
+        width: 156
+        height: 243
+      alignment: 9
+      pivot: {x: -2.797368, y: -0.5943935}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_114
+      rect:
+        serializedVersion: 2
+        x: 4570
+        y: 457
+        width: 122
+        height: 243
+      alignment: 9
+      pivot: {x: -3.8371382, y: -0.60883236}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_115
+      rect:
+        serializedVersion: 2
+        x: 5780
+        y: 457
+        width: 83
+        height: 243
+      alignment: 9
+      pivot: {x: -6.129612, y: -0.6026673}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Win Game sheet_56
+      rect:
+        serializedVersion: 2
+        x: 8197
+        y: 3102
+        width: 1173
+        height: 226
+      alignment: 9
+      pivot: {x: 0.5030537, y: -0.6980369}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
