@@ -9,6 +9,7 @@ public class Confirmation : MonoBehaviour {
     public string player2Input;
     public PlayerVisualsData player1;
     public PlayerVisualsData player2;
+    public string[] scenes;
 
 
     private bool player1Confirm = false;
@@ -29,7 +30,7 @@ public class Confirmation : MonoBehaviour {
             PlayerPrefs.DeleteAll();
             SaveData(player1);
             SaveData(player2);
-            SceneManager.LoadScene("Round");
+            LoadRandomScene();
         }
     }
 
@@ -39,5 +40,10 @@ public class Confirmation : MonoBehaviour {
         PlayerPrefs.SetInt("Player" + player.name[6] + "MoustacheColor", player.GetMoustacheColor());
         PlayerPrefs.SetInt("Player" + player.name[6] + "SkinColor", player.GetSkinColor());
         PlayerPrefs.SetInt("Player" + player.name[6] + "Moustache", player.GetMoustache());
+    }
+
+    void LoadRandomScene()
+    {
+        SceneManager.LoadScene(scenes[Random.Range(0, scenes.Length)]);
     }
 }
