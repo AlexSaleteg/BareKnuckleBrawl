@@ -22,6 +22,7 @@ public class HeadCollision : MonoBehaviour
     public int heavyguardlessDmg;
     public int heavyguardDmg;
     public int chargeDmg;
+    private float comboTimer = 0.0f;
 
     [HideInInspector]
     public float leastAountofTime;
@@ -35,9 +36,6 @@ public class HeadCollision : MonoBehaviour
         damage = GameObject.Find(player).GetComponent<TakeDamage>();
         roundEnd = GameObject.Find("RoundTimer").GetComponent<TimerScript>();
         leastAountofTime = 0.001f;
-        lightcomboDmg = 10;
-        lightguardlessDmg = 5;
-        lightguardDmg = 2;
 
     }
 
@@ -45,6 +43,18 @@ public class HeadCollision : MonoBehaviour
     //{
     //    time.timeLeft -= Time.deltaTime;
     //}
+    void Update()
+    {
+        comboTimer -= Time.deltaTime;
+        if (player_2.newState == 2 && time.slapIndicatorTimer > 0)
+        {
+            player_1.newState = 7;
+        }
+        else if (player_1.newState == 2 && time.slapIndicatorTimer > 0)
+        {
+            player_2.newState = 7;
+        }
+    }
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -60,13 +70,14 @@ public class HeadCollision : MonoBehaviour
             {
                 damageExp = 0;
             }
-            if (time.timeLeft >= 0.1f)
+            if (comboTimer >= 0.1f)
             {
                 damage.InflictDamage((int)(lightcomboDmg * Mathf.Pow(damageMult, damageExp)));
                 time.timeLeft = +0.5f;
-                animator.Play("Stagger");
+                //animator.Play("Stagger");
+                //animator.Play("HitWhGuard");
             }
-            else if (time.newState == 1 && player_1.newState != 4 && player_2.newState != 4 && player_1.newState != 3 && player_2.newState != 3)
+            else if (time.newState == 1)
             {
                 damage.InflictDamage(lightguardDmg);
                 animator.Play("HitWhGuard");
@@ -75,6 +86,11 @@ public class HeadCollision : MonoBehaviour
             {
                 damage.InflictDamage(slapDmg);
                 animator.Play("Stunned");
+            }
+            else if (time.newState == 2)
+            {
+                damage.InflictDamage((int)(lightguardlessDmg * Mathf.Pow(damageMult, damageExp)));
+                time.timeLeft = +0.5f;
             }
             else
             {
@@ -97,14 +113,15 @@ public class HeadCollision : MonoBehaviour
                 damageExp = 0;
             }
 
-            if (time.timeLeft >= 0.1f)
+            if (comboTimer >= 0.1f)
             {
                 damage.InflictDamage((int)(heavycomboDmg * Mathf.Pow(damageMult, damageExp)));
                 time.timeLeft = +0.5f;
-                animator.Play("Stagger");
+                //animator.Play("Stagger");
+                //animator.Play("HitWhGuard");
             }
 
-            else if (time.newState == 1 && player_1.newState != 4 && player_2.newState != 4 && player_1.newState != 3 && player_2.newState != 3)
+            else if (time.newState == 1)
             {
                 damage.InflictDamage(heavyguardDmg);
                 animator.Play("HitWhGuard");
@@ -116,11 +133,18 @@ public class HeadCollision : MonoBehaviour
                 animator.Play("Stunned");
             }
 
+            else if (time.newState == 2)
+            {
+                damage.InflictDamage((int)(lightguardlessDmg * Mathf.Pow(damageMult, damageExp)));
+                time.timeLeft = +0.5f;
+            }
+
             else
             {
                 damage.InflictDamage((int)(heavyguardlessDmg * Mathf.Pow(damageMult, damageExp)));
                 time.timeLeft = +0.5f;
                 animator.Play("Stagger");
+
             }
 
             timeStamp = Time.time;
