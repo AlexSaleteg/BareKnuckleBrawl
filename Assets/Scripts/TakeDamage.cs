@@ -7,8 +7,6 @@ public class TakeDamage : MonoBehaviour
 {
     public int maxHealthInit;
     public int damageDiff;
-    //public Slider maxBar;
-    //public Slider bar;
     public AudioClip hitSound1;
     public AudioClip hitSound2;
     public AudioClip hitSound3;

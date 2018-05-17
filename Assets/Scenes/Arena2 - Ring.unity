@@ -1190,7 +1190,7 @@ GameObject:
   - component: {fileID: 457694714}
   - component: {fileID: 457694713}
   m_Layer: 0
-  m_Name: BKB_Ring_Concept
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2026,7 +2026,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b907432e32d435a4fb63ad2880c4db8a, type: 3}
+  m_audioClip: {fileID: 8300000, guid: ed6ebec51a60e474194bbf9248f921f1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.194
   m_Pitch: 1
@@ -2106,7 +2106,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a9d77511bf3b40041b21e99507db2ff2, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.281
   m_Pitch: 1
