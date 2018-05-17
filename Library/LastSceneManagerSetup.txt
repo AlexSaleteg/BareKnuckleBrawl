@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Arena2 - Ring.unity
+=======
+- path: Assets/Scenes/Workspace (Alex).unity
+>>>>>>> develop
   isLoaded: 1
   isActive: 1
