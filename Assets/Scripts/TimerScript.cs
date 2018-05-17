@@ -85,7 +85,6 @@ public class TimerScript : MonoBehaviour
             win4.SetActive(true);
             canvas4.SetActive(true);
             //print("Player 2 wins the MATCH");
-            PlayerPrefs.DeleteAll();
            
         }
         if (Player_1_Win == 2)
@@ -93,7 +92,6 @@ public class TimerScript : MonoBehaviour
             win3.SetActive(true);
             canvas3.SetActive(true);
             //print("Player 1 wins the MATCH");
-            PlayerPrefs.DeleteAll();  
         }
         if (player2Wins >= 5)
         {

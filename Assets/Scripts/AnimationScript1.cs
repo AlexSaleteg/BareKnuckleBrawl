@@ -181,7 +181,5 @@ public class AnimationScript1 : MonoBehaviour
                 animator.SetInteger("AnimState", 0);
             }
         }
-        
-        Debug.Log(Input.GetAxis("Vertical2"));
     }
 }
