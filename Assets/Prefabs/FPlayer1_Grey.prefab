@@ -1825,16 +1825,16 @@ MonoBehaviour:
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 4757856932451942}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: -0.83766973, w: 0.5461771}
+      solverRotation: {x: 0, y: 0, z: -0.85404587, w: 0.5201977}
       defaultLocalRotation: {x: 0, y: 0, z: -0.9912064, w: 0.13232495}
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 4818825355387742}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: -0.42542234, w: 0.90499496}
+      solverRotation: {x: 0, y: 0, z: -0.44253144, w: 0.896753}
       defaultLocalRotation: {x: 0, y: 0, z: -0.011114013, w: 0.9999383}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -4.25, y: -1.04, z: 0}
+    targetPosition: {x: -1.3100001, y: -3.59, z: 0}
     flip: 1
 --- !u!114 &114085391739009690
 MonoBehaviour:
@@ -2086,7 +2086,7 @@ MonoBehaviour:
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 4155361593115382}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: 0.38038605, w: 0.9196771}
+      solverRotation: {x: 0, y: 0, z: 0.3926755, w: 0.9196771}
       defaultLocalRotation: {x: 0.00027081743, y: 0.004368932, z: 0.061867967, w: 0.99807477}
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 4281958224481144}
@@ -2096,7 +2096,7 @@ MonoBehaviour:
         w: 0.9984615}
     m_Weight: 0.457
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -6.4799995, y: 4.01, z: 0}
+    targetPosition: {x: -3.54, y: 1.4599999, z: 0}
     flip: 0
 --- !u!114 &114274527090500540
 MonoBehaviour:
@@ -2172,16 +2172,16 @@ MonoBehaviour:
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 4912919475161464}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: -0.2758637, w: 0.9611968}
+      solverRotation: {x: 0, y: 0, z: -0.03207059, w: 0.9994856}
       defaultLocalRotation: {x: 0, y: 0, z: -0.9968244, w: 0.079631515}
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 4265257464754862}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: 0.6503047, w: 0.75967354}
+      solverRotation: {x: 0, y: 0, z: 0.3805095, w: 0.92477703}
       defaultLocalRotation: {x: 0, y: 0, z: 0.573911, w: 0.8189177}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -2.8899999, y: 2.88, z: 0}
+    targetPosition: {x: 0.45700002, y: 0.875, z: 0}
     flip: 0
 --- !u!114 &114316023443290976
 MonoBehaviour:
@@ -2439,11 +2439,11 @@ MonoBehaviour:
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 4871164531265774}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: 0.74394506, w: 0.6682408}
+      solverRotation: {x: 0, y: 0, z: 0.77800876, w: 0.62825346}
       defaultLocalRotation: {x: 0, y: 0, z: -0.6301811, w: -0.7764483}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -4.48, y: 2.1100001, z: 0}
+    targetPosition: {x: -1.5400001, y: -0.44000003, z: 0}
     flip: 0
 --- !u!114 &114574051384979582
 MonoBehaviour:
@@ -2487,16 +2487,16 @@ MonoBehaviour:
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 4502348293670296}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: -0.9418302, w: 0.336089}
+      solverRotation: {x: 0, y: 0, z: -0.9592116, w: 0.28268918}
       defaultLocalRotation: {x: 0, y: 0, z: 0.9748503, w: 0.22286083}
     - m_Bone: {fileID: 0}
       m_BoneTransform: {fileID: 4071272092948762}
       solverPosition: {x: 0, y: 0, z: 0}
-      solverRotation: {x: 0, y: 0, z: -0.4286996, w: 0.9034471}
+      solverRotation: {x: 0, y: 0, z: -0.36256763, w: 0.9319575}
       defaultLocalRotation: {x: 0, y: 0, z: 0.0496359, w: 0.99876744}
     m_Weight: 1
     m_RestoreDefaultPose: 1
-    targetPosition: {x: -5.704, y: -1.1679997, z: 0}
+    targetPosition: {x: -2.764, y: -3.7179997, z: 0}
     flip: 1
 --- !u!114 &114630781488038830
 MonoBehaviour:
@@ -2688,14 +2688,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c2b334c10690e04ca568d4b23d65845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightcomboDmg: 0
-  lightguardlessDmg: 0
-  lightguardDmg: 0
-  slapDmg: 0
-  heavycomboDmg: 0
-  heavyguardlessDmg: 0
-  heavyguardDmg: 0
-  chargeDmg: 0
+  traits: {fileID: 11400000, guid: 4affeb91f9399414585c6e628dfd5162, type: 2}
   leastAountofTime: 0
 --- !u!114 &114865132582802674
 MonoBehaviour:
