@@ -52,3 +52,6 @@ TagManager:
   - name: Character
     uniqueID: 3225781259
     locked: 0
+  - name: slap indicator
+    uniqueID: 3460058329
+    locked: 0
