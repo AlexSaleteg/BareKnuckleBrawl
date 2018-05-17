@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/CharacterSelect.unity
+=======
+- path: Assets/Scenes/Arena1 - Bar.unity
+>>>>>>> develop
   isLoaded: 1
   isActive: 1
