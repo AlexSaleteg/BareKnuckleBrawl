@@ -17,6 +17,7 @@ public class HeadCollision : MonoBehaviour
     private Animator animator;
     private AnimationScript1 time;
     private TimerScript roundEnd;
+    private float comboTimer;
 
 
     [HideInInspector]
@@ -42,8 +43,9 @@ public class HeadCollision : MonoBehaviour
         {
             player_1.newState = 7;
         }
-        {
+
         else if (player_1.newState == 2 && time.slapIndicatorTimer > 0)
+        {
             player_2.newState = 7;
         }
     }
@@ -82,7 +84,7 @@ public class HeadCollision : MonoBehaviour
             }
             else if (time.newState == 2)
             {
-                damage.InflictDamage((int)(lightguardlessDmg * Mathf.Pow(damageMult, damageExp)));
+                damage.InflictDamage((int)(skill.lightguardlessDmg * Mathf.Pow(damageMult, damageExp)));
                 time.timeLeft = +0.5f;
             }
             else
@@ -128,7 +130,7 @@ public class HeadCollision : MonoBehaviour
 
             else if (time.newState == 2)
             {
-                damage.InflictDamage((int)(lightguardlessDmg * Mathf.Pow(damageMult, damageExp)));
+                damage.InflictDamage((int)(skill.lightguardlessDmg * Mathf.Pow(damageMult, damageExp)));
                 time.timeLeft = +0.5f;
             }
 

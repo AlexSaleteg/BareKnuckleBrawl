@@ -2101,11 +2101,15 @@ MonoBehaviour:
   heavyAttack: right ctrl
   Defensive: up
   dodge: right
+  player: 
+  slapIndicator: {fileID: 0}
   isConsole1: 0
   isConsole2: 0
   isKeyboard: 1
+  isTestKeyboard: 0
   timeLeft: 0
   chargeTimer: 0
+  slapIndicatorTimer: 0
   newState: 0
 --- !u!114 &114264043376012782
 MonoBehaviour:

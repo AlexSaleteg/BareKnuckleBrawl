@@ -2393,14 +2393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c2b334c10690e04ca568d4b23d65845, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lightcomboDmg: 0
-  lightguardlessDmg: 0
-  lightguardDmg: 0
-  slapDmg: 0
-  heavycomboDmg: 0
-  heavyguardlessDmg: 0
-  heavyguardDmg: 0
-  chargeDmg: 0
+  traits: {fileID: 0}
   leastAountofTime: 0
 --- !u!114 &114380267950767346
 MonoBehaviour:
@@ -2840,11 +2833,15 @@ MonoBehaviour:
   heavyAttack: space
   Defensive: w
   dodge: a
+  player: 
+  slapIndicator: {fileID: 0}
   isConsole1: 0
   isConsole2: 0
   isKeyboard: 1
+  isTestKeyboard: 0
   timeLeft: 0
   chargeTimer: 0
+  slapIndicatorTimer: 0
   newState: 0
 --- !u!114 &114846484926624556
 MonoBehaviour:
