@@ -82,6 +82,7 @@ public class TimerScript : MonoBehaviour
         }
         if (Player_2_Win == 2)
         {
+          
             win4.SetActive(true);
             canvas4.SetActive(true);
             //print("Player 2 wins the MATCH");
@@ -89,6 +90,7 @@ public class TimerScript : MonoBehaviour
         }
         if (Player_1_Win == 2)
         {
+           
             win3.SetActive(true);
             canvas3.SetActive(true);
             //print("Player 1 wins the MATCH");
@@ -120,13 +122,13 @@ public class TimerScript : MonoBehaviour
         {
             Player_2_Win = 0;
             Player_1_Win = 0;
-            SceneManager.LoadScene(scene);
+            SceneManager.LoadScene("TitleScreen");
         }
         if (Player_2_Win == 2 && PauseTimer >= 9)
         {
             Player_2_Win = 0;
             Player_1_Win = 0;
-            SceneManager.LoadScene(scene);
+            SceneManager.LoadScene("TitleScreen");
         }
         if(Player_1_Win == 1)
         {

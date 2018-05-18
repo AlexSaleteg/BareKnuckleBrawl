@@ -18,7 +18,7 @@ public class HeadCollision : MonoBehaviour
     private AnimationScript1 time;
     private TimerScript roundEnd;
     private float comboTimer;
-
+    private Animator hit;
 
     [HideInInspector]
     public float leastAountofTime;
@@ -32,6 +32,7 @@ public class HeadCollision : MonoBehaviour
         animator = GameObject.Find(player).GetComponent<Animator>();
         damage = GameObject.Find(player).GetComponent<TakeDamage>();
         roundEnd = GameObject.Find("RoundTimer").GetComponent<TimerScript>();
+        hit = GameObject.Find("hit").GetComponent<Animator>();
         leastAountofTime = 0.001f;
 
     }
@@ -44,7 +45,7 @@ public class HeadCollision : MonoBehaviour
             player_1.newState = 7;
         }
 
-        else if (player_1.newState == 2 && time.slapIndicatorTimer > 0)
+        if (player_1.newState == 2 && time.slapIndicatorTimer > 0)
         {
             player_2.newState = 7;
         }
@@ -53,6 +54,7 @@ public class HeadCollision : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        hit.enabled = true;
         if (other.gameObject.tag == "LightFist" && roundEnd.PauseTimer <= leastAountofTime)
         {
             if (Time.time <= timeStamp + 2)
@@ -68,7 +70,7 @@ public class HeadCollision : MonoBehaviour
             if (comboTimer >= 0.1f)
             {
                 damage.InflictDamage((int)(skill.lightcomboDmg * Mathf.Pow(damageMult, damageExp)));
-                time.timeLeft = +0.5f;
+                comboTimer = +0.5f;
                 //animator.Play("Stagger");
                 //animator.Play("HitWhGuard");
             }
@@ -77,7 +79,7 @@ public class HeadCollision : MonoBehaviour
                 damage.InflictDamage(skill.lightguardDmg);
                 animator.Play("HitWhGuard");
             }
-            else if (player_1.newState == 3 || player_2.newState == 3)
+            else if (player_1.newState == 8 && player_2.newState !=0 || player_2.newState == 8 && player_1.newState !=0)
             {
                 damage.InflictDamage(skill.slapDmg);
                 animator.Play("Stunned");
@@ -87,7 +89,7 @@ public class HeadCollision : MonoBehaviour
                 damage.InflictDamage((int)(skill.lightguardlessDmg * Mathf.Pow(damageMult, damageExp)));
                 time.timeLeft = +0.5f;
             }
-            else
+            else if(time.newState == 0)
             {
                 damage.InflictDamage((int)(skill.lightguardlessDmg * Mathf.Pow(damageMult, damageExp)));
                 time.timeLeft = +0.5f;
@@ -111,18 +113,18 @@ public class HeadCollision : MonoBehaviour
             if (comboTimer >= 0.1f)
             {
                 damage.InflictDamage((int)(skill.heavycomboDmg * Mathf.Pow(damageMult, damageExp)));
-                time.timeLeft = +0.5f;
+                comboTimer = +0.5f;
                 //animator.Play("Stagger");
                 //animator.Play("HitWhGuard");
             }
 
-            else if (time.newState == 1)
+            else if (player_1.newState == 1 || player_2.newState == 1)
             {
                 damage.InflictDamage(skill.heavyguardDmg);
                 animator.Play("HitWhGuard");
             }
 
-            else if (player_1.newState == 4 || player_2.newState == 4)
+            if (player_1.newState == 9 || player_2.newState == 9)
             {
                 damage.InflictDamage(skill.chargeDmg);
                 animator.Play("Stunned");
@@ -130,11 +132,11 @@ public class HeadCollision : MonoBehaviour
 
             else if (time.newState == 2)
             {
-                damage.InflictDamage((int)(skill.lightguardlessDmg * Mathf.Pow(damageMult, damageExp)));
+                damage.InflictDamage((int)(skill.heavyguardlessDmg * Mathf.Pow(damageMult, damageExp)));
                 time.timeLeft = +0.5f;
             }
 
-            else
+            else if (time.newState == 0)
             {
                 damage.InflictDamage((int)(skill.heavyguardlessDmg * Mathf.Pow(damageMult, damageExp)));
                 time.timeLeft = +0.5f;
