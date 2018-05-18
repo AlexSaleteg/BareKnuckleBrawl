@@ -5,7 +5,7 @@ using UnityEngine;
 public class Zehando : MonoBehaviour
 {
 
-    private float timeLeft;
+    public float timeLeft;
     public string player;
     private Animator animator;
     private AnimationScript1 state;
@@ -23,14 +23,19 @@ public class Zehando : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timeLeft -= Time.deltaTime;
-        if (state.newState == 3)
+        
+        if (state.newState == 8)
         {
             animator.enabled = true;
-            timeLeft = 0.4f;
         }
-        else if (timeLeft < 0.1)
+        
+        else if(animator.enabled == true)
         {
+            timeLeft -= Time.deltaTime;
+        }
+        if (timeLeft < -0.14)
+        {
+            timeLeft = 0;
             animator.enabled = false;
         }
     }

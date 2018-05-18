@@ -24,6 +24,7 @@ public class AnimationScript1 : MonoBehaviour
     public int newState = 0;
     private Animator animator;
     private MicrophoneInput mic;
+    private Animator hit;
 
     void Start()
     {
@@ -49,6 +50,7 @@ public class AnimationScript1 : MonoBehaviour
                 animator.SetInteger("AnimState", 2);
                 chargeTimer += Time.deltaTime;
                 newState = 2;
+                timeLeft = 1f;
             }
             else if (Input.GetKeyUp(dodge) && Input.GetKey(lightAttack) && Input.GetKey(heavyAttack))
             {
@@ -58,20 +60,32 @@ public class AnimationScript1 : MonoBehaviour
             }
             if (Input.GetKeyUp(lightAttack) && newState == 2)
             {
-                animator.SetTrigger("Zehando");
-                animator.Play("SlappyBoi");
+                //animator.SetTrigger("Zehando");
+                
                 newState = 3;
+                
+            }
+            else if (Input.GetKeyDown(Lfeint) && newState == 3 || MicrophoneInput.MicLoudness > 0.01 && newState == 3)
+            {
+                newState = 8;
+                animator.Play("SlappyBoi");
                 chargeTimer = 0;
             }
-            else if (Input.GetKeyUp(heavyAttack) && newState == 2)
+            if (Input.GetKeyUp(heavyAttack) && newState == 2)
             {
-                animator.SetInteger("AnimState", 9);
+                
                 timeLeft = +2;
                 newState = 4;
+               
+            }
+            else if(Input.GetKeyDown(Lfeint) && newState == 4 || MicrophoneInput.MicLoudness > 0.01 && newState == 4)
+            {
+                newState = 9;
+                animator.SetInteger("AnimState", 9);
                 chargeTimer = 0;
             }
 
-            if (Input.GetKeyUp(lightAttack) && newState == 1)
+            if (Input.GetKeyUp(lightAttack) && newState == 1 || MicrophoneInput.MicLoudness > 0.01 && newState == 1)
             {
                 animator.SetInteger("AnimState", 3);
                 slapIndicatorTimer = 0.5f;
@@ -83,7 +97,7 @@ public class AnimationScript1 : MonoBehaviour
                 animator.SetInteger("AnimState", 11);
                 timeLeft = 0.5f;
             }
-            if (Input.GetKeyUp(heavyAttack) && newState == 1)
+            if (Input.GetKeyUp(heavyAttack) && newState == 1 || MicrophoneInput.MicLoudness > 0.01 && newState == 1)
             {
                 newState = 6;
                 slapIndicatorTimer = 0.5f;
