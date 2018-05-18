@@ -11,7 +11,10 @@ public class CustomizationController : MonoBehaviour {
     public string choose;
     public string next;
     public string randomize;
+    public AudioClip swoosh;
+    public AudioClip click;
 
+    private AudioSource audiosource;
     private MeshCustomization player;
     private int skinColor;
     private int moustache;
@@ -20,6 +23,7 @@ public class CustomizationController : MonoBehaviour {
 
     void Start()
     {
+        audiosource = GameObject.Find("SoundManager").GetComponent<AudioSource>();
         skinColor = PlayerPrefs.GetInt("Player" + playerM.gameObject.name[6] + "SkinColor", 0);
         moustache = PlayerPrefs.GetInt("Player" + playerM.gameObject.name[6] + "Moustache", 1);
         moustacheColor = PlayerPrefs.GetInt("Player" + playerM.gameObject.name[6] + "MoustacheColor", 0);
@@ -42,6 +46,7 @@ public class CustomizationController : MonoBehaviour {
     {
         if (Input.GetKeyDown(randomize))
         {
+            audiosource.PlayOneShot(swoosh, 0.7f);
             player.gameObject.SetActive(false);
             if (Random.Range(0, 2) == 0)
             {
@@ -62,6 +67,7 @@ public class CustomizationController : MonoBehaviour {
         else if (Input.GetKeyDown(next))
         {
             phase++;
+            audiosource.PlayOneShot(click, 0.5f);
             if (phase > 3)
             {
                 phase = 0;
@@ -69,6 +75,7 @@ public class CustomizationController : MonoBehaviour {
         }
         else if (Input.GetKeyDown(choose))
         {
+            audiosource.PlayOneShot(click, 0.5f);
             if (phase == 0)
             {
                 player.gameObject.SetActive(false);
