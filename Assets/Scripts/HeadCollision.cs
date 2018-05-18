@@ -18,7 +18,7 @@ public class HeadCollision : MonoBehaviour
     private AnimationScript1 time;
     private TimerScript roundEnd;
     private float comboTimer;
-    private Animator hit;
+   // private Animator hit;
 
     [HideInInspector]
     public float leastAountofTime;
@@ -32,7 +32,7 @@ public class HeadCollision : MonoBehaviour
         animator = GameObject.Find(player).GetComponent<Animator>();
         damage = GameObject.Find(player).GetComponent<TakeDamage>();
         roundEnd = GameObject.Find("RoundTimer").GetComponent<TimerScript>();
-        hit = GameObject.Find("hit").GetComponent<Animator>();
+       // hit = GameObject.Find("hit").GetComponent<Animator>();
         leastAountofTime = 0.001f;
 
     }
@@ -54,7 +54,7 @@ public class HeadCollision : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        hit.enabled = true;
+       // hit.enabled = true;
         if (other.gameObject.tag == "LightFist" && roundEnd.PauseTimer <= leastAountofTime)
         {
             if (Time.time <= timeStamp + 2)
