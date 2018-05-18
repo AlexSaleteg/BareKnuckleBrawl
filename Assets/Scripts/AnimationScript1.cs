@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AnimationScript1 : MonoBehaviour
 {
-    private TimerScript animationhinder;
+    
     public string Lfeint;
     public string Rfeint;
     public string lightAttack;
@@ -20,13 +20,19 @@ public class AnimationScript1 : MonoBehaviour
     public float timeLeft = 0.0f;
     public float chargeTimer = 0.0f;
     public float slapIndicatorTimer = 0.0f;
-    float leastAmount = 0.001f;
     public int newState = 0;
+
+    private TimerScript animationhinder;
+    private float leastAmount = 0.001f;
     private Animator animator;
     private MicrophoneInput mic;
+    private AudioSource audiosource;
+    private AudioClip slapSound;
+
 
     void Start()
     {
+        audiosource = GameObject.Find("Sound Manager").GetComponents<AudioSource>()[1];
         player = transform.root.name;
         animator = GetComponent<Animator>();
         animationhinder = GameObject.Find("RoundTimer").GetComponent<TimerScript>();
@@ -60,6 +66,7 @@ public class AnimationScript1 : MonoBehaviour
             {
                 animator.SetTrigger("Zehando");
                 animator.Play("SlappyBoi");
+                audiosource.PlayOneShot(slapSound);
                 newState = 3;
                 chargeTimer = 0;
             }

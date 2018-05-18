@@ -69,8 +69,6 @@ public class HeadCollision : MonoBehaviour
             {
                 damage.InflictDamage((int)(skill.lightcomboDmg * Mathf.Pow(damageMult, damageExp)));
                 time.timeLeft = +0.5f;
-                //animator.Play("Stagger");
-                //animator.Play("HitWhGuard");
             }
             else if (time.newState == 1)
             {
