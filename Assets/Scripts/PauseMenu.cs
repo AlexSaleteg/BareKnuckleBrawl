@@ -27,14 +27,14 @@ public class PauseMenu : MonoBehaviour {
         {
             if (Input.GetKeyDown(player1.lightAttack) || Input.GetKeyDown(player2.lightAttack))
             {
-                PlayerPrefs.DeleteAll();
+                PlayerPrefs.DeleteKey("Player1Health");
+                PlayerPrefs.DeleteKey("Player2Health");
                 Time.timeScale = 1;
                 SceneManager.LoadScene(scene);
             }
 
             if (Input.GetKeyDown(player1.heavyAttack) || Input.GetKeyDown(player2.heavyAttack))
             {
-                PlayerPrefs.DeleteAll();
                 Time.timeScale = 1;
                 SceneManager.LoadScene("TitleScreen");
             }
