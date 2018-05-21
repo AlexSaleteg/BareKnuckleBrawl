@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 9627409bead8a80468e4180ad41c87c0
+timeCreated: 1526902982
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BKB_VFX_ComboHit_0
+    21300002: BKB_VFX_ComboHit_1
+    21300004: BKB_VFX_ComboHit_2
+    21300006: BKB_VFX_ComboHit_3
+    21300008: BKB_VFX_ComboHit_4
+    21300010: BKB_VFX_ComboHit_5
+    21300012: BKB_VFX_ComboHit_6
+    21300014: BKB_VFX_ComboHit_7
+    21300016: BKB_VFX_ComboHit_8
+    21300018: BKB_VFX_ComboHit_10
+    21300020: BKB_VFX_ComboHit_11
+    21300022: BKB_VFX_ComboHit_12
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BKB_VFX_ComboHit_0
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 2524
+        width: 113
+        height: 117
+      alignment: 9
+      pivot: {x: 0.55950224, y: 0.51929754}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_VFX_ComboHit_1
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 2493
+        width: 171
+        height: 179
+      alignment: 9
+      pivot: {x: 0.5229007, y: 0.5115919}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_VFX_ComboHit_2
+      rect:
+        serializedVersion: 2
+        x: 4375
+        y: 2449
+        width: 187
+        height: 235
+      alignment: 9
+      pivot: {x: 0.5257353, y: 0.5711675}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_VFX_ComboHit_3
+      rect:
+        serializedVersion: 2
+        x: 6292
+        y: 2448
+        width: 195
+        height: 244
+      alignment: 9
+      pivot: {x: 0.5196489, y: 0.5667514}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_VFX_ComboHit_4
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1351
+        width: 247
+        height: 279
+      alignment: 9
+      pivot: {x: 0.51819265, y: 0.5590553}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_VFX_ComboHit_5
+      rect:
+        serializedVersion: 2
+        x: 2420
+        y: 1363
+        width: 251
+        height: 269
+      alignment: 9
+      pivot: {x: 0.54103315, y: 0.5291394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_VFX_ComboHit_6
+      rect:
+        serializedVersion: 2
+        x: 4353
+        y: 1364
+        width: 250
+        height: 283
+      alignment: 9
+      pivot: {x: 0.4904043, y: 0.5014791}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_VFX_ComboHit_7
+      rect:
+        serializedVersion: 2
+        x: 6271
+        y: 1360
+        width: 272
+        height: 301
+      alignment: 9
+      pivot: {x: 0.45696482, y: 0.48645627}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_VFX_ComboHit_8
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 271
+        width: 298
+        height: 301
+      alignment: 9
+      pivot: {x: 0.49537957, y: 0.5137232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_VFX_ComboHit_10
+      rect:
+        serializedVersion: 2
+        x: 2425
+        y: 271
+        width: 283
+        height: 307
+      alignment: 9
+      pivot: {x: 0.45823815, y: 0.49544114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_VFX_ComboHit_11
+      rect:
+        serializedVersion: 2
+        x: 4341
+        y: 276
+        width: 266
+        height: 296
+      alignment: 9
+      pivot: {x: 0.49254546, y: 0.49330088}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_VFX_ComboHit_12
+      rect:
+        serializedVersion: 2
+        x: 6258
+        y: 266
+        width: 280
+        height: 309
+      alignment: 9
+      pivot: {x: 0.48186907, y: 0.5056806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

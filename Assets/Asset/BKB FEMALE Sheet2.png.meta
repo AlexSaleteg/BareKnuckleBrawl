@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: bd79d28c2bbc98744b044751d011844c
+timeCreated: 1526906618
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BKB FEMALE Sheet2_0
+    21300002: BKB FEMALE Sheet2_1
+    21300004: BKB FEMALE Sheet2_2
+    21300006: BKB FEMALE Sheet2_3
+    21300008: BKB FEMALE Sheet2_4
+    21300010: BKB FEMALE Sheet2_5
+    21300012: BKB FEMALE Sheet2_6
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BKB FEMALE Sheet2_0
+      rect:
+        serializedVersion: 2
+        x: 65.882286
+        y: 501.77124
+        width: 192.20575
+        height: 152.04651
+      alignment: 9
+      pivot: {x: 0.526091, y: 0.44544765}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB FEMALE Sheet2_1
+      rect:
+        serializedVersion: 2
+        x: 356.79758
+        y: 550.9779
+        width: 141.66931
+        height: 124.55524
+      alignment: 9
+      pivot: {x: 0.47789052, y: 0.43372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB FEMALE Sheet2_2
+      rect:
+        serializedVersion: 2
+        x: 1229.9337
+        y: 685.9779
+        width: 143.06628
+        height: 125.21344
+      alignment: 9
+      pivot: {x: 0.56313956, y: 0.42744687}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB FEMALE Sheet2_3
+      rect:
+        serializedVersion: 2
+        x: 983.8283
+        y: 513.5712
+        width: 191.97308
+        height: 149.42877
+      alignment: 9
+      pivot: {x: 0.5608687, y: 0.39770636}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB FEMALE Sheet2_4
+      rect:
+        serializedVersion: 2
+        x: 738.7765
+        y: 782.6117
+        width: 100.02173
+        height: 99.67029
+      alignment: 9
+      pivot: {x: 0.55211514, y: 0.47545066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB FEMALE Sheet2_5
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 36
+        width: 86
+        height: 88
+      alignment: 9
+      pivot: {x: 0.5988372, y: 0.5852273}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB FEMALE Sheet2_6
+      rect:
+        serializedVersion: 2
+        x: 888.59503
+        y: 43.2331
+        width: 102.72388
+        height: 77.04295
+      alignment: 9
+      pivot: {x: 0.5101538, y: 0.5226552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 100067660910569
+  assetBundleName: 
+  assetBundleVariant: 
