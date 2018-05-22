@@ -8,12 +8,13 @@ public class TraitArchetype : ScriptableObject {
     public string playerName;
     public string flavorText;
 
-    public int lightcomboDmg;
-    public int lightguardlessDmg;
-    public int lightguardDmg;
-    public int slapDmg;
-    public int heavycomboDmg;
-    public int heavyguardlessDmg;
-    public int heavyguardDmg;
-    public int chargeDmg;
+    public float lightDmgDfns;
+    public float lightDmgAttk;
+    public float heavyDmgDfns;
+    public float heavyDmgAttk;
+    public float chargeDmgDfns;
+    public float chargeDmgAttk;
+    public float guard;
+
+
 }

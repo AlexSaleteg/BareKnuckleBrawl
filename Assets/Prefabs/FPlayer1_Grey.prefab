@@ -3244,7 +3244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   traits: {fileID: 11400000, guid: 4affeb91f9399414585c6e628dfd5162, type: 2}
-  leastAountofTime: 0
+  leastAmountofTime: 0
 --- !u!114 &114865132582802674
 MonoBehaviour:
   m_ObjectHideFlags: 1

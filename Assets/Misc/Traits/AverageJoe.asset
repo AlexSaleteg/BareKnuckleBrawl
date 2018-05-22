@@ -13,11 +13,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: Average Joe
   flavorText: Just kinda average at everything
-  lightcomboDmg: 10
-  lightguardlessDmg: 5
-  lightguardDmg: 2
-  slapDmg: 1
-  heavycomboDmg: 20
-  heavyguardlessDmg: 10
-  heavyguardDmg: 3
-  chargeDmg: 30
+  lightDmgDfns: 1
+  lightDmgAttk: 4
+  slapDmgDfns: 1
+  slapDmgAttk: 0
+  heavyDmgDfns: 1
+  heavyDmgAttk: 6
+  chargeDmgDfns: 1
+  chargeDmgAttk: 15
+  guard: 1.5
