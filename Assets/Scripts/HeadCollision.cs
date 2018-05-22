@@ -17,11 +17,10 @@ public class HeadCollision : MonoBehaviour
     private Animator animator;
     private AnimationScript1 time;
     private TimerScript roundEnd;
-    private float comboTimer;
    // private Animator hit;
 
     [HideInInspector]
-    public float leastAountofTime;
+    public float leastAmountofTime;
     void Start()
     {
         player = transform.root.name;
@@ -33,13 +32,12 @@ public class HeadCollision : MonoBehaviour
         damage = GameObject.Find(player).GetComponent<TakeDamage>();
         roundEnd = GameObject.Find("RoundTimer").GetComponent<TimerScript>();
        // hit = GameObject.Find("hit").GetComponent<Animator>();
-        leastAountofTime = 0.001f;
+        leastAmountofTime = 0.001f;
 
     }
 
     void Update()
     {
-        comboTimer -= Time.deltaTime;
         if (player_2.newState == 2 && time.slapIndicatorTimer > 0)
         {
             player_1.newState = 7;
@@ -54,8 +52,9 @@ public class HeadCollision : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-       // hit.enabled = true;
-        if (other.gameObject.tag == "LightFist" && roundEnd.PauseTimer <= leastAountofTime)
+        // hit.enabled = true;
+        TraitArchetype enemy = other.transform.root.Find("HeadBone").GetComponent<HeadCollision>().GetSkill();
+        if (other.gameObject.tag == "LightFist" && roundEnd.PauseTimer <= leastAmountofTime)
         {
             if (Time.time <= timeStamp + 2)
             {
@@ -67,38 +66,37 @@ public class HeadCollision : MonoBehaviour
             {
                 damageExp = 0;
             }
-            if (comboTimer >= 0.1f)
+            //if (comboTimer >= 0.1f)
+            //{
+            //    damage.InflictDamage((int)(skill.lightcomboDmg * Mathf.Pow(damageMult, damageExp)));
+            //    comboTimer = +0.5f;
+            //    //animator.Play("Stagger");
+            //    //animator.Play("HitWhGuard");
+            //}
+            if (time.newState == 1)
             {
-                damage.InflictDamage((int)(skill.lightcomboDmg * Mathf.Pow(damageMult, damageExp)));
-                comboTimer = +0.5f;
-                //animator.Play("Stagger");
-                //animator.Play("HitWhGuard");
-            }
-            else if (time.newState == 1)
-            {
-                damage.InflictDamage(skill.lightguardDmg);
+                damage.InflictDamage((int)((enemy.lightDmgAttk * Mathf.Pow(damageMult, damageExp)) / (skill.lightDmgDfns * skill.guard)));
                 animator.Play("HitWhGuard");
             }
             else if (player_1.newState == 8 && player_2.newState !=0 || player_2.newState == 8 && player_1.newState !=0)
             {
-                damage.InflictDamage(skill.slapDmg);
                 animator.Play("Stunned");
             }
             else if (time.newState == 2)
             {
-                damage.InflictDamage((int)(skill.lightguardlessDmg * Mathf.Pow(damageMult, damageExp)));
+                damage.InflictDamage((int)((enemy.lightDmgAttk * Mathf.Pow(damageMult, damageExp)) / skill.lightDmgDfns));
                 time.timeLeft = +0.5f;
             }
             else if(time.newState == 0)
             {
-                damage.InflictDamage((int)(skill.lightguardlessDmg * Mathf.Pow(damageMult, damageExp)));
+                damage.InflictDamage((int)((enemy.lightDmgAttk * Mathf.Pow(damageMult, damageExp)) / skill.lightDmgDfns));
                 time.timeLeft = +0.5f;
                 animator.Play("Stagger");
             }
             timeStamp = Time.time;
 
         }
-        else if (other.gameObject.tag == "HeavyFist" && roundEnd.PauseTimer <= leastAountofTime)
+        else if (other.gameObject.tag == "HeavyFist" && roundEnd.PauseTimer <= leastAmountofTime)
         {
             if (Time.time <= timeStamp + 2)
             {
@@ -110,35 +108,35 @@ public class HeadCollision : MonoBehaviour
                 damageExp = 0;
             }
 
-            if (comboTimer >= 0.1f)
-            {
-                damage.InflictDamage((int)(skill.heavycomboDmg * Mathf.Pow(damageMult, damageExp)));
-                comboTimer = +0.5f;
-                //animator.Play("Stagger");
-                //animator.Play("HitWhGuard");
-            }
+            //if (comboTimer >= 0.1f)
+            //{
+            //    damage.InflictDamage((int)(skill.heavycomboDmg * Mathf.Pow(damageMult, damageExp)));
+            //    comboTimer = +0.5f;
+            //    //animator.Play("Stagger");
+            //    //animator.Play("HitWhGuard");
+            //}
 
-            else if (player_1.newState == 1 || player_2.newState == 1)
+            if (player_1.newState == 1 || player_2.newState == 1)
             {
-                damage.InflictDamage(skill.heavyguardDmg);
+                damage.InflictDamage((int)((enemy.heavyDmgAttk * Mathf.Pow(damageMult, damageExp)) / (skill.heavyDmgDfns * skill.guard)));
                 animator.Play("HitWhGuard");
             }
 
-            if (player_1.newState == 9 || player_2.newState == 9)
+            else if (player_1.newState == 9 || player_2.newState == 9)
             {
-                damage.InflictDamage(skill.chargeDmg);
+                damage.InflictDamage((int)(enemy.chargeDmgAttk / skill.chargeDmgDfns));
                 animator.Play("Stunned");
             }
 
             else if (time.newState == 2)
             {
-                damage.InflictDamage((int)(skill.heavyguardlessDmg * Mathf.Pow(damageMult, damageExp)));
+                damage.InflictDamage((int)((enemy.heavyDmgAttk * Mathf.Pow(damageMult, damageExp)) / (skill.heavyDmgDfns * skill.guard)));
                 time.timeLeft = +0.5f;
             }
 
             else if (time.newState == 0)
             {
-                damage.InflictDamage((int)(skill.heavyguardlessDmg * Mathf.Pow(damageMult, damageExp)));
+                damage.InflictDamage((int)((enemy.heavyDmgAttk * Mathf.Pow(damageMult, damageExp)) / skill.heavyDmgDfns));
                 time.timeLeft = +0.5f;
                 animator.Play("Stagger");
 
@@ -151,5 +149,10 @@ public class HeadCollision : MonoBehaviour
         //{
         //    animator.SetInteger("AnimState", 0);
         //}
+    }
+
+    public TraitArchetype GetSkill()
+    {
+        return skill;
     }
 }

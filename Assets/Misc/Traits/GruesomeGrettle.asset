@@ -13,11 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: Gruesome Grettle
   flavorText: Can out-drink a whale
-  lightcomboDmg: 0
-  lightguardlessDmg: 0
-  lightguardDmg: 0
-  slapDmg: 0
-  heavycomboDmg: 0
-  heavyguardlessDmg: 0
-  heavyguardDmg: 0
-  chargeDmg: 0
+  lightDmgDfns: 0.5
+  lightDmgAttk: 8
+  heavyDmgDfns: 0.5
+  heavyDmgAttk: 12
+  chargeDmgDfns: 0.5
+  chargeDmgAttk: 30
+  guard: 1.5
