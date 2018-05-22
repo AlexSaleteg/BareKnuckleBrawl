@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: GruesomeGrettle
   m_EditorClassIdentifier: 
   playerName: Gruesome Grettle
-  flavorText: Can out-drink a whale
+  flavorText: Hits hard but also can't take a beating
   lightDmgDfns: 0.5
   lightDmgAttk: 8
   heavyDmgDfns: 0.5

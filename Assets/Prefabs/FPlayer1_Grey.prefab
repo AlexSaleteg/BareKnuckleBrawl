@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 4714899337955604}
   m_Layer: 0
   m_Name: Hair5
-  m_TagString: Untagged
+  m_TagString: Hair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -303,7 +303,7 @@ GameObject:
   - component: {fileID: 4152320083302792}
   m_Layer: 0
   m_Name: Hair1
-  m_TagString: Untagged
+  m_TagString: Hair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -684,7 +684,7 @@ GameObject:
   - component: {fileID: 4343269290133206}
   m_Layer: 0
   m_Name: Hair2
-  m_TagString: Untagged
+  m_TagString: Hair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -904,7 +904,7 @@ GameObject:
   - component: {fileID: 4836772812551592}
   m_Layer: 0
   m_Name: Hair3
-  m_TagString: Untagged
+  m_TagString: Hair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1300,7 +1300,7 @@ GameObject:
   - component: {fileID: 4677769046609054}
   m_Layer: 0
   m_Name: Hair4
-  m_TagString: Untagged
+  m_TagString: Hair
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2121,8 +2121,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1547571498939838}
-  m_LocalRotation: {x: 0, y: 0, z: 0.026176924, w: 0.99965733}
-  m_LocalPosition: {x: -2.17, y: 0.53, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.05, y: 0.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4749107526350278}
@@ -2483,7 +2483,7 @@ CircleCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1222955642251742}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -2715,7 +2715,7 @@ Animator:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1547571498939838}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: aa35f95349b9e9c4fa7e4cdc0bef4f6a, type: 2}
   m_CullingMode: 0
@@ -2895,7 +2895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 0.73353237
+  m_Length: 0.73353285
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 4200768451471366}
   m_AttachedIK: {fileID: 114261593126406176}
@@ -3319,7 +3319,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1547571498939838}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 239dd90f9bb7d6042b1b5589bbf0f21d, type: 3}
   m_Name: 
@@ -3342,7 +3342,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.2819986
+  m_Length: 1.2819983
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 4818825355387742}
   m_AttachedIK: {fileID: 114074193556319136}
@@ -3719,7 +3719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.3031433
+  m_Length: 1.3031434
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 4071272092948762}
   m_AttachedIK: {fileID: 114596343010748976}
@@ -3729,17 +3729,17 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1547571498939838}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: debacd8b35ea2e340905e9062ee2bfd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Lfeint: k
-  Rfeint: l
-  lightAttack: left
-  heavyAttack: right ctrl
-  Defensive: up
-  dodge: right
+  Lfeint: j
+  Rfeint: e
+  lightAttack: d
+  heavyAttack: e
+  Defensive: w
+  dodge: a
   player: Player1
   slapIndicator: {fileID: 0}
   isConsole1: 0
@@ -3848,7 +3848,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1222955642251742}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9c2b334c10690e04ca568d4b23d65845, type: 3}
   m_Name: 
@@ -3959,7 +3959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.1716812
+  m_Length: 1.1716813
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 4871164531265774}
   m_AttachedIK: {fileID: 114555947471408890}
@@ -3975,7 +3975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Length: 1.0425041
+  m_Length: 1.0425035
   m_Child: {fileID: 0}
   m_ChildTransform: {fileID: 4847563767289188}
   m_AttachedIK: {fileID: 114074193556319136}

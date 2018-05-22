@@ -92,6 +92,7 @@
      <Compile Include="Assets\Scripts\TraitArchetype.cs" />
      <Compile Include="Assets\Scripts\TraitDatabase.cs" />
      <Compile Include="Assets\Scripts\Zehando.cs" />
+     <Compile Include="Assets\TraitDescription.cs" />
      <None Include="Assets\Anima2D\Examples\Shaders\VisibleInsideMask.shader" />
      <None Include="Assets\Anima2D\Examples\Shaders\VisibleOutsideMask.shader" />
      <None Include="Assets\Anima2D\Version.txt" />

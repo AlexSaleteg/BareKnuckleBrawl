@@ -53,7 +53,7 @@ public class HeadCollision : MonoBehaviour
     void OnTriggerEnter2D(Collider2D other)
     {
         // hit.enabled = true;
-        TraitArchetype enemy = other.transform.root.Find("HeadBone").GetComponent<HeadCollision>().GetSkill();
+        TraitArchetype enemy = traits.GetPreset(PlayerPrefs.GetInt("Player" + other.transform.root.name[6] + "Trait", 0));
         if (other.gameObject.tag == "LightFist" && roundEnd.PauseTimer <= leastAmountofTime)
         {
             if (Time.time <= timeStamp + 2)
