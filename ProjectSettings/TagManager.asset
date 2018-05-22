@@ -55,3 +55,6 @@ TagManager:
   - name: slap indicator
     uniqueID: 3460058329
     locked: 0
+  - name: VFX
+    uniqueID: 3379145319
+    locked: 0
