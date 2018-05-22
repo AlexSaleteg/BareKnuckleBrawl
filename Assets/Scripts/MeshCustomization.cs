@@ -35,8 +35,17 @@ public class MeshCustomization : MonoBehaviour
     public void RecolorMoustache(int index)
     {
         GameObject child = transform.Find("Meshes/MHead").gameObject;
-        SpriteMeshInstance[] meshes = child.GetComponentsInChildren<SpriteMeshInstance>();
-        foreach (SpriteMeshInstance mesh in meshes)
+        SpriteMeshInstance[] hair = child.GetComponentsInChildren<SpriteMeshInstance>();
+        foreach (SpriteMeshInstance mesh in hair)
+        {
+            if (mesh.gameObject.tag == "Hair")
+            {
+                mesh.color = source.moustacheColors[index];
+            }
+        }
+        child = transform.Find("Bones/HipBone/Spine/NeckBone/BackHead/HeadBone").gameObject;
+        SpriteRenderer[] meshes = child.GetComponentsInChildren<SpriteRenderer>();
+        foreach (SpriteRenderer mesh in meshes)
         {
             if (mesh.gameObject.tag == "Moustache")
             {
@@ -48,9 +57,9 @@ public class MeshCustomization : MonoBehaviour
 
     public void ChangeMoustache(int index)
     {
-        GameObject child = transform.Find("Meshes/MHead").gameObject;
-        Transform[] moustaches = child.GetComponentsInChildren<Transform>();
-        foreach (Transform moustache in moustaches)
+        GameObject child = transform.Find("Bones/HipBone/Spine/NeckBone/BackHead/HeadBone").gameObject;
+        SpriteRenderer[] meshes = child.GetComponentsInChildren<SpriteRenderer>();
+        foreach (SpriteRenderer moustache in meshes)
         {
             if (moustache.gameObject.tag == "Moustache")
             {
@@ -59,5 +68,17 @@ public class MeshCustomization : MonoBehaviour
         }
         child.transform.Find("Moustache" + index).gameObject.SetActive(true);
     }
-
+     public void ChangeHair(int index)
+    {
+        GameObject child = transform.Find("Meshes/MHead").gameObject;
+        SpriteMeshInstance[] hair = child.GetComponentsInChildren<SpriteMeshInstance>();
+        foreach (SpriteMeshInstance mesh in hair)
+        {
+            if (mesh.gameObject.tag == "Hair")
+            {
+                mesh.gameObject.SetActive(false);
+            }
+            child.transform.Find("Hair" + index).gameObject.SetActive(true);
+        }
+    }
 }
