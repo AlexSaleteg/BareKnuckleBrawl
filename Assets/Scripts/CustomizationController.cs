@@ -18,6 +18,7 @@ public class CustomizationController : MonoBehaviour {
     private MeshCustomization player;
     private int skinColor;
     private int moustache;
+    private int hair;
     private int moustacheColor;
     private int phase;
 
@@ -26,6 +27,7 @@ public class CustomizationController : MonoBehaviour {
         audiosource = GameObject.Find("SoundManager").GetComponent<AudioSource>();
         skinColor = PlayerPrefs.GetInt("Player" + playerM.gameObject.name[6] + "SkinColor", 0);
         moustache = PlayerPrefs.GetInt("Player" + playerM.gameObject.name[6] + "Moustache", 1);
+        hair = PlayerPrefs.GetInt("Player" + gameObject.name[6] + "Hair", 0);
         moustacheColor = PlayerPrefs.GetInt("Player" + playerM.gameObject.name[6] + "MoustacheColor", 0);
         int bodytype = PlayerPrefs.GetInt("Player" + playerM.gameObject.name[6] + "BodyType", 0);
         if (bodytype == 0)
@@ -68,7 +70,7 @@ public class CustomizationController : MonoBehaviour {
         {
             phase++;
             audiosource.PlayOneShot(click, 0.5f);
-            if (phase > 3)
+            if (phase > 4)
             {
                 phase = 0;
             }
@@ -108,6 +110,14 @@ public class CustomizationController : MonoBehaviour {
                 }
             }
             else if (phase == 3)
+            {
+                hair++;
+                if (hair > 5)
+                {
+                    hair = 1;
+                }
+            }
+            else if (phase == 4)
             {
                 moustacheColor++;
                 if (moustacheColor >= player.source.moustacheColors.Length)

@@ -9,6 +9,7 @@ public class PlayerVisualsData : ScriptableObject {
     private int moustacheColor = 0;
     private int skinColor = 0;
     private int bodyType = 0;
+    private int hair = 1;
     
     public void SetMoustache(int index)
     {
@@ -30,6 +31,11 @@ public class PlayerVisualsData : ScriptableObject {
         bodyType = index;
     }
 
+    public void SetHair(int index)
+    {
+        hair = index;
+    }
+
     public int GetMoustache()
     {
         return moustache;
@@ -48,5 +54,10 @@ public class PlayerVisualsData : ScriptableObject {
     public int GetBodyType()
     {
         return bodyType;
+    }
+
+    public int GetHair()
+    {
+        return hair;
     }
 }

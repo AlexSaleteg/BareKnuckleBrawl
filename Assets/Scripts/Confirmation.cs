@@ -41,6 +41,7 @@ public class Confirmation : MonoBehaviour {
         PlayerPrefs.SetInt("Player" + player.name[6] + "MoustacheColor", player.GetMoustacheColor());
         PlayerPrefs.SetInt("Player" + player.name[6] + "SkinColor", player.GetSkinColor());
         PlayerPrefs.SetInt("Player" + player.name[6] + "Moustache", player.GetMoustache());
+        PlayerPrefs.SetInt("Player" + player.name[6] + "Hair", player.GetHair());
         PlayerPrefs.SetInt("Player" + player.name[6] + "Trait", traits.RandomPresetIndex());
     }
 

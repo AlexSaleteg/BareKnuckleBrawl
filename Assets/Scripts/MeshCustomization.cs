@@ -10,6 +10,7 @@ public class MeshCustomization : MonoBehaviour
     void Awake()
     {
         RecolorSkin(PlayerPrefs.GetInt("Player" + gameObject.name[6] + "SkinColor", 0));
+        ChangeHair(PlayerPrefs.GetInt("Player" + gameObject.name[6] + "Hair", 1));
         ChangeMoustache(PlayerPrefs.GetInt("Player" + gameObject.name[6] + "Moustache", 1));
         RecolorMoustache(PlayerPrefs.GetInt("Player" + gameObject.name[6] + "MoustacheColor", 0));
     }
@@ -52,7 +53,7 @@ public class MeshCustomization : MonoBehaviour
                 mesh.color = source.moustacheColors[index];
             }
         }
-        transform.Find("Meshes/MHead/MEyebrows").gameObject.GetComponent<SpriteMeshInstance>().color = source.moustacheColors[index];
+        transform.Find("Meshes/MHead/Face/MEyebrows").gameObject.GetComponent<SpriteMeshInstance>().color = source.moustacheColors[index];
     }
 
     public void ChangeMoustache(int index)
