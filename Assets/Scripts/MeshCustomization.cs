@@ -36,12 +36,13 @@ public class MeshCustomization : MonoBehaviour
     public void RecolorMoustache(int index)
     {
         GameObject child = transform.Find("Meshes/MHead").gameObject;
-        SpriteMeshInstance[] hair = child.GetComponentsInChildren<SpriteMeshInstance>();
-        foreach (SpriteMeshInstance mesh in hair)
+        Transform[] hair = child.GetComponentsInChildren<Transform>();
+        foreach (Transform mesh in hair)
         {
             if (mesh.gameObject.tag == "Hair")
             {
-                mesh.color = source.moustacheColors[index];
+                foreach (SpriteMeshInstance submesh in mesh.gameObject.GetComponentsInChildren<SpriteMeshInstance>())
+                    submesh.color = source.moustacheColors[index];
             }
         }
         child = transform.Find("Bones/HipBone/Spine/NeckBone/BackHead/HeadBone").gameObject;
@@ -72,14 +73,15 @@ public class MeshCustomization : MonoBehaviour
      public void ChangeHair(int index)
     {
         GameObject child = transform.Find("Meshes/MHead").gameObject;
-        SpriteMeshInstance[] hair = child.GetComponentsInChildren<SpriteMeshInstance>();
-        foreach (SpriteMeshInstance mesh in hair)
+        Transform[] hair = child.GetComponentsInChildren<Transform>();
+        foreach (Transform mesh in hair)
         {
             if (mesh.gameObject.tag == "Hair")
             {
                 mesh.gameObject.SetActive(false);
             }
-            child.transform.Find("Hair" + index).gameObject.SetActive(true);
+            
         }
+        child.transform.Find("Hair" + index).gameObject.SetActive(true);
     }
 }

@@ -63,6 +63,7 @@ public class CustomizationController : MonoBehaviour {
             player.gameObject.SetActive(true);
             skinColor = Random.Range(0, player.source.skinColors.Length);
             moustache = Random.Range(1, 6);
+            hair = Random.Range(1, 6);
             moustacheColor = Random.Range(0, player.source.moustacheColors.Length);
             SaveData();
         }
@@ -134,9 +135,11 @@ public class CustomizationController : MonoBehaviour {
     {
         data.SetSkinColor(skinColor);
         data.SetMoustache(moustache);
+        data.SetHair(hair);
         data.SetMoustacheColor(moustacheColor);
         player.RecolorSkin(skinColor);
         player.ChangeMoustache(moustache);
+        player.ChangeHair(hair);
         player.RecolorMoustache(moustacheColor);
     }
 }
