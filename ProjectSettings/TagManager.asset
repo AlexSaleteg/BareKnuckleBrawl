@@ -10,6 +10,7 @@ TagManager:
   - LightFist
   - Moustache
   - Hair
+  - birds
   layers:
   - Default
   - TransparentFX

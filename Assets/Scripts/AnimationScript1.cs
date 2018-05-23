@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AnimationScript1 : MonoBehaviour
 {
-    
+    private float micSense = 0.01f;
     public string Lfeint;
     public string Rfeint;
     public string lightAttack;
@@ -16,6 +16,7 @@ public class AnimationScript1 : MonoBehaviour
     public bool isConsole1;
     public bool isConsole2;
     public bool isKeyboard;
+    public bool isDancePad;
     public bool isTestKeyboard;
     public float timeLeft = 0.0f;
     public float chargeTimer = 0.0f;
@@ -24,6 +25,7 @@ public class AnimationScript1 : MonoBehaviour
 
     private ControlSetup controls;
     private string player;
+    public float buttonHitTimer = 0.0f;
     private TimerScript animationhinder;
     private float leastAmount = 0.001f;
     private Animator animator;
@@ -52,23 +54,27 @@ public class AnimationScript1 : MonoBehaviour
     {
         slapIndicatorTimer -= Time.deltaTime;
         timeLeft -= Time.deltaTime;
-        if (isTestKeyboard)
+        if (isDancePad)
         {
-            if (Input.GetKey(controls.lightAttack) && Input.GetKey(controls.heavyAttack))
+            buttonHitTimer -= Time.deltaTime;
+            if (Input.GetKey(lightAttack) && Input.GetKey(heavyAttack) && buttonHitTimer < 0)
             {
                 animator.SetInteger("AnimState", 1);
                 newState = 1;
                 timeLeft = 1f;
+                buttonHitTimer = 0.5f;
             }
-            if (Input.GetKey(controls.lightAttack) && Input.GetKey(controls.heavyAttack) && Input.GetKey(controls.dodge))
+            if (Input.GetKey(lightAttack) && Input.GetKey(heavyAttack) && Input.GetKey("joystick button 2"))
             {
+                //audiosource.PlayOneShot(stanceChange);
                 animator.SetInteger("AnimState", 2);
                 chargeTimer += Time.deltaTime;
                 newState = 2;
                 timeLeft = 1f;
             }
-            else if (Input.GetKeyUp(controls.dodge) && Input.GetKey(controls.lightAttack) && Input.GetKey(controls.heavyAttack))
+            else if (Input.GetKey(lightAttack) && Input.GetKey(heavyAttack) && Input.GetKey("joystick button 2"))
             {
+                //audiosource.PlayOneShot(stanceChange);
                 animator.SetInteger("AnimState", 1);
                 newState = 1;
                 timeLeft = 1f;
@@ -76,55 +82,56 @@ public class AnimationScript1 : MonoBehaviour
             if (Input.GetKeyUp(controls.lightAttack) && newState == 2)
             {
                 //animator.SetTrigger("Zehando");
-                
+
                 newState = 3;
-                
+
             }
-            else if (Input.GetKeyDown(controls.Lfeint) && newState == 3 || MicrophoneInput.MicLoudness > 0.01 && newState == 3)
+            else if (MicrophoneInput.MicLoudness > micSense && newState == 3 || Input.GetKeyDown(Lfeint) && newState == 3)
             {
                 newState = 8;
                 animator.Play("SlappyBoi");
-                audiosource.PlayOneShot(slapSound);
+
                 newState = 3;
                 chargeTimer = 0;
             }
             if (Input.GetKeyUp(controls.heavyAttack) && newState == 2)
             {
-                
+
                 timeLeft = +2;
                 newState = 4;
-               
+                audiosource.PlayOneShot(slapSound);
             }
-            else if(Input.GetKeyDown(controls.Lfeint) && newState == 4 || MicrophoneInput.MicLoudness > 0.01 && newState == 4)
+            else if (Input.GetKeyDown(Lfeint) && newState == 4 || MicrophoneInput.MicLoudness > micSense && newState == 4)
             {
                 newState = 9;
                 animator.SetInteger("AnimState", 9);
                 chargeTimer = 0;
             }
 
-            if (Input.GetKeyUp(controls.lightAttack) && newState == 1 || MicrophoneInput.MicLoudness > 0.01 && newState == 1)
+            if (Input.GetKeyUp(lightAttack) && newState == 1)
             {
+                //audiosource.PlayOneShot(charge);
                 animator.SetInteger("AnimState", 3);
                 slapIndicatorTimer = 0.5f;
-                timeLeft = 0.5f;
+                timeLeft = 0.6f;
                 newState = 5;
             }
-            else if (Input.GetKeyDown(controls.Lfeint) && newState == 5 || Input.GetKeyDown(controls.Lfeint) && newState == 7)
+            else if (MicrophoneInput.MicLoudness > micSense && newState == 5 || MicrophoneInput.MicLoudness > micSense && newState == 7 || Input.GetKeyDown(Lfeint) && newState == 5 || Input.GetKeyDown(Lfeint) && newState == 7)
             {
                 animator.SetInteger("AnimState", 11);
-                timeLeft = 0.5f;
+                //timeLeft = 0.5f;
             }
-            if (Input.GetKeyUp(controls.heavyAttack) && newState == 1 || MicrophoneInput.MicLoudness > 0.01 && newState == 1)
+            if (Input.GetKeyUp(heavyAttack) && newState == 1)
             {
                 newState = 6;
                 slapIndicatorTimer = 0.5f;
                 animator.SetInteger("AnimState", 4);
-                timeLeft = 0.5f;
+                timeLeft = 0.7f;
             }
-            else if (Input.GetKeyDown(controls.Lfeint) && newState == 6 || Input.GetKeyDown(controls.Lfeint) && newState == 7)
+            else if (MicrophoneInput.MicLoudness > micSense && newState == 6 || MicrophoneInput.MicLoudness > micSense && newState == 7 || Input.GetKeyDown(Lfeint) && newState == 6 || Input.GetKeyDown(Lfeint) && newState == 7)
             {
                 animator.SetInteger("AnimState", 10);
-                timeLeft = 0.5f;
+                //timeLeft = 0.5f;
             }
             if (timeLeft <= 0.1f)
             {
@@ -140,6 +147,113 @@ public class AnimationScript1 : MonoBehaviour
                 slapIndicator.SetActive(false);
             }
             
+        }
+        if (isTestKeyboard)
+        {
+            if (isTestKeyboard)
+            {
+                if (Input.GetKey(lightAttack) && Input.GetKey(heavyAttack))
+                {
+                    animator.SetInteger("AnimState", 1);
+                    newState = 1;
+                    timeLeft = 1f;
+                }
+                if (Input.GetKey(lightAttack) && Input.GetKey(heavyAttack) && Input.GetKey(dodge))
+                {
+                    //audiosource.PlayOneShot(stanceChange);
+                    animator.SetInteger("AnimState", 2);
+                    chargeTimer += Time.deltaTime;
+                    newState = 2;
+                    timeLeft = 1f;
+                }
+                else if (Input.GetKeyUp(dodge) && Input.GetKey(lightAttack) && Input.GetKey(heavyAttack))
+                {
+                    //audiosource.PlayOneShot(stanceChange);
+                    animator.SetInteger("AnimState", 1);
+                    newState = 1;
+                    timeLeft = 1f;
+                }
+                if (Input.GetKeyUp(lightAttack) && newState == 2)
+                {
+                    //animator.SetTrigger("Zehando");
+
+                    newState = 3;
+
+                }
+                else if (MicrophoneInput.MicLoudness > micSense && newState == 3 || Input.GetKeyDown(Lfeint) && newState == 3)
+                {
+                    newState = 8;
+                    animator.Play("SlappyBoi");
+
+                    newState = 3;
+                    chargeTimer = 0;
+                }
+                if (Input.GetKeyUp(heavyAttack) && newState == 2)
+                {
+
+                    timeLeft = +2;
+                    newState = 4;
+                    audiosource.PlayOneShot(slapSound);
+                }
+                else if (Input.GetKeyDown(Lfeint) && newState == 4 || MicrophoneInput.MicLoudness > micSense && newState == 4)
+                {
+                    newState = 9;
+                    animator.SetInteger("AnimState", 9);
+                    chargeTimer = 0;
+                }
+
+                if (Input.GetKeyUp(lightAttack) && newState == 1)
+                {
+                    //audiosource.PlayOneShot(charge);
+                    animator.SetInteger("AnimState", 3);
+                    slapIndicatorTimer = 0.5f;
+                    timeLeft = 0.6f;
+                    newState = 5;
+                }
+                else if (MicrophoneInput.MicLoudness > micSense && newState == 5 || MicrophoneInput.MicLoudness > micSense && newState == 7 || Input.GetKeyDown(Lfeint) && newState == 5 || Input.GetKeyDown(Lfeint) && newState == 7)
+                {
+                    animator.SetInteger("AnimState", 11);
+                    //timeLeft = 0.5f;
+                }
+                if (Input.GetKeyUp(heavyAttack) && newState == 1)
+                {
+                    newState = 6;
+                    slapIndicatorTimer = 0.5f;
+                    animator.SetInteger("AnimState", 4);
+                    timeLeft = 0.7f;
+                }
+                else if (MicrophoneInput.MicLoudness > micSense && newState == 6 || MicrophoneInput.MicLoudness > micSense && newState == 7 || Input.GetKeyDown(Lfeint) && newState == 6 || Input.GetKeyDown(Lfeint) && newState == 7)
+                {
+                    animator.SetInteger("AnimState", 10);
+                    //timeLeft = 0.5f;
+                }
+                if (timeLeft <= 0.1f)
+                {
+                    animator.SetInteger("AnimState", 0);
+                    newState = 0;
+                }
+                if (newState == 7)
+                {
+                    slapIndicator.SetActive(true);
+                }
+                else
+                {
+                    slapIndicator.SetActive(false);
+                }
+                //if (Input.GetKeyDown(KeyCode.G))
+                //{
+                //    print("pufff");
+                //}
+                //else if (Input.GetKeyDown(KeyCode.D))
+                //{
+                //    print("pifff");
+                //}
+                //if (MicrophoneInput.MicLoudness > 0.001f)
+                //{
+                //  print("mic");
+                //animator.SetInteger("AnimState", 3);
+                //}
+            }
         }
         else if (isKeyboard)
         {

@@ -61,6 +61,30 @@ public class TimerScript : MonoBehaviour
                 canvas2.SetActive(true);
                 win2.SetActive(true);
             }
+            else if (Player_1_HP.health > Player_2_HP.health && Player_1_Win == 1)
+            {
+                Player_1_Win = Player_1_Win + 1;
+                //print("Player 2 wins a ROUND");
+                SceneManager.LoadScene("TitleScreen");
+                canvas.SetActive(true);
+                canvas3.SetActive(true);
+                win3.SetActive(true);
+                Player_2_Win = 0;
+                Player_1_Win = 0;
+                PlayerPrefs.DeleteAll();
+            }
+            else if (Player_2_HP.health > Player_1_HP.health && Player_2_Win == 1)
+            {
+                Player_2_Win = Player_2_Win + 1;
+                //print("Player 2 wins a ROUND");
+                SceneManager.LoadScene("TitleScreen");
+                canvas2.SetActive(true);
+                canvas4.SetActive(true);
+                win4.SetActive(true);
+                Player_2_Win = 0;
+                Player_1_Win = 0;
+                PlayerPrefs.DeleteAll();
+            }
             else
             {
                 SceneManager.LoadScene(scene);
