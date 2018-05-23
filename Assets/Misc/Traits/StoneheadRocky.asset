@@ -9,14 +9,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f0545b003053a94b9d28d0d79e5ab3f, type: 3}
-  m_Name: GruesomeGrettle
+  m_Name: StoneheadRocky
   m_EditorClassIdentifier: 
-  playerName: Gruesome Grettle
-  flavorText: Hits hard but also can't take a beating
-  lightDmgDfns: 0.5
-  lightDmgAttk: 8
-  heavyDmgDfns: 0.5
-  heavyDmgAttk: 12
-  chargeDmgDfns: 0.5
-  chargeDmgAttk: 20
+  playerName: Stonehead Rocky
+  flavorText: Can take a beating but have the weakest arms in history.
+  lightDmgDfns: 1.5
+  lightDmgAttk: 2
+  heavyDmgDfns: 1.5
+  heavyDmgAttk: 3
+  chargeDmgDfns: 1.5
+  chargeDmgAttk: 8
   guard: 1.5
