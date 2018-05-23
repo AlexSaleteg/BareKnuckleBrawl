@@ -134,11 +134,11 @@ public class TimerScript : MonoBehaviour
             Player_1_Win = 0;
             SceneManager.LoadScene("TitleScreen");
         }
-        if(Player_1_Win == 1)
+        if(Player_1_Win >= 1)
         {
             canvas.SetActive(true);
         }
-        if (Player_2_Win == 1)
+        if (Player_2_Win >= 1)
         {
             canvas2.SetActive(true);
         }
