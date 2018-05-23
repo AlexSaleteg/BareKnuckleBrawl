@@ -636,7 +636,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1735032818241488, guid: 1e2d27b0c88d14e4a940e5648176053f, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4544124650808024, guid: 1e2d27b0c88d14e4a940e5648176053f, type: 2}
       propertyPath: m_LocalRotation.z
@@ -1089,6 +1089,10 @@ Prefab:
       propertyPath: slapIndicator
       value: 
       objectReference: {fileID: 1321965534}
+    - target: {fileID: 1547571498939838, guid: 76c68a71635b83b4ab2e8d4198fe8062, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76c68a71635b83b4ab2e8d4198fe8062, type: 2}
   m_IsPrefabParent: 0
@@ -2699,7 +2703,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1321965535
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4117,6 +4121,10 @@ Prefab:
     - target: {fileID: 1073987150557074, guid: 3c763d8e93f7a5f45b850afc433986e7, type: 2}
       propertyPath: m_Name
       value: Player1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1073987150557074, guid: 3c763d8e93f7a5f45b850afc433986e7, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 137253339963812232, guid: 3c763d8e93f7a5f45b850afc433986e7, type: 2}
