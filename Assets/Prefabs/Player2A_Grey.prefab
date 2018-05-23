@@ -2964,7 +2964,7 @@ MonoBehaviour:
   heavyAttack: right ctrl
   Defensive: up
   dodge: right
-  player: Player2
+  controlDatabase: {fileID: 11400000, guid: b4bfb9b01df130443b353f3f1554598c, type: 2}
   slapIndicator: {fileID: 0}
   isConsole1: 0
   isConsole2: 0

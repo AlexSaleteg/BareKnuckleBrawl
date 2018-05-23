@@ -77,6 +77,8 @@
      <Compile Include="Assets\Anima2D\Scripts\SpriteMeshInstance.cs" />
      <Compile Include="Assets\Scripts\AnimationScript1.cs" />
      <Compile Include="Assets\Scripts\Confirmation.cs" />
+     <Compile Include="Assets\Scripts\ControlDatabase.cs" />
+     <Compile Include="Assets\Scripts\ControlSetup.cs" />
      <Compile Include="Assets\Scripts\CustomizationController.cs" />
      <Compile Include="Assets\Scripts\Database.cs" />
      <Compile Include="Assets\Scripts\HeadCollision.cs" />
