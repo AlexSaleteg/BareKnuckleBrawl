@@ -84,6 +84,8 @@ public class TimerScript : MonoBehaviour
         {
           
             win4.SetActive(true);
+            win2.SetActive(false);
+            win.SetActive(false);
             canvas4.SetActive(true);
             //print("Player 2 wins the MATCH");
            
@@ -92,6 +94,8 @@ public class TimerScript : MonoBehaviour
         {
            
             win3.SetActive(true);
+            win.SetActive(false);
+            win2.SetActive(false);
             canvas3.SetActive(true);
             //print("Player 1 wins the MATCH");
         }
