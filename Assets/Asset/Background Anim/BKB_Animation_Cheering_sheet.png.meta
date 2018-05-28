@@ -96,7 +96,7 @@ TextureImporter:
         width: 272
         height: 476
       alignment: 9
-      pivot: {x: 0.3634708, y: 0.6111145}
+      pivot: {x: 0.36821845, y: 0.6111146}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -110,7 +110,7 @@ TextureImporter:
         width: 272
         height: 476
       alignment: 9
-      pivot: {x: 0.36347076, y: 0.6111146}
+      pivot: {x: 0.36663583, y: 0.61111474}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,11 +134,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1051
-        y: 589
+        y: 590
         width: 335
         height: 494
       alignment: 9
-      pivot: {x: 0.30180702, y: 0.59236956}
+      pivot: {x: 0.29779217, y: 0.58672416}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -152,21 +152,7 @@ TextureImporter:
         width: 344
         height: 490
       alignment: 9
-      pivot: {x: 0.2971784, y: 0.59186375}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: BKB_Animation_Cheering_sheet_9
-      rect:
-        serializedVersion: 2
-        x: 1664
-        y: 948
-        width: 15
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.29326823, y: 0.5929075}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -180,7 +166,7 @@ TextureImporter:
         width: 308
         height: 519
       alignment: 9
-      pivot: {x: 0.33558464, y: 0.56071144}
+      pivot: {x: 0.3284035, y: 0.56071144}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -194,7 +180,7 @@ TextureImporter:
         width: 313
         height: 524
       alignment: 9
-      pivot: {x: 0.32742515, y: 0.5558371}
+      pivot: {x: 0.32043466, y: 0.55583715}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
