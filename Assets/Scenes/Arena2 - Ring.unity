@@ -3191,6 +3191,11 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 0.44117153
       objectReference: {fileID: 0}
+    - target: {fileID: 114744157190493678, guid: 3c763d8e93f7a5f45b850afc433986e7,
+        type: 2}
+      propertyPath: slapIndicator
+      value: 
+      objectReference: {fileID: 2051577519}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3c763d8e93f7a5f45b850afc433986e7, type: 2}
   m_IsPrefabParent: 0
