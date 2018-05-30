@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 885ac9b2bd367f446808efc4e7f50c60
+timeCreated: 1527082660
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BKB_Animation_Dancing_sheet_0
+    21300002: BKB_Animation_Dancing_sheet_1
+    21300004: BKB_Animation_Dancing_sheet_2
+    21300006: BKB_Animation_Dancing_sheet_3
+    21300008: BKB_Animation_Dancing_sheet_4
+    21300010: BKB_Animation_Dancing_sheet_5
+    21300012: BKB_Animation_Dancing_sheet_6
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BKB_Animation_Dancing_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 284
+        width: 153
+        height: 270
+      alignment: 9
+      pivot: {x: 0.05069789, y: 0.038759924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Animation_Dancing_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 284
+        width: 153
+        height: 270
+      alignment: 9
+      pivot: {x: 0.057209488, y: 0.038759924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Animation_Dancing_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 284
+        width: 154
+        height: 269
+      alignment: 9
+      pivot: {x: 0.055196192, y: 0.035317235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Animation_Dancing_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 284
+        width: 154
+        height: 269
+      alignment: 9
+      pivot: {x: 0.048702884, y: 0.03345861}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Animation_Dancing_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 284
+        width: 157
+        height: 269
+      alignment: 9
+      pivot: {x: 0.04458754, y: 0.031599876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Animation_Dancing_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 14
+        width: 154
+        height: 269
+      alignment: 9
+      pivot: {x: 0.060027793, y: 0.038219985}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Animation_Dancing_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 13
+        width: 154
+        height: 269
+      alignment: 9
+      pivot: {x: 0.054719307, y: 0.0372578}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

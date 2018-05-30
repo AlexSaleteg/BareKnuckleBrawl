@@ -1,0 +1,477 @@
+fileFormatVersion: 2
+guid: 6e78cbbfdedb92a4ea98550f8b45dd24
+timeCreated: 1527668847
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BKB_Anim_Writing_14
+    21300002: BKB_Anim_Writing_30
+    21300004: BKB_Anim_Writing_32
+    21300006: BKB_Anim_Writing_33
+    21300008: BKB_Anim_Writing_34
+    21300010: BKB_Anim_Writing_37
+    21300012: BKB_Anim_Writing_40
+    21300014: BKB_Anim_Writing_31
+    21300016: BKB_Anim_Writing_36
+    21300018: BKB_Anim_Writing_38
+    21300020: BKB_Anim_Writing_62
+    21300022: BKB_Anim_Writing_63
+    21300024: BKB_Anim_Writing_64
+    21300026: BKB_Anim_Writing_65
+    21300028: BKB_Anim_Writing_66
+    21300030: BKB_Anim_Writing_67
+    21300032: BKB_Anim_Writing_68
+    21300034: BKB_Anim_Writing_70
+    21300036: BKB_Anim_Writing_71
+    21300038: BKB_Anim_Writing_72
+    21300040: BKB_Anim_Writing_79
+    21300042: BKB_Anim_Writing_76
+    21300044: BKB_Anim_Writing_77
+    21300046: BKB_Anim_Writing_81
+    21300048: BKB_Anim_Writing_82
+    21300050: BKB_Anim_Writing_83
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_14
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 945
+        width: 35
+        height: 90
+      alignment: 9
+      pivot: {x: 1.7457376, y: 0.09951782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_30
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 944
+        width: 29
+        height: 90
+      alignment: 9
+      pivot: {x: 2.143801, y: 0.12535536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_32
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 947
+        width: 32
+        height: 85
+      alignment: 9
+      pivot: {x: 2.0591278, y: 0.07962287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_33
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 944
+        width: 34
+        height: 69
+      alignment: 9
+      pivot: {x: 1.7753942, y: 0.16298686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_34
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 945
+        width: 36
+        height: 80
+      alignment: 9
+      pivot: {x: 1.7581109, y: 0.13665847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_37
+      rect:
+        serializedVersion: 2
+        x: 2918
+        y: 950
+        width: 36
+        height: 74
+      alignment: 9
+      pivot: {x: 1.7595757, y: 0.07420308}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_40
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 951
+        width: 37
+        height: 68
+      alignment: 9
+      pivot: {x: 1.694105, y: 0.063990876}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_31
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 937
+        width: 47
+        height: 98
+      alignment: 9
+      pivot: {x: 1.4153079, y: 0.17373471}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_36
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 947
+        width: 36
+        height: 65
+      alignment: 9
+      pivot: {x: 1.678833, y: 0.10647348}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_38
+      rect:
+        serializedVersion: 2
+        x: 3322
+        y: 949
+        width: 42
+        height: 57
+      alignment: 9
+      pivot: {x: 1.4689012, y: 0.11243639}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_62
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 552
+        width: 39
+        height: 64
+      alignment: 9
+      pivot: {x: 1.539739, y: 0.0516119}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_63
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 554
+        width: 39
+        height: 68
+      alignment: 9
+      pivot: {x: 1.6037238, y: 0.0045937933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_64
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 554
+        width: 41
+        height: 71
+      alignment: 9
+      pivot: {x: 1.5042367, y: 0.016739966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_65
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 552
+        width: 41
+        height: 70
+      alignment: 9
+      pivot: {x: 1.5651022, y: 0.04024222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_66
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 552
+        width: 42
+        height: 58
+      alignment: 9
+      pivot: {x: 1.4060582, y: 0.059006263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_67
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 552
+        width: 45
+        height: 70
+      alignment: 9
+      pivot: {x: 1.4149685, y: 0.054397147}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_68
+      rect:
+        serializedVersion: 2
+        x: 2521
+        y: 551
+        width: 47
+        height: 59
+      alignment: 9
+      pivot: {x: 1.2963971, y: 0.036451437}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_70
+      rect:
+        serializedVersion: 2
+        x: 2919
+        y: 554
+        width: 48
+        height: 72
+      alignment: 9
+      pivot: {x: 1.3187968, y: 0.014787462}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_71
+      rect:
+        serializedVersion: 2
+        x: 3321
+        y: 553
+        width: 55
+        height: 71
+      alignment: 9
+      pivot: {x: 1.1238414, y: 0.03286958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_72
+      rect:
+        serializedVersion: 2
+        x: 3724
+        y: 541
+        width: 51
+        height: 78
+      alignment: 9
+      pivot: {x: 1.1605393, y: 0.18007953}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_79
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 151
+        width: 48
+        height: 75
+      alignment: 9
+      pivot: {x: 1.3335558, y: 0.036385294}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_76
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 145
+        width: 50
+        height: 74
+      alignment: 9
+      pivot: {x: 1.2017341, y: 0.13935873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_77
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 153
+        width: 46
+        height: 68
+      alignment: 9
+      pivot: {x: 1.2627563, y: 0.03507367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_81
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 156
+        width: 44
+        height: 65
+      alignment: 9
+      pivot: {x: 1.7773964, y: -0.012956589}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_82
+      rect:
+        serializedVersion: 2
+        x: 1716
+        y: 147
+        width: 28
+        height: 60
+      alignment: 9
+      pivot: {x: 2.3424509, y: 0.12981008}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: BKB_Anim_Writing_83
+      rect:
+        serializedVersion: 2
+        x: 2123
+        y: 152
+        width: 26
+        height: 64
+      alignment: 9
+      pivot: {x: 2.2770245, y: 0.04461837}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
