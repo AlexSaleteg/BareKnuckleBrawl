@@ -33,8 +33,8 @@ public class HeadCollision : MonoBehaviour
         player_2 = GameObject.Find("Player2").GetComponent<AnimationScript1>();
         time = GameObject.Find(player).GetComponent<AnimationScript1>();
         animator = GameObject.Find(player).GetComponent<Animator>();
-        VFX = GameObject.FindGameObjectWithTag("birds").GetComponent<Animator>();
-        VFx = GameObject.FindGameObjectWithTag("birds");
+       // VFX = GameObject.FindGameObjectWithTag("birds").GetComponent<Animator>();
+       // VFx = GameObject.FindGameObjectWithTag("birds");
         damage = GameObject.Find(player).GetComponent<TakeDamage>();
         roundEnd = GameObject.Find("RoundTimer").GetComponent<TimerScript>();
        // hit = GameObject.Find("hit").GetComponent<Animator>();
@@ -56,13 +56,13 @@ public class HeadCollision : MonoBehaviour
         }
         if (effectsTimer > 0.9)
         {
-            VFx.SetActive(true);
-            VFX.SetInteger("VFX1", 1);
+            //VFx.SetActive(true);
+            //VFX.SetInteger("VFX1", 1);
         }
         else if (effectsTimer <= 0.1)
         {
-            VFX.SetInteger("VFX1", 0);
-            VFx.SetActive(false);
+           // VFX.SetInteger("VFX1", 0);
+            //VFx.SetActive(false);
         }
     }
 

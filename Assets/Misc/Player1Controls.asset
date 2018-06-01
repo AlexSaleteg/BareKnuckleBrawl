@@ -11,9 +11,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37147b8c45f052545923cf4b082cdd02, type: 3}
   m_Name: Player1Controls
   m_EditorClassIdentifier: 
-  Lfeint: j
+  Lfeint: g
   Rfeint: e
   lightAttack: d
-  heavyAttack: g
+  heavyAttack: j
   Defensive: w
-  dodge: a
+  dodge: 5

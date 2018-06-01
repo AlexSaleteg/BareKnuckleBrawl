@@ -1267,9 +1267,53 @@ Prefab:
       propertyPath: m_AnchorMax.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114086518194414606, guid: 703fa30bef11ba14fa64f7776fa13696,
+        type: 2}
+      propertyPath: Player_1_MaxHP
+      value: 
+      objectReference: {fileID: 923343361}
+    - target: {fileID: 114086518194414606, guid: 703fa30bef11ba14fa64f7776fa13696,
+        type: 2}
+      propertyPath: Player_2_MaxHP
+      value: 
+      objectReference: {fileID: 923343360}
+    - target: {fileID: 114086518194414606, guid: 703fa30bef11ba14fa64f7776fa13696,
+        type: 2}
+      propertyPath: Player_1_HP_Slider
+      value: 
+      objectReference: {fileID: 923343359}
+    - target: {fileID: 114086518194414606, guid: 703fa30bef11ba14fa64f7776fa13696,
+        type: 2}
+      propertyPath: Player_2_HP_Slider
+      value: 
+      objectReference: {fileID: 923343358}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 703fa30bef11ba14fa64f7776fa13696, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &923343358 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114350108473043374, guid: 703fa30bef11ba14fa64f7776fa13696,
+    type: 2}
+  m_PrefabInternal: {fileID: 923343357}
+  m_Script: {fileID: -113659843, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+--- !u!114 &923343359 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114175063365243362, guid: 703fa30bef11ba14fa64f7776fa13696,
+    type: 2}
+  m_PrefabInternal: {fileID: 923343357}
+  m_Script: {fileID: -113659843, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+--- !u!114 &923343360 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114879213621139440, guid: 703fa30bef11ba14fa64f7776fa13696,
+    type: 2}
+  m_PrefabInternal: {fileID: 923343357}
+  m_Script: {fileID: -113659843, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+--- !u!114 &923343361 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114102445367761618, guid: 703fa30bef11ba14fa64f7776fa13696,
+    type: 2}
+  m_PrefabInternal: {fileID: 923343357}
+  m_Script: {fileID: -113659843, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
 --- !u!1 &964032207
 GameObject:
   m_ObjectHideFlags: 0
@@ -1717,6 +1761,16 @@ Prefab:
     - target: {fileID: 1019760674531498, guid: a07a17662cd4063429d93d71f9d60268, type: 2}
       propertyPath: m_Name
       value: Player2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114190481229737154, guid: a07a17662cd4063429d93d71f9d60268,
+        type: 2}
+      propertyPath: isTestKeyboard
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114190481229737154, guid: a07a17662cd4063429d93d71f9d60268,
+        type: 2}
+      propertyPath: isDancePad
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a07a17662cd4063429d93d71f9d60268, type: 2}
@@ -2319,6 +2373,16 @@ Prefab:
         type: 2}
       propertyPath: player
       value: Player2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114721970030927946, guid: 76c68a71635b83b4ab2e8d4198fe8062,
+        type: 2}
+      propertyPath: isTestKeyboard
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114721970030927946, guid: 76c68a71635b83b4ab2e8d4198fe8062,
+        type: 2}
+      propertyPath: isDancePad
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76c68a71635b83b4ab2e8d4198fe8062, type: 2}

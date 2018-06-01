@@ -1736,11 +1736,13 @@ MonoBehaviour:
   isConsole1: 0
   isConsole2: 0
   isKeyboard: 0
+  isDancePad: 0
   isTestKeyboard: 0
   timeLeft: 0
   chargeTimer: 0
   slapIndicatorTimer: 0
   newState: 0
+  buttonHitTimer: 0
 --- !u!114 &114171741694151686
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1773,6 +1775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   traits: {fileID: 0}
+  effectsTimer: 0
   leastAmountofTime: 0
 --- !u!114 &114321066507606218
 MonoBehaviour:

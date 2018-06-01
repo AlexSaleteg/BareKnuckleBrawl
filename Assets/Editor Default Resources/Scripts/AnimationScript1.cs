@@ -65,7 +65,7 @@ public class AnimationScript1 : MonoBehaviour
                 buttonHitTimer = 0.5f;
             }
 
-            if (Input.GetKey(controls.lightAttack) && Input.GetKey(controls.heavyAttack) && Input.GetKey("joystick button 2"))
+            if (Input.GetKey(controls.lightAttack) && Input.GetKey(controls.heavyAttack) && Input.GetKey(dodge))
             {
                 //audiosource.PlayOneShot(stanceChange);
                 animator.SetInteger("AnimState", 2);
@@ -73,7 +73,7 @@ public class AnimationScript1 : MonoBehaviour
                 newState = 2;
                 timeLeft = 1f;
             }
-            else if (Input.GetKey(controls.lightAttack) && Input.GetKey(controls.heavyAttack) && Input.GetKey("joystick button 2"))
+            else if (Input.GetKey(controls.lightAttack) && Input.GetKey(controls.heavyAttack) && Input.GetKeyUp(dodge))
             {
                 //audiosource.PlayOneShot(stanceChange);
                 animator.SetInteger("AnimState", 1);
@@ -87,7 +87,7 @@ public class AnimationScript1 : MonoBehaviour
                 newState = 3;
 
             }
-            else if (MicrophoneInput.MicLoudness > micSense && newState == 3 || Input.GetKeyDown(Lfeint) && newState == 3)
+            else if (Input.GetKeyDown(Lfeint) && newState == 3)
             {
                 newState = 8;
                 animator.Play("SlappyBoi");
@@ -102,7 +102,7 @@ public class AnimationScript1 : MonoBehaviour
                 newState = 4;
                 audiosource.PlayOneShot(slapSound);
             }
-            else if (Input.GetKeyDown(Lfeint) && newState == 4 || MicrophoneInput.MicLoudness > micSense && newState == 4)
+            else if (Input.GetKeyDown(Lfeint) && newState == 4)
             {
                 newState = 9;
                 animator.SetInteger("AnimState", 9);
@@ -117,7 +117,7 @@ public class AnimationScript1 : MonoBehaviour
                 timeLeft = 0.6f;
                 newState = 5;
             }
-            else if (MicrophoneInput.MicLoudness > micSense && newState == 5 || MicrophoneInput.MicLoudness > micSense && newState == 7 || Input.GetKeyDown(Lfeint) && newState == 5 || Input.GetKeyDown(Lfeint) && newState == 7)
+            else if (Input.GetKeyDown(Lfeint) && newState == 5 || Input.GetKeyDown(Lfeint) && newState == 7)
             {
                 animator.SetInteger("AnimState", 11);
                 //timeLeft = 0.5f;
@@ -129,7 +129,7 @@ public class AnimationScript1 : MonoBehaviour
                 animator.SetInteger("AnimState", 4);
                 timeLeft = 0.7f;
             }
-            else if (MicrophoneInput.MicLoudness > micSense && newState == 6 || MicrophoneInput.MicLoudness > micSense && newState == 7 || Input.GetKeyDown(Lfeint) && newState == 6 || Input.GetKeyDown(Lfeint) && newState == 7)
+            else if (Input.GetKeyDown(Lfeint) && newState == 6 || Input.GetKeyDown(Lfeint) && newState == 7)
             {
                 animator.SetInteger("AnimState", 10);
                 //timeLeft = 0.5f;
@@ -147,7 +147,6 @@ public class AnimationScript1 : MonoBehaviour
             {
                 slapIndicator.SetActive(false);
             }
-
         }
     
         if (isTestKeyboard)

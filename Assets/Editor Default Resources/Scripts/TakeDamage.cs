@@ -33,7 +33,7 @@ public class TakeDamage : MonoBehaviour
             bar = GameObject.Find("Healthbar2").GetComponent<Slider>();
         }
         audiosource = GetComponent<AudioSource>();
-        maxHealth = PlayerPrefs.GetInt("Player" + gameObject.name[6] + "Health", maxHealthInit);
+        maxHealth = (maxHealthInit + PlayerPrefs.GetInt("Player" + gameObject.name[6] + "Health", maxHealthInit)) / 2;
         maxBar.value = maxHealth;
         health = maxHealth;
         bar.value = health;

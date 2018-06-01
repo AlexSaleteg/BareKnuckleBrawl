@@ -399,6 +399,16 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 0.4411716
       objectReference: {fileID: 0}
+    - target: {fileID: 114190481229737154, guid: a07a17662cd4063429d93d71f9d60268,
+        type: 2}
+      propertyPath: isTestKeyboard
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114190481229737154, guid: a07a17662cd4063429d93d71f9d60268,
+        type: 2}
+      propertyPath: isDancePad
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a07a17662cd4063429d93d71f9d60268, type: 2}
   m_IsPrefabParent: 0
@@ -733,9 +743,9 @@ MonoBehaviour:
   playerM: {fileID: 1958770832}
   playerF: {fileID: 836658658}
   data: {fileID: 11400000, guid: ee406750cf1a84f419831499288d73d8, type: 2}
-  choose: left
-  next: down
-  randomize: /
+  choose: s
+  next: 6
+  randomize: v
   swoosh: {fileID: 8300000, guid: 55aa31c0a6c457646af34b50541eb1df, type: 3}
   click: {fileID: 8300000, guid: 8a205c76446063348b1b354ed243ccf5, type: 3}
 --- !u!4 &808537417
@@ -1707,6 +1717,16 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114721970030927946, guid: 76c68a71635b83b4ab2e8d4198fe8062,
+        type: 2}
+      propertyPath: isDancePad
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114721970030927946, guid: 76c68a71635b83b4ab2e8d4198fe8062,
+        type: 2}
+      propertyPath: isTestKeyboard
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76c68a71635b83b4ab2e8d4198fe8062, type: 2}
   m_IsPrefabParent: 0
@@ -1744,6 +1764,7 @@ MonoBehaviour:
   traits: {fileID: 11400000, guid: 4affeb91f9399414585c6e628dfd5162, type: 2}
   scenes:
   - Arena1 - Bar
+  - Arena2 - Ring
 --- !u!4 &1185376487
 Transform:
   m_ObjectHideFlags: 0
@@ -2033,9 +2054,9 @@ MonoBehaviour:
   playerM: {fileID: 55728878}
   playerF: {fileID: 815522326}
   data: {fileID: 11400000, guid: 17c36fce1e03fe0498e67bc2ad600b1c, type: 2}
-  choose: d
-  next: g
-  randomize: e
+  choose: j
+  next: d
+  randomize: 5
   swoosh: {fileID: 8300000, guid: 55aa31c0a6c457646af34b50541eb1df, type: 3}
   click: {fileID: 8300000, guid: 8a205c76446063348b1b354ed243ccf5, type: 3}
 --- !u!4 &1371016856
