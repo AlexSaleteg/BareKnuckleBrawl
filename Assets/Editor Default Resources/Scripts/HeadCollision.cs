@@ -56,13 +56,13 @@ public class HeadCollision : MonoBehaviour
         }
         if (effectsTimer > 0.9)
         {
+            VFx.SetActive(true);
             VFX.SetInteger("VFX1", 1);
-            //VFx.SetActive(true);
         }
         else if (effectsTimer <= 0.1)
         {
             VFX.SetInteger("VFX1", 0);
-            //VFx.SetActive(false);
+            VFx.SetActive(false);
         }
     }
 

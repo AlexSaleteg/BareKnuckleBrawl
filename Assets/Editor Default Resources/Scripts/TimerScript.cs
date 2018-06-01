@@ -45,7 +45,7 @@ public class TimerScript : MonoBehaviour
         
         if (Timer <= 0.001)
         {
-            if (Player_1_HP.health > Player_2_HP.health)
+            if (Player_1_HP.health > Player_2_HP.health && Player_1_Win != 1)
             {
                 Player_1_Win = Player_1_Win + 1;
                // print("Player 1 wins a ROUND");
@@ -53,7 +53,7 @@ public class TimerScript : MonoBehaviour
                 canvas.SetActive(true);
                 win.SetActive(true);
             }
-            else if (Player_2_HP.health > Player_1_HP.health)
+            else if (Player_2_HP.health > Player_1_HP.health && Player_2_Win != 1)
             {
                 Player_2_Win = Player_2_Win + 1;
                 //print("Player 2 wins a ROUND");

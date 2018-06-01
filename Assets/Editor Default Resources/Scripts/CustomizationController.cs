@@ -27,7 +27,7 @@ public class CustomizationController : MonoBehaviour {
         audiosource = GameObject.Find("SoundManager").GetComponent<AudioSource>();
         skinColor = PlayerPrefs.GetInt("Player" + playerM.gameObject.name[6] + "SkinColor", 0);
         moustache = PlayerPrefs.GetInt("Player" + playerM.gameObject.name[6] + "Moustache", 1);
-        hair = PlayerPrefs.GetInt("Player" + gameObject.name[6] + "Hair", 0);
+        hair = PlayerPrefs.GetInt("Player" + gameObject.name[6] + "Hair", 1);
         moustacheColor = PlayerPrefs.GetInt("Player" + playerM.gameObject.name[6] + "MoustacheColor", 0);
         int bodytype = PlayerPrefs.GetInt("Player" + playerM.gameObject.name[6] + "BodyType", 0);
         if (bodytype == 0)
@@ -40,6 +40,14 @@ public class CustomizationController : MonoBehaviour {
             player = playerF;
             playerM.gameObject.SetActive(false);
         }
+        //if(player.gameObject.name[6] == 1)
+        //{
+        //    randomize = ("joystick button 2");
+        //}
+        //else
+        //{
+
+        //}
         player.gameObject.SetActive(true);
         data.SetBodyType(bodytype);
     }

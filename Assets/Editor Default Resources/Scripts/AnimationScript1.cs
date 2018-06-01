@@ -64,7 +64,8 @@ public class AnimationScript1 : MonoBehaviour
                 timeLeft = 1f;
                 buttonHitTimer = 0.5f;
             }
-            if (Input.GetKey(lightAttack) && Input.GetKey(heavyAttack) && Input.GetKey("joystick button 2"))
+
+            if (Input.GetKey(controls.lightAttack) && Input.GetKey(controls.heavyAttack) && Input.GetKey("joystick button 2"))
             {
                 //audiosource.PlayOneShot(stanceChange);
                 animator.SetInteger("AnimState", 2);
@@ -72,7 +73,7 @@ public class AnimationScript1 : MonoBehaviour
                 newState = 2;
                 timeLeft = 1f;
             }
-            else if (Input.GetKey(lightAttack) && Input.GetKey(heavyAttack) && Input.GetKey("joystick button 2"))
+            else if (Input.GetKey(controls.lightAttack) && Input.GetKey(controls.heavyAttack) && Input.GetKey("joystick button 2"))
             {
                 //audiosource.PlayOneShot(stanceChange);
                 animator.SetInteger("AnimState", 1);
@@ -146,8 +147,9 @@ public class AnimationScript1 : MonoBehaviour
             {
                 slapIndicator.SetActive(false);
             }
-            
+
         }
+    
         if (isTestKeyboard)
         {
             if (isTestKeyboard)
