@@ -824,6 +824,16 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
+--- !u!1 &659137770 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1319696349946032, guid: 3c763d8e93f7a5f45b850afc433986e7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1020082881}
+--- !u!95 &659137772 stripped
+Animator:
+  m_PrefabParentObject: {fileID: 95805778897485314, guid: 3c763d8e93f7a5f45b850afc433986e7,
+    type: 2}
+  m_PrefabInternal: {fileID: 1020082881}
 --- !u!1 &703009677
 GameObject:
   m_ObjectHideFlags: 0
@@ -1961,6 +1971,44 @@ Prefab:
     - target: {fileID: 114744157190493678, guid: 3c763d8e93f7a5f45b850afc433986e7,
         type: 2}
       propertyPath: isDancePad
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 95805778897485314, guid: 3c763d8e93f7a5f45b850afc433986e7,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319696349946032, guid: 3c763d8e93f7a5f45b850afc433986e7, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 212400587309358396, guid: 3c763d8e93f7a5f45b850afc433986e7,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: -915821977
+      objectReference: {fileID: 0}
+    - target: {fileID: 212400587309358396, guid: 3c763d8e93f7a5f45b850afc433986e7,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1319696349946032, guid: 3c763d8e93f7a5f45b850afc433986e7, type: 2}
+      propertyPath: m_TagString
+      value: birds
+      objectReference: {fileID: 0}
+    - target: {fileID: 114905180719309230, guid: 3c763d8e93f7a5f45b850afc433986e7,
+        type: 2}
+      propertyPath: VFX
+      value: 
+      objectReference: {fileID: 659137772}
+    - target: {fileID: 114905180719309230, guid: 3c763d8e93f7a5f45b850afc433986e7,
+        type: 2}
+      propertyPath: VFx
+      value: 
+      objectReference: {fileID: 659137770}
+    - target: {fileID: 212400587309358396, guid: 3c763d8e93f7a5f45b850afc433986e7,
+        type: 2}
+      propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3914,6 +3962,15 @@ Prefab:
         type: 2}
       propertyPath: Lfeint
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 95760960772038596, guid: 76c68a71635b83b4ab2e8d4198fe8062,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1393600911430112, guid: 76c68a71635b83b4ab2e8d4198fe8062, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114968413529537180, guid: 76c68a71635b83b4ab2e8d4198fe8062, type: 2}
