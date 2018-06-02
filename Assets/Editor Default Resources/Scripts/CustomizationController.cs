@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CustomizationController : MonoBehaviour {
 
-    public GameObject dial;
+    public RotationScript dial;
     public MeshCustomization playerM;
     public MeshCustomization playerF;
     public PlayerVisualsData data;
@@ -16,6 +16,8 @@ public class CustomizationController : MonoBehaviour {
 
     private AudioSource audiosource;
     private MeshCustomization player;
+    private float delta = 0.0f;
+    private float startTime;
     private int skinColor;
     private int moustache;
     private int hair;
@@ -40,14 +42,6 @@ public class CustomizationController : MonoBehaviour {
             player = playerF;
             playerM.gameObject.SetActive(false);
         }
-        //if(player.gameObject.name[6] == 1)
-        //{
-        //    randomize = ("joystick button 2");
-        //}
-        //else
-        //{
-
-        //}
         player.gameObject.SetActive(true);
         data.SetBodyType(bodytype);
     }
@@ -57,6 +51,7 @@ public class CustomizationController : MonoBehaviour {
         if (Input.GetKeyDown(randomize))
         {
             audiosource.PlayOneShot(swoosh, 0.7f);
+            dial.Shuffle();
             player.gameObject.SetActive(false);
             if (Random.Range(0, 2) == 0)
             {
@@ -75,17 +70,30 @@ public class CustomizationController : MonoBehaviour {
             moustacheColor = Random.Range(0, player.source.moustacheColors.Length);
             SaveData();
         }
+        else if (Input.GetKey(choose))
+        {
+            delta += Time.deltaTime;
+        }
         else if (Input.GetKeyDown(next))
         {
             phase++;
+            dial.Reset();
             audiosource.PlayOneShot(click, 0.5f);
             if (phase > 4)
             {
                 phase = 0;
             }
         }
-        else if (Input.GetKeyDown(choose))
+        if (Input.GetKeyUp(choose))
         {
+            delta = 0.0f;
+        }
+
+        if (delta >= 1.0f)
+        {
+            delta = 0.0f;
+            dial.Rotate();
+            startTime = Time.time;
             audiosource.PlayOneShot(click, 0.5f);
             if (phase == 0)
             {
