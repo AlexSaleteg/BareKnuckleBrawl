@@ -33,10 +33,13 @@ public class AnimationScript1 : MonoBehaviour
     private AudioSource audiosource;
     private AudioClip slapSound;
     private Animator hit;
+    //public Renderer chargingVFX;
 
 
     void Start()
     {
+        //chargingVFX.enabled = false;
+        //chargingVFX = GameObject.Find("ChargeUp").GetComponent<Renderer>();
         audiosource = GameObject.Find("Sound Manager").GetComponents<AudioSource>()[1];
         player = gameObject.name;
         controls = controlDatabase.GetControls(gameObject.name[6] - 49);
@@ -68,6 +71,7 @@ public class AnimationScript1 : MonoBehaviour
             if (Input.GetKey(controls.lightAttack) && Input.GetKey(controls.heavyAttack) && Input.GetKey(dodge))
             {
                 //audiosource.PlayOneShot(stanceChange);
+                //chargingVFX.enabled = true;
                 animator.SetInteger("AnimState", 2);
                 chargeTimer += Time.deltaTime;
                 newState = 2;
@@ -80,6 +84,7 @@ public class AnimationScript1 : MonoBehaviour
                 newState = 1;
                 timeLeft = 1f;
             }
+           
             if (Input.GetKeyUp(controls.lightAttack) && newState == 2)
             {
                 //animator.SetTrigger("Zehando");

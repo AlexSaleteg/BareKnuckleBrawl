@@ -13,10 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: The Charging Bull
   flavorText: One charged hit from this fighter will knock anyone down.
-  lightDmgDfns: 1
+  lightDmgDfns: 0.5
   lightDmgAttk: 2
-  heavyDmgDfns: 1
+  heavyDmgDfns: 0.5
   heavyDmgAttk: 2
-  chargeDmgDfns: 1
+  chargeDmgDfns: 0.5
   chargeDmgAttk: 30
-  guard: 1.5
+  guard: 2

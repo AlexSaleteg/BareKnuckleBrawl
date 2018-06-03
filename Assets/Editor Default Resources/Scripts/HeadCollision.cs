@@ -15,7 +15,7 @@ public class HeadCollision : MonoBehaviour
     private float timeStamp;
     private TakeDamage damage;
     private Animator animator;
-    public Animator VFX;
+    public Renderer VFX;
     public GameObject VFx;
     private AnimationScript1 time;
     private TimerScript roundEnd;
@@ -33,8 +33,8 @@ public class HeadCollision : MonoBehaviour
         player_2 = GameObject.Find("Player2").GetComponent<AnimationScript1>();
         time = GameObject.Find(player).GetComponent<AnimationScript1>();
         animator = GameObject.Find(player).GetComponent<Animator>();
-        // VFX = GameObject.FindGameObjectWithTag("birds").GetComponent<Animator>();
-       // VFx = GameObject.Find("Birds");
+         VFX = GameObject.FindGameObjectWithTag("birds").GetComponent<Renderer>();
+        VFx = GameObject.Find("Birds");
         damage = GameObject.Find(player).GetComponent<TakeDamage>();
         roundEnd = GameObject.Find("RoundTimer").GetComponent<TimerScript>();
        // hit = GameObject.Find("hit").GetComponent<Animator>();
@@ -56,13 +56,20 @@ public class HeadCollision : MonoBehaviour
         }
         if (effectsTimer > 0.2)
         {
-            
-            //VFX.SetInteger("VFX1", 1);
+            VFx.SetActive(true);
+            // VFX.SetInteger("VFX1", 1);
         }
         else if (effectsTimer <= 0.1)
         {
            // VFX.SetInteger("VFX1", 0);
-           //VFx.SetActive(false);
+            //VFx.SetActive(true);
+            VFX.enabled = false;
+        }
+        if (effectsTimer > 0.1)
+        {
+            VFX.enabled = true;
+            //VFx.SetActive(false);
+            //effectsTimer = 2f;
         }
 
     }
@@ -155,7 +162,7 @@ public class HeadCollision : MonoBehaviour
                 damage.InflictDamage((int)(enemy.chargeDmgAttk / skill.chargeDmgDfns));
                 animator.Play("Stunned");
                 effectsTimer = 2f;
-               // VFx.SetActive(true);
+                VFx.SetActive(true);
             }
 
             else if (time.newState == 2)
@@ -163,7 +170,7 @@ public class HeadCollision : MonoBehaviour
                 damage.InflictDamage((int)((enemy.heavyDmgAttk * Mathf.Pow(damageMult, damageExp)) / (skill.heavyDmgDfns * skill.guard)));
                 time.timeLeft = +0.5f;
                
-               // VFX.SetInteger("VFX1", 1);
+               
             }
 
             else if (time.newState == 0)

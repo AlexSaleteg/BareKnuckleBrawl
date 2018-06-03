@@ -13,10 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: Stonehead Rocky
   flavorText: Can take a beating but have the weakest arms in history.
-  lightDmgDfns: 1.5
+  lightDmgDfns: 0.8
   lightDmgAttk: 2
-  heavyDmgDfns: 1.5
+  heavyDmgDfns: 0.8
   heavyDmgAttk: 3
-  chargeDmgDfns: 1.5
+  chargeDmgDfns: 0.8
   chargeDmgAttk: 8
-  guard: 1.5
+  guard: 2
