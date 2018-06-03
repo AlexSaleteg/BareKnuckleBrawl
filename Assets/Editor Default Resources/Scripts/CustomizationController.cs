@@ -44,6 +44,7 @@ public class CustomizationController : MonoBehaviour {
         }
         player.gameObject.SetActive(true);
         data.SetBodyType(bodytype);
+        SaveData();
     }
 
     void Update ()
